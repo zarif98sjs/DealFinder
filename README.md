@@ -1,7 +1,9 @@
 # **`DealFinder`**
  
-- `git clone https://github.com/zarif98sjs/DealFinder`
-- `python -m venv dealfinder`
-- `. dealfinder/Scripts/activate`
-- `pip install -r requirement.txt`
-- `python scraper/startech.py`
+- clone reporsitory : `git clone https://github.com/zarif98sjs/DealFinder`
+- create virtual environment : `python -m venv dealfinder`
+- activate virtual environment
+  - **Windows** : `. dealfinder/Scripts/activate`
+  - **Linux** : `source dealfinder/Scripts/activate`
+- install requirements : `pip install -r requirement.txt`
+- run demo scrapper : `python scraper/startech.py`
