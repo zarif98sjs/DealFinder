@@ -6,8 +6,8 @@ from requests import session
 
 baseurl = "https://www.startech.com.bd/"
 
-## Laptop
-class Laptop:
+## Product
+class Product:
     def __init__(self,title,url,image_url,price,specs):
         self.title = title
         self.url = url
@@ -33,12 +33,12 @@ def getSession():
         return ses
 
 
-def getLaptops(ses):
+def getProducts(ses,category):
 
-    laptops = []
+    products = []
 
-    for page in range(1,15):
-        r = ses.get(baseurl + 'laptop-notebook' + "?page="+str(page))
+    for page in range(1,2):
+        r = ses.get(baseurl + category + "?page="+str(page))
 
         if(r.status_code == 200):
             soup = BeautifulSoup(r.text, 'html.parser')
@@ -57,11 +57,15 @@ def getLaptops(ses):
                 for spec in temp_list:
                     specs.append(spec.text)
 
-                laptops.append(Laptop(title,url,image_url,price,specs))
+                products.append(Product(title,url,image_url,price,specs))
             
-    return laptops
+    return products
 
 ses = getSession()
-laptops = getLaptops(ses)
-print(len(laptops))
-print(laptops[0])
+
+categories = ['laptop-notebook','desktops', 'component', 'monitor', 'ups-ips', 'tablet-pc', 'office-equipment', 'camera', 'Security-Camera', 'networking', 'accessories', 'software', 'server-networking', 'television-shop', 'gadget', 'gaming']
+
+products = getProducts(ses,categories[1])
+print(len(products))
+print("----------------------")
+print(products[1])
