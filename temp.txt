@@ -1,0 +1,2360 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Computer Components Price in Bangladesh | Star Tech</title>
+<base href="https://www.startech.com.bd/"/>
+<meta content="Get the latest Component price in Bangladesh at Star Tech. Buy your desired Casing, RAM, Graphics, PSU from our showroom or website at the best price." name="description"> <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<link href="https://www.startech.com.bd/image/catalog/logo.png" rel="icon"/> <link href="https://www.startech.com.bd/component?page=2" rel="next"/> <link as="font" crossorigin="" href="catalog/view/theme/starship/fonts/MaterialIcons-Regular.woff2" rel="preload"/>
+<link href="catalog/view/theme/starship/stylesheet/stylesheet.min.10.css" rel="stylesheet"/>
+<script type="text/javascript">var app={mgs_type: "popup", enablePopup: 0, popupDuration: 6, onReady:function(d,a,e,f,t){a=Array.isArray(a)?a:[a];t=t||2E3;for(var g=!0,b=d,c=0;c<a.length;c++){var h=a[c];if("undefined"==typeof b[h]){g=!1;break}b=b[h]}g?e():f&&setTimeout(function(){app.onReady(d,a,e,--f)},t)}};</script>
+<script async="" src="catalog/view/theme/starship/javascript/site.min.10.js" type="text/javascript"></script>
+<script async="" src="catalog/view/javascript/prod/listing.min.6.js" type="text/javascript"></script> <script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-70432379-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+  !function(f,b,e,v,n,t,s)
+  { if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '378818912571012');
+  fbq('track', 'PageView');
+</script></meta></head>
+<body class="product-category-25">
+<header id="header">
+<div class="top">
+<div class="container">
+<div class="ht-item logo">
+<div class="mbl-nav-top h-desk">
+<div id="nav-toggler">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<a class="brand" href="https://www.startech.com.bd/"><img alt="Star Tech &amp; Engineering Ltd " height="164" src="https://www.startech.com.bd/image/catalog/logo.png" title="Star Tech &amp; Engineering Ltd " width="144"/></a>
+<div class="mbl-right h-desk">
+<div class="ac search-toggler"><i class="material-icons">search</i></div>
+<div class="ac mc-toggler"><i class="material-icons">shopping_basket</i><span class="counter" data-count="0">0</span></div>
+</div>
+</div>
+<div class="ht-item search" id="search">
+<input autocomplete="off" name="search" placeholder="Search" type="text"/>
+<button class="material-icons">search</button>
+</div>
+<div class="ht-item q-actions">
+<a class="ac h-offer-icon" href="https://www.startech.com.bd/information/offer">
+<div class="ic"><i class="material-icons">card_giftcard</i></div>
+<div class="ac-content">
+<h5>Offers</h5>
+<p>Latest Offers</p>
+</div>
+</a>
+<a class="ac h-offer-icon" href="https://www.startech.com.bd/gaming-chair-deal">
+<div class="ic"><i class="material-icons blink">flash_on</i></div>
+<div class="ac-content">
+<h5>Chair Deal</h5>
+<p>Gaming Chair</p>
+</div>
+</a>
+<a class="ac h-desk build-pc" href="https://www.startech.com.bd/tool/pc_builder">
+<div class="ic"><i class="material-icons">important_devices</i></div>
+<div class="ac-content">
+<h5 class="text">PC Builder</h5>
+</div>
+</a>
+<div class="ac cmpr-toggler h-desk">
+<div class="ic"><i class="material-icons">library_add</i></div>
+<div class="ac-content">
+<h5 class="text">Compare (0)</h5>
+</div>
+</div>
+<div class="ac">
+<a class="ic" href="https://www.startech.com.bd/account/account"><i class="material-icons">person</i></a>
+<div class="ac-content">
+<a href="https://www.startech.com.bd/account/account"><h5>Account</h5></a>
+<p><a href="https://www.startech.com.bd/account/account"><span><a href="https://www.startech.com.bd/account/register">Register</a> or <a href="https://www.startech.com.bd/account/login">Login</a></span></a></p>
+</div>
+</div>
+<div class="ac build-pc m-hide">
+<a class="btn" href="https://www.startech.com.bd/tool/pc_builder">PC Builder</a>
+</div>
+</div>
+</div>
+</div>
+<nav class="navbar" id="main-nav">
+<div class="container">
+<ul class="navbar-nav">
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/desktops">Desktop</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/special-pc">Special PC</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/desktops/star-pc">Star PC</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/star-pc/ryzen-pc">RYZEN PC</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/star-pc/intel-pc">Intel PC</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/desktops/gaming-pc">Gaming PC</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/gaming-pc/amd-gaming-pc">RYZEN PC</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/gaming-pc/intel-gaming-pc">Intel PC</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/desktops/brand-pc">Brand PC</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/brand-pc/lenovo-desktop">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/brand-pc/hp-desktop">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/brand-pc/dell-desktop">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/brand-pc/acer-desktop">Acer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/brand-pc/asus-desktop">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/walton-brand-pc">Walton</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/desktops/all-in-one-pc">All in one PC</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/all-in-one-pc/dell-all-in-one">DELL</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/all-in-one-pc/i-life-all-in-one-pc">i-Life</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/all-in-one-pc/hp-all-in-one">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/all-in-one-pc/asus-all-in-one">ASUS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/all-in-one-pc/lenovo-all-in-one">LENOVO</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/desktops/portable-mini-pc">Portable Mini PC</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asrock-portable-mini-pc">ASRock</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/viewsonic-mini-pc">ViewSonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/portable-mini-pc/mini-pc-asus"> Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/portable-mini-pc/intel-mini-pc">Intel</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/portable-mini-pc/gigabyte-mini-pc">GIGABYTE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zotac-portable-mini-pc">Zotac</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/chuwi-mini-pc">Chuwi</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/apple-mini-pc">Apple Mac Mini</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/apple-imac-desktop-pc">Apple iMac</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/desktops/economy-pc">Budget PC</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/desktops">Show All Desktop</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/laptop-notebook">Laptop</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop">All Laptop</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/razer-laptop">Razer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/apple-macbook">MacBook</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/microsoft-surface-pro">Microsoft</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/samsung-laptop">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/acer-laptop">Acer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/asus-laptop"> Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/avita-laptop">AVITA_Laptop</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/dell-laptop">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/hp-laptop"> HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/lenovo-laptop">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/msi-laptop">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gigabyte-laptop">Gigabyte</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/realme-laptop">Realme</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/huawei-laptop">Huawei</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nexstgo-laptop">Nexstgo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/walton-laptop">Walton</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-mi-laptop">Mi </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/chuwi">Chuwi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop/i-life-laptop">iLife</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop">Gaming Laptop</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/razer">RAZER</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/hp">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/asus">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/msi">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/gigabyte">GIGABYTE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/acer">Acer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/dell">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/lenovo">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/Gaming-Laptop/xiaomi">XIAOMI</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook">Premium Ultrabook</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/razer-premium-ultrabook">Razer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook/asus">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook/acer">Acer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook/microsoft">Microsoft</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook/hp">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook/dell">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/ultrabook/lenovo">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/huawei-premium-ultrabook">Huawei</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/msi-premium-ultrabook">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/samsung-premium-ultrabook">Samsung</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/laptop-bag-backpack">Laptop Bag</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/razer-laptop-bag-backpack">Razer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lenovo-laptop-bag-backpack">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/targus-laptop-bag-backpack">Targus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-laptop-bag-backpack">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wiwu-laptop-bag-backpack">WiWU</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tucano-bag-backpack">Tucano</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-laptop-bag-backpack">Xiaomi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-bag-backpack">Redragon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/case-logic-laptop-bag-backpack">Case Logic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/others-laptop-bag-backpack">Others</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories">Laptop Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-cooler">Laptop Cooler</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-desk">Laptop Desk</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-stand">Laptop Stand</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-battery">Laptop Battery</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-adapter">Charger / Adapter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-display">Display</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-keyboard">Keyboard</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-hdd-caddy">CADDY</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-dvd-writer">DVD Writer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/laptop-notebook/laptop-accessories/laptop-locker">Laptop Locker</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/external-graphics-enclosure">External Graphics Enclosure</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/laptop-notebook">Show All Laptop</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/component">Component</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/processor">Processor</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/processor/amd-processor">AMD</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/processor/intel-processor">Intel</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/CPU-Cooler">CPU Cooler</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ekwb-cpu-cooler">EKWB</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/CPU-Cooler/Antec-Cooler">Antec</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zadak-cpu-cooler">ZADAK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lian-li-cpu-cooler">Lian Li</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/noctua-cpu-cooler">Noctua</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/team-cpu-cooler">Team</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/CPU-Cooler/gamdias-cpu-cooler">Gamdias</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/kwg-cpu-cooler">KWG</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/CPU-Cooler/corsair-cpu-cooler">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/msi-cpu-cooler">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gigabyte-cpu-cooler">Gigabyte</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nzxt-cpu-cooler">NZXT</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/phanteks-cpu-cooler">Phanteks</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/thermaltake-cpu-cooler">Thermaltake</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cooler-master-cpu-cooler">Cooler Master</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cougar-cpu-cooler">Cougar</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/CPU-Cooler/cryorig-cpu-cooler">CRYORIG</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-cpu-cooler">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-cpu-cooler">Redragon </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/deepcool-cpu-cooler ">Deepcool</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/aigo-cpu-cooler">Aigo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sapphire-cpu-cooler">Sapphire</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/1stplayer-cpu-cooler">1STPLAYER</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/water-or-liquid-cooling">Water / Liquid Cooling</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ekwb-water-or-liquid-cooling">EKWB</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lian-li-water-or-liquid-cooling">Lian Li</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/corsair-water-liquid-cooling">Corsair</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/motherboard">Motherboard</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/asrock-intel-motherboard">ASRock (Intel)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/asrock-motherboard">ASRock (RYZEN)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/asus-motherboard">ASUS (Intel)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/asus-amd-motherboard">ASUS (AMD)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/gigabyte-motherboard">GIGABYTE (Intel)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/gigabyte-amd-motherboard">GIGABYTE (AMD)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/msi-motherboard">MSI (Intel)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/motherboard/msi-ryzen-motherboard">MSI (Ryzen)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nzxt-intel-motherboard">NZXT (Intel)</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nzxt-amd-motherboard">NZXT (AMD)</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/graphics-card">Graphics Card</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/palit-graphics-card">Palit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/ZOTAC-Graphics">ZOTAC</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/gigabyte-graphics-card">GIGABYTE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/asus-graphics-card">ASUS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/sapphire-graphics-card">Sapphire</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/msi-graphics-card">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/colorful-graphics-card">Colorful</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/xfx-graphics-card">XFX</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/graphics-card/galax-graphics-card">Galax</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/pny-graphics-card">PNY</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/arktek-graphics-card">ARKTEK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/biostar-graphics-card">BIOSTAR</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/afox-graphics-card">AFOX</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/vga-holder">VGA Holder</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/ram">RAM (Desktop)</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/team-ram">Team</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zadak-desktop-ram">ZADAK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/geil-ram">GEIL</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/gigabyte-ram">Gigabyte</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/corsair-ram">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/g-skill-ram">G.Skill</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/pny-desktop-ram">PNY</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/twinmos-ram">TwinMOS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/adata">Adata</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/patriot-ram">Patriot</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/transcend-ram">Transcend</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/thermaltake-desktop-ram">Thermaltake</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/ram/hp-ram">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/apacer-desktop-ram">Apacer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/crucial-ram">Crucial</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/aitc-desktop-ram">AITC</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/kingfast-desktop-ram">KingFast</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/laptop-ram">RAM (Laptop)</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/laptop-ram/team-laptop-ram">Team</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/laptop-ram/geil-laptop-ram">GEIL</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/laptop-ram/adata-laptop-ram">Adata</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/transcend-laptop-ram">Transcend</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/g-skill-laptop-ram">G.Skill</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/laptop-ram/hp-laptop-ram">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/laptop-ram/patriot-laptop-ram">Patriot</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/crucial-laptop-ram">Crucial</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/silicon-power-laptop-ram">Silicon Power</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lexar-laptop-ram">Lexar</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/apacer-laptop-ram">Apacer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/trm-laptop-ram">TRM</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/pny-laptop-ram">PNY</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/power-supply">Power Supply</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/power-supply/Antec-Power">Antec</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/power-supply/gamdias-power-supply">Gamdias</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/power-supply/maxgreen-power-supply">MaxGreen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/power-supply/Cooler-Master-power">Cooler Master</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/thermaltake-power-supply">Thermaltake</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/power-supply/corsair-psu">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gigabyte-power-supply">Gigabyte</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/1stplayer-power-supply">1STPLAYER </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lian-li-strimer">Lian Li</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/msi-power-supply">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-power-supply">Redragon </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-power-supply">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/aigo-power-supply">Aigo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/deepcool-power-supply">Deepcool</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/hard-disk-drive">Hard Disk Drive</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/hard-disk-drive/western-digital-hdd">Western Digital</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/hard-disk-drive/toshiba-hdd">Toshiba</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/hard-disk-drive/seagate-hard-disk">Seagate</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/hard-disk-drive/apple-hdd">Apple</a></li>
+</ul>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/component/SSD-Hard-Disk">SSD</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/team-ssd">Team</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/geil-ssd">GeIL</a></li>
+<li><a href="https://www.startech.com.bd/zadak-ssd">ZADAK</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/western-digital-ssd">Western Digital</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/adata-hdd">Adata</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/Transcend-ssd">Transcend</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/samsung-hdd">Samsung</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/pny-ssd">PNY</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/hp-ssd">HP</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/kingston-ssd">Kingston</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/corsair-ssd">Corsair</a></li>
+<li><a href="https://www.startech.com.bd/seagate-ssd">Seagate</a></li>
+<li><a href="https://www.startech.com.bd/silicon-power-ssd">Silicon Power</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/gigabyte-ssd">Gigabyte</a></li>
+<li><a href="https://www.startech.com.bd/patriot-ssd">Patriot</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/walton-ssd">Walton</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/intel-ssd">Intel</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/teutons-ssd">Teutons</a></li>
+<li><a href="https://www.startech.com.bd/msi-ssd">MSI</a></li>
+<li><a href="https://www.startech.com.bd/lexar-ssd">Lexar</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/twinmos-ssd">Twinmos</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/colorful-ssd">Colorful</a></li>
+<li><a href="https://www.startech.com.bd/trm-ssd">TRM</a></li>
+<li><a href="https://www.startech.com.bd/aitc-ssd">AITC</a></li>
+<li><a href="https://www.startech.com.bd/netac-ssd">Netac</a></li>
+<li><a href="https://www.startech.com.bd/kingfast-ssd">KingFast</a></li>
+<li><a href="https://www.startech.com.bd/sandisk-ssd">SanDisk</a></li>
+<li><a href="https://www.startech.com.bd/dahua-ssd">Dahua</a></li>
+<li><a href="https://www.startech.com.bd/addlink-ssd">Addlink</a></li>
+<li><a href="https://www.startech.com.bd/component/SSD-Hard-Disk/apacer-ssd">Apacer</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/casing">Casing</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing/Antec-Casing">Antec</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing/gamdias-casing">Gamdias</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lian-li-casing">Lian Li</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/kwg-casing">KWG</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-casing">Redragon </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing/maxgreen-casing">MaxGreen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/corsair-case">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/phanteks-casing">Phanteks</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/msi-casing">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-casing">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cooler-master-casing">Cooler Master</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nzxt-casing">NZXT</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/1stplayer-casing">1STPLAYER</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing/gigabyte-casing">Gigabyte</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/aigo-casing">Aigo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xtreme-casing">Xtreme</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/value-top-casing">Value Top</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/thermaltake-casing">Thermaltake</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/deepcool-casing">Deepcool</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/montech-casing">Montech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing/golden-field-casing">Golden Field</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cougar-casing">Cougar</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/delux-casing">Delux</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/portable-hard-disk-drive">Portable Hard Disk Drive</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/g-technology">G-Technology</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-hard-disk-drive/ADATA-Hard-disk">ADATA</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-hard-disk-drive/tanscend-hdd">Transcend</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-portable-hard-disk">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-hard-disk-drive/western-digital-portable-hard-disk">Western Digital</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-hard-disk-drive/seagate-portable-hdd">Seagate</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/silicon-power-portable-hdd">Silicon Power</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lacie-portable-hdd">LaCie</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/portable-ssd-hard-disk">Portable SSD</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-ssd-hard-disk/samsung-portable-ssd-hard-disk">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/teutons-portable-ssd">Teutons</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-ssd-hard-disk/hp-portable-ssd">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/g-drive-portable-ssd">G-Technology</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-ssd-hard-disk/transcend-portable-ssd">Transcend </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-ssd-hard-disk/western-ssd">Western Digital</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/portable-ssd-hard-disk/adata-portable-ssd">Adata</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sandisk-portable-ssd">Sandisk</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/pny-portable-ssd">PNY</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lacie-portable-ssd">LaCie</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/netac-portable-ssd">Netac</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/silicon-power-portable-ssd">Silicon Power</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/seagate-portable-ssd">Seagate</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/casing-cooler">Casing Cooler</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing-cooler/antec-casing-cooler">Antec</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lian-li-casing-fan">Lian Li</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/noctua-casing-cooler">Noctua</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing-cooler/bitfenix-casing-cooler">Bitfenix</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing-cooler/gamdias-casing-fan">Gamdias</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/casing-cooler/corsair-casing-cooler">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/kwg-casing-cooler">KWG</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-casing-cooler">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ekwb-casing-cooler">EKWB</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nzxt-casing-cooler">NZXT</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/montech-casing-cooler">Montech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cooler-master-casing-cooler">Cooler Master</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/thermaltake-casing-cooler">Thermaltake</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/pccooler-casing-cooler">PCcooler</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-casing-cooler">Redragon </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/deepcool-casing-cooler">Deepcool</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/sound-card">Sound Card</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/component/optical-hdd">Optical Disk Drive</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/optical-hdd/internal-optical-hdd">Internal Optical Disk Drive</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/optical-hdd/external-optical-hdd">External Optical Disk Drive</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/component/stabilizer">Voltage Stabilizer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/vertical-graphics-card-holder">Vertical Graphics Card Holder</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/component">Show All Component</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/monitor">Monitor</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/razer-monitor">Razer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/benq">BenQ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/asus">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/lg">LG </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/hp">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/dell">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/gigabyte">GIGABYTE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/samsung">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/corsair-monitor">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/msi">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/xiaomi">XIAOMI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/philips">PHILIPS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/viewsonic">Viewsonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/walton">Walton</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/acer">Acer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/aoc">AOC</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor/esonic">Esonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hikvision-monitor">Hikvision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/huawei-monitor">Huawei</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-monitor">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lenovo-monitor">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gamemax-monitor">GameMax</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/curved-monitor">Curved Monitor</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/touch-screen-monitor">Touch Monitor</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/4k-monitor">4K Monitor</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming-monitor">Gaming Monitor</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/monitor-arm">Monitor Arm</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/monitor">Show All Monitor</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/ups-ips">UPS</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/ups-ips/online-ups">Online UPS</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/online-ups/maxgreen">MaxGreen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/online-ups/tecnoware">Tecnoware</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/online-ups/zigor">ZIGOR</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/online-ups/apollo">APOLLO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ensmart-online-ups">EnSmart</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/ups-ips/offline-ups">Offline UPS</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/offline-ups/maxGreen-offline-ups">MaxGreen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tecnoware-offline-ups">Tecnoware</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/prolink-offline-ups">Prolink</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/offline-ups/digital-x-offline-ups">Digital X</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/apollo-offline-ups">APOLLO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/offline-ups/zigor-offline-ups">Zigor</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-ips/offline-ups/kstar-offline-ups">KSTAR</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ups-battery">UPS Battery</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ips">IPS</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/ups-ips">Show All UPS</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/tablet-pc">Tablet</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tablet-pc/apple-tablet">Apple</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tablet-pc/amazon">Amazon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tablet-pc/lenovo-tablet-pc">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/samsung-tablet">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tablet-pc/wacom-tablet-pc">Wacom</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/huion-tablet-pc">Huion</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xp-pen-tablet-pc">XP-PEN</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/veikk-tablet-pc">VEIKK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-tablet-pc">Xiaomi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/walton-tablet-pc">Walton</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tablet-pc/huawei-tablet-pc">HUAWEI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tablet-pc/stylus">Stylus</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/tablet-pc">Show All Tablet</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment">Office Equipment</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/projector">Projector</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/infocus">InFocus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/benq">BenQ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/epson">EPSON</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/casio">CASIO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/viewsonic">Viewsonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/vivitek">VIVItek</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/optoma">Optoma</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/asus">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/maxell">Maxell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/cheerlux">Cheerlux</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-projector">Xiaomi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector/non-brand-products">OTHERS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projection-screen">Projection Screen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector-mount">Projector Mount</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/projector-accessories">Projector Accessories</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/signage">Signage</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/benq-signage">BenQ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/viewsonic-signage">ViewSonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/armor-signage">ARMOR</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/interactive-flat-panel">Interactive Flat Panel</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/infocus-interactive-flat-panel">InFocus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/benq-interactive-flat-panel">BenQ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hitachi-interactive-flat-panel">Hitachi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/boxlight-interactive-flat-panel">BoxLight</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dell-interactive-flat-panel">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/viewsonic-interactive-flat-panel">ViewSonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/armor-interactive-flat-panel">ARMOR</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer">Printer</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer/brother-printer">Brother</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer/Canon-printer">Canon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer/EPSON-Printer">EPSON</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer/HP-printer"> HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer/pantum-printer">Pantum</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/printer/xerox">Xerox</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/large-format-printer">Large Format Printer</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/pos-printer">POS Printer</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/pos-printer/pos-printer-rongta">RONGTA</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/pos-printer/pos-printer-sewoo">Sewoo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/pos-printer/pos-printer-epson">Epson</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/pos-printer/sprt">SPRT</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xprinter-pos-printer">Xprinter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/deli-pos-printer">Deli</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/id-card-printer">ID Card Printer</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zebra-id-card-printer">Zebra</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/evolis-id-card-printer">Evolis</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/label-printer">Label Printer</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/brother-label-printer">Brother</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xprinter-label-printer">Xprinter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/casio-label-printer">Casio</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zebra-label-printer">Zebra</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sewoo-label-printer">Sewoo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/rongta-label-printer">Rongta</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dot-matrix-printer">Dot Matrix Printer</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/photocopier">Photocopier</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hp-photocopier"> HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/canon-photocopier">Canon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/toshiba-photocopier">Toshiba</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sharp-photocopier">SHARP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ricoh-photocopier">RICOH</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/toner">Toner</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/toner/Brother-toner">Brother</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/toner/canon-toner">Canon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/toner/HP-toner">HP  </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/toner/pantum-toner">Pantum</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/toshiba-toner">Toshiba</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/safeway-toner">SafeWay</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/power-print-toner">Power Print</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ricoh-toner">Ricoh</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/starink-toner">StarInk</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sharp-toner">Sharp</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/cartridge">Cartridge</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/canon-cartridge">Canon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/cartridge/epson-cartridge">Epson</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/cartridge/hp-cartridge"> HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/brother-cartridge">Brother</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ink-bottle">Ink Bottle</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ribbon">Ribbon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/printer-drum">Printer Drum</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner">Scanner</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner/hp">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner/canon">Canon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner/epson">EPSON</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner/plustek">Plustek</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner/brother">Brother</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Scanner/avision">Avision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/czur-smart-book-and-document-scanner">CZUR</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/Barcode-Scanner">Barcode Scanner</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/CASH-DRAWER">Cash Drawer</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/conference-systems">Conference Systems</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/logitech-conference-system">Logitech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cisco-conference-system">Cisco</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/avaya-conference-system">Avaya</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/benq-conference-system">BenQ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/jabra-conference-system">Jabra</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dell-conference-system">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/htdz-conference-system">HTDZ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/poly-conference-system">Poly</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/viewsonic-conference-system">ViewSonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/avermedia-conference-system">AVerMedia</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/grandstream-conference-system">Grandstream</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/telephone-set">Telephone Set</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/fax">Fax</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/fax/brother-fax">Brother</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/fax/panasonic-fax">Panasonic </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/canon-fax">Canon</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/ip-phone">IP Phone</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mitel-ip-phone">Mitel</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/yealink-ip-phone">Yealink</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/grandstream-ip-phone">Grandstream</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fanvil-ip-phone">Fanvil</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cisco-ip-phone">Cisco</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/avaya-ip-phone">Avaya</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ip-phone-accessories">IP Phone Accessories</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/ip-pabx-system">PABX System</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mitel-pabx-system">Mitel</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/grandstream-pabx-system">Grandstream</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/pa-system">PA SYSTEM</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tev-pa-system">TEV</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/money-counting-machine">Money Counting Machine</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-equipment/paper-shredder">Paper Shredder</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/deli-paper-shredder">Deli</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ofitech-paper-shredder">Ofitech</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/office-equipment/laminating-machine">Laminating Machine</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/binding-machine">Binding Machine</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/office-equipment">Show All Office Equipment</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/camera">Camera</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/camera/action-camera">Action Camera</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dji-action-camera">DJI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/eken-action-camera">EKEN</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gopro-action-camera">GoPro</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/insta360-action-camera">Insta360</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sjcam-action-camera">SJCAM</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/akaso-action-camera">AKASO</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/camera/camera-dslr">DSLR</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-dslr/canon-dslr">Canon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-dslr/nikon-dslr">Nikon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/panasonic-dslr-camera">Panasonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-dslr/sony-dslr">Sony</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/Handycam">Handycam</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/camera/camera-lenses">Camera Lenses</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-lenses/sony-lenses">Sony</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-lenses/nikon-camera-lenses">Nikon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-lenses/canon-camera-lenses">Canon</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/camera/digital-camera">Digital Camera</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/digital-camera/sony-digital-camera">Sony</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/digital-camera/samsung-digital-camera">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/digital-camera/panasonic-digital-camera">Panasonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/digital-camera/nikon-digital-camera">Nikon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/digital-camera/canon-digital-camera">Canon</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/camera/video-camera">Video Camera</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/video-camera/sony">Sony</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/video-camera/panasonic">Panasonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/canon-video-camera">Canon</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/flash-light">Camera Flash</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera/camera-tripod">Camera Tripod</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/camera-accessories">Camera Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lens-filter">Lens Filter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/camera-bag-backpack">Camera Bag</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lens-adapter">Lens Adapter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/other-camera-accessories">Other</a></li>
+</ul>
+</li>
+<li><a class="see-all" href="https://www.startech.com.bd/camera">Show All Camera</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera">Security</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/digital-locker">Digital Locker / Vault</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/access-control">Access Control</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/access-control/zkteco-access">ZKTeco</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/access-control/onspot-access-control">Onspot</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/cc-camera">CC Camera</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/cc-camera/jovision-cc-camera">Jovision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/cc-camera/dahua-cc-camera">Dahua</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/cc-camera/YHDO">YHDO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/cc-camera/hikvision-cc-camera">Hikvision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tvt-cctv-camera">TVT</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/door-lock">Door Lock</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/door-lock/zkteco-door-lock">ZKTeco</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/door-lock/non-brand-door-lock">Others</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/IP-Camera">IP Camera</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/IP-Camera/Dahua-IPCamera">Dahua</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/IP-Camera/Jovision-IPCamera">Jovision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/IP-Camera/Hikvision-IPCamera">Hikvision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/vimtag-ip-camera">Vimtag</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/tp-link-ip-camera">TP-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/IP-Camera/champion">Champion</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-ip-camera">Xiaomi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/netgear-ip-camera">Netgear</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/ptz-camera">PTZ Camera</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/ptz-camera/dahua-ptz-camera"> Dahua</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/dahua-cc-camera-package">Dahua CC Camera Package</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/ip-camera-package">Dahua IP Camera Package</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/hikvision-package">HIKVISION CC Camera Package</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/dvr">DVR</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/dvr/dahua">Dahua</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/dvr/jovision">Jovision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/dvr/hikvision">Hikvision</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/nvr">NVR</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/nvr/dahua">Dahua</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/nvr/hikvision">Hikvision</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/Security-Camera/xvr">XVR</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/xvr/dahua">Dahua</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/cc-camera-accessories">CC Camera Accessories</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/Security-Camera/home-security-door-bell">Home Security Door Bell</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/Security-Camera">Show All Security</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-2">
+<a class="nav-link" href="https://www.startech.com.bd/networking">Networking</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/networking/router">Router</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zyxel-router">Zyxel</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/wavlink">Wavlink</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/asus-router-bd"> ASUS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/tp-link-router">TP-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/d-link-router">D-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/netgear-router">NETGEAR</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/tenda-router">Tenda</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/netis-router">Netis</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/mi-router">Mi </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/mikrotik-router">Mikrotik</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/cisco-router">Cisco</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/linksys-router">LINKSYS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/mercusys-router">Mercusys</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/huawei-router">Huawei</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/totolink-router">TOTOLINK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/vsol-router">Vsol</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/prolink-router">PROLINK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/router/perfect-router">Perfect</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/edimax-router">Edimax</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cudy-router">Cudy</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/networking/lan-card">LAN Card</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/tp-link-lan-card">TP-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/d-link-lan-card">D-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/totolink-lan-card">TOTOLINK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wavlink-lan-card">Wavlink</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/tenda-lan-card">Tenda</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mercusys-lan-card">Mercusys</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/ugreen-lan-card">UGREEN</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/perfect-lan-card">Perfect</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/epson-lan-card">Epson</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/lan-card/havit-lan-card">Havit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cudy-lan-card">Cudy</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-lan-card">Xiaomi</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/utp-cable-and-accessories">UTP Cable &amp; Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/r-and-m-utp-cable-accessories">R&amp;M</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/rosenberger-utp-cable-accessories">Rosenberger</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/fiber-optic-cable-and-accessories">Fiber Optic Cable &amp; Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/r-and-m-fiber-optic-cable-accessories">R&amp;M</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/networking/access-point">Access Point/Network Extender</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zyxel-network-extender">Zyxel</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wavlink-network-externder">Wavlink</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/linksys-access-point">LINKSYS</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/tp-link-access-point">TP-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mercusys-range-extender">Mercusys</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/mi-extender">Mi </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-access-point-extender">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/netis-extender">Natis</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/netgear-access-point">NETGEAR</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/tenda-access-point">Tenda</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/mikrotik-access-point">MikroTik</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/grandstream-wifi-range-extender">Grandstream</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/d-link-access-point">D-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/access-point/totolink-access-point">TOTOLINK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ubiquiti-access-point ">Ubiquiti</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/networking/network-switch">Network Switch</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zyxel-network-switch">Zyxel</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/totolink-switches">TOTOLINK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/tp-link-switch">TP-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/netgear-switch">NETGEAR</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/tenda-switch">Tenda</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/d-link-switch">D-Link</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/dell-switcch">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/micronet-switch">Micronet</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/mikrotik-switch">MikroTik</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/hikvision-network-switch">HikVision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/cisco-switch">Cisco</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/perfect-switch">Perfect</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/network-switch/netis-switch">Netis</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mercusys-network-switch">Mercusys</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/networking/networking-accessories">Networking Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/networking-accessories/patch-cord">Patch Cord</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/networking-accessories/cable-connector">Cable Connector</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/networking-accessories/networking-cables">Cables</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/networking-accessories/cable-tester">Cable Tester</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/patch-panel">Patch Panel</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/networking-tools">Networking Tools</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/punch-down-tool">Punch Down Tool</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/crimping-tool">Crimping Tool</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/splicer-machine">Splicer Machine</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/onu">ONU</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/network-transceivers">Network Transceivers</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/kvm-switch">KVM SWITCH</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/networking/Modem">Modem</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/networking">Show All Networking</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-2">
+<a class="nav-link" href="https://www.startech.com.bd/accessories">Accessories</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/keyboards">Keyboard</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/razer-keyboard">RAZER</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/gamdias-keyboard">GAMDIAS</a></li>
+<li><a href="https://www.startech.com.bd/kwg-keyboard">KWG</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/maxgreen-keyboard">MaxGreen</a></li>
+<li><a href="https://www.startech.com.bd/fantech-keyboard">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/apple-keyboard">Apple</a></li>
+<li><a href="https://www.startech.com.bd/golden-field-keyboard">Golden Field</a></li>
+<li><a href="https://www.startech.com.bd/steelseries-keyboard">SteelSeries</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/logitech-keyboard">Logitech</a></li>
+<li><a href="https://www.startech.com.bd/ducky-keyboard">Ducky</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/a4-tech-keyboard">A4Tech</a></li>
+<li><a href="https://www.startech.com.bd/corsair-keyboard">Corsair</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/hp-keyboard">HP</a></li>
+<li><a href="https://www.startech.com.bd/walton-keyboard">Walton</a></li>
+<li><a href="https://www.startech.com.bd/durgod-keyboard">Durgod</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/gigabyte-keyboard">GIGABYTE</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/dell-keyboard">Dell</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/rapoo-keyboard">Rapoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/microsoft-surface-pro-keyboard">Microsoft</a></li>
+<li><a href="https://www.startech.com.bd/matis-keyboard">Matias</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/hyperx-keyboard">Hyperx</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/xiaomi-keyboard">Xiaomi</a></li>
+<li><a href="https://www.startech.com.bd/asus-keyboard">Asus</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/havit-keyboard">Havit</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/motospeed-keyboard">MotoSpeed</a></li>
+<li><a href="https://www.startech.com.bd/keychron-keyboard">Keychron</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/cougar-keyboard">Cougar</a></li>
+<li><a href="https://www.startech.com.bd/xtreme-keyboard">Xtreme</a></li>
+<li><a href="https://www.startech.com.bd/delux-keyboard">Delux</a></li>
+<li><a href="https://www.startech.com.bd/dareu-keyboard">Dareu</a></li>
+<li><a href="https://www.startech.com.bd/accessories/keyboards/micropack-keyboard">Micropack</a></li>
+<li><a href="https://www.startech.com.bd/skyloong-keyboard">Skyloong</a></li>
+<li><a href="https://www.startech.com.bd/capturer-keyboard">Capturer</a></li>
+<li><a href="https://www.startech.com.bd/suntech-keyboard">SUNTECH</a></li>
+<li><a href="https://www.startech.com.bd/redragon-keyboard">Redragon</a></li>
+<li><a href="https://www.startech.com.bd/mumre-keyboard">Mumre</a></li>
+<li><a href="https://www.startech.com.bd/rk-royal-kludge-keyboard">RK ROYAL KLUDGE</a></li>
+<li><a href="https://www.startech.com.bd/msi-keyboard">MSI</a></li>
+<li><a href="https://www.startech.com.bd/meetion-keyboard">MeeTion</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/mouse">Mouse</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/mouse/razer-mouse"> RAZER</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/gamdias-gaming-mouse">GAMDIAS</a></li>
+<li><a href="https://www.startech.com.bd/kwg-mouse">KWG</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/max-green-mouse">MaxGreen</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/asus-mouse">Asus</a></li>
+<li><a href="https://www.startech.com.bd/gigabyte-mouse">Gigabyte</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/apple-mouse">Apple</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/xiaomi-mouse">Xiaomi</a></li>
+<li><a href="https://www.startech.com.bd/microsoft-surface-mouse">Microsoft</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/logitech-mouse">Logitech</a></li>
+<li><a href="https://www.startech.com.bd/benq-mouse">Benq</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/hp-mouse">HP</a></li>
+<li><a href="https://www.startech.com.bd/fantech-mouse">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/delux-mouse">Delux</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/dell-mouse">Dell</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/rapoo-mouse">Rapoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/a4-tech-mouse">A4Tech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/havit-mouse">Havit</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/corsair-mouse">Corsair</a></li>
+<li><a href="https://www.startech.com.bd/walton-mouse">Walton</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/dareu-mouse">Dareu</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/steelseries">SteelSeries</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/lenovo-mouse">Lenovo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/prolink-mouse">Prolink</a></li>
+<li><a href="https://www.startech.com.bd/xtreme-mouse">Xtreme</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/motospeed-mouse">MotoSpeed</a></li>
+<li><a href="https://www.startech.com.bd/hyperx-mouse">HyperX</a></li>
+<li><a href="https://www.startech.com.bd/golden-field-mouse">Golden Field</a></li>
+<li><a href="https://www.startech.com.bd/accessories/mouse/micropack">Micropack</a></li>
+<li><a href="https://www.startech.com.bd/wiwu-mouse">WiWU</a></li>
+<li><a href="https://www.startech.com.bd/suntech-mouse">SUNTECH</a></li>
+<li><a href="https://www.startech.com.bd/redragon-mouse">Redragon</a></li>
+<li><a href="https://www.startech.com.bd/orico-mouse">Orico</a></li>
+<li><a href="https://www.startech.com.bd/pulsar-mouse">Pulsar</a></li>
+<li><a href="https://www.startech.com.bd/targus-mouse">Targus</a></li>
+<li><a href="https://www.startech.com.bd/msi-mouse">MSI</a></li>
+<li><a href="https://www.startech.com.bd/gamemax-mouse">GameMax</a></li>
+<li><a href="https://www.startech.com.bd/meetion-mouse">MeeTion</a></li>
+<li><a href="https://www.startech.com.bd/blackcat-mouse">BlackCat</a></li>
+<li><a href="https://www.startech.com.bd/keychron-mouse">Keychron</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad">Mouse Pad</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/razer-mouse-pad">RAZER</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/gamdias-mouse-pad">Gamdias</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-mouse-pad">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/corsair-mouse-pad">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/havit-mouse-pad">Havit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-mouse-pad">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/hp-mouse-pad">HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/logitech-mouse-pad">Logitech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/rapoo-mouse-pad">Rapoo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/mouse-pad/steelseries-mouse-pad">SteelSeries </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hunter-mouse-pad">Hunter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-mouse-pad">Redragon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gigabyte-mouse-pad">Gigabyte</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hyperx-mouse-pad">HyperX</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dareu-mouse-pad">DAREU</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/msi-mouse-pad">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/orico-mouse-pad">ORICO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/meetion-mouse-pad">MeeTion</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/non-brand-mouse-pad">Others</a></li>
+</ul>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/headphone">Headphone</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/poly-headphone">Poly</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/gamdias-headphone">GAMDIAS</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/razer-headphone">RAZER</a></li>
+<li><a href="https://www.startech.com.bd/kwg-headphone">KWG</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/logitech-headphone">Logitech</a></li>
+<li><a href="https://www.startech.com.bd/redragon-headphone">Redragon</a></li>
+<li><a href="https://www.startech.com.bd/fantech-headphone">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/havit-headphone">Havit</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/a4-tech-headphone">A4Tech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/edifier-headphone">Edifier</a></li>
+<li><a href="https://www.startech.com.bd/hyperx-headphone">HyperX</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/rapoo-headset">Rapoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/xiaomi-headset">Xiaomi</a></li>
+<li><a href="https://www.startech.com.bd/meetion-headphone">MeeTion</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/jabra-headphone">Jabra</a></li>
+<li><a href="https://www.startech.com.bd/asus-headphone">Asus</a></li>
+<li><a href="https://www.startech.com.bd/turtle-beach-headphone">Turtle Beach</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/corsair-headphone">Corsair</a></li>
+<li><a href="https://www.startech.com.bd/baseus-headphone">Baseus</a></li>
+<li><a href="https://www.startech.com.bd/motospeed-headphone">MotoSpeed</a></li>
+<li><a href="https://www.startech.com.bd/thermaltake-headphone">Thermaltake</a></li>
+<li><a href="https://www.startech.com.bd/ovleng-headphone">Ovleng</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/steelseries-headphone">SteelSeries</a></li>
+<li><a href="https://www.startech.com.bd/sony-headphone">Sony</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/gigabyte-headphone ">GIGABYTE</a></li>
+<li><a href="https://www.startech.com.bd/astro-headphone">ASTRO</a></li>
+<li><a href="https://www.startech.com.bd/motorola-headphone">Motorola</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/microlab-headphone">Microlab</a></li>
+<li><a href="https://www.startech.com.bd/anker-headphone">Anker</a></li>
+<li><a href="https://www.startech.com.bd/beyerdynamic-headphone">Beyerdynamic</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/audio-technica-headphone">Audio Technica</a></li>
+<li><a href="https://www.startech.com.bd/yison-headphone">Yison</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/prolink-heoneadph">Prolink</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/sennheiser-headphone">Sennheiser</a></li>
+<li><a href="https://www.startech.com.bd/remax-headphone">Remax</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/hp-headphone">HP</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/jbl-headphones">JBL</a></li>
+<li><a href="https://www.startech.com.bd/dareu-headphone">Dareu</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/bose-headphone">Bose</a></li>
+<li><a href="https://www.startech.com.bd/cisco-headphone">Cisco</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/1more-headphone">1More</a></li>
+<li><a href="https://www.startech.com.bd/cooler-master-headphone">Cooler Master</a></li>
+<li><a href="https://www.startech.com.bd/akg-headphone">AKG</a></li>
+<li><a href="https://www.startech.com.bd/takstar-headphone">Takstar</a></li>
+<li><a href="https://www.startech.com.bd/accessories/headphone/casio-headphone">Casio</a></li>
+<li><a href="https://www.startech.com.bd/msi-headphone">MSI</a></li>
+<li><a href="https://www.startech.com.bd/joyroom-headphone">JOYROOM</a></li>
+<li><a href="https://www.startech.com.bd/eksa-headphone">EKSA</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/speaker-and-home-theater">Speaker &amp; Home Theater</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/razer-speaker"> Razer</a></li>
+<li><a href="https://www.startech.com.bd/jbl-speakers">JBL</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/sony-speaker-and-home-theater">Sony</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/Logitech-speaker">Logitech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/edifier-speaker">Edifier</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/xiaomi-speaker">Xiaomi</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/philips-speaker">Philips</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/microlab-speaker">Microlab</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/havit-speaker">Havit</a></li>
+<li><a href="https://www.startech.com.bd/samsung-speaker">Samsung</a></li>
+<li><a href="https://www.startech.com.bd/fantech-speakers">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/f-and-d-multimedia-speaker">F&amp;D</a></li>
+<li><a href="https://www.startech.com.bd/yamaha-speaker">Yamaha</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/xtreme-speaker">Xtreme</a></li>
+<li><a href="https://www.startech.com.bd/krk-speaker">KRK</a></li>
+<li><a href="https://www.startech.com.bd/presonus-speaker">PreSonus</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/bose">Bose</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/micropack-speaker">Micropack</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/digital-x-speaker">Digital X</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/golden-field-speaker">Golden Field</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/avermedia">AVerMedia</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/creative">Creative</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/altec-lansing-speaker">Altec Lansing</a></li>
+<li><a href="https://www.startech.com.bd/thermaltake-speaker">Thermaltake</a></li>
+<li><a href="https://www.startech.com.bd/redragon-speaker">Redragon</a></li>
+<li><a href="https://www.startech.com.bd/accessories/speaker-and-home-theater/others-speaker">Others</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/bluetooth-speaker">Bluetooth Speakers</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/f-and-d">F&amp;D</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/jbl">JBL</a></li>
+<li><a href="https://www.startech.com.bd/anker-bluetooth-speakers">Anker</a></li>
+<li><a href="https://www.startech.com.bd/sony-bluetooth-speaker">Sony</a></li>
+<li><a href="https://www.startech.com.bd/samsung-bluetooth-speaker">Samsung</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/bose-speaker">Bose</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/jabra">Jabra</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/bang-and-olufsen">Bang &amp; Olufsen</a></li>
+<li><a href="https://www.startech.com.bd/panasonic-bluetooth-speaker">Panasonic</a></li>
+<li><a href="https://www.startech.com.bd/poly-bluetooth-speakers">Poly</a></li>
+<li><a href="https://www.startech.com.bd/lenovo-bluetooth-speaker">Lenovo</a></li>
+<li><a href="https://www.startech.com.bd/fantech-bluetooth-speaker">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/nakamichi-bluetooth-speaker">Nakamichi</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/havit">Havit</a></li>
+<li><a href="https://www.startech.com.bd/motorola-bluetooth-speakers">Motorola</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/edifier">Edifier</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/xiaomi">XIAOMI</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/awei">Awei</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/microlab">Microlab</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/philips">PHILIPS</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/rapoo">Rapoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/remax">Remax</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/x-mini-speaker">X-mini</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/harman-kardon">Harman Kardon</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/xtreme">Xtreme</a></li>
+<li><a href="https://www.startech.com.bd/wiwu-bluetooth-speaker">WiWU</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/huawei">HUAWEI</a></li>
+<li><a href="https://www.startech.com.bd/yison-bluetooth-speaker">Yison</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/golden-field">Golden Field</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/logitech">Logitech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/a4-tech">A4Tech</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/dell">Dell</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/hp">HP</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/micropack.brand">Micropack</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/pure">Pure Acoustics</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/teutons">Teutons</a></li>
+<li><a href="https://www.startech.com.bd/accessories/bluetooth-speaker/non-brand-products">OTHERS</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/ear-phone">Ear Phone</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/razer-ear-phone">RAZER</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/xiaomi-earphone">Xiaomi</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/a4tech-earphone">A4Tech</a></li>
+<li><a href="https://www.startech.com.bd/realme-earphone">Realme</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/rapoo-ear-phone">Rapoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/apple-earphone">Apple</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/edifier-earphone ">Edifier</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/uiisii">UiiSii</a></li>
+<li><a href="https://www.startech.com.bd/teutons-earphone">Teutons</a></li>
+<li><a href="https://www.startech.com.bd/logitech-earphone">Logitech</a></li>
+<li><a href="https://www.startech.com.bd/awei-earphone">Awei</a></li>
+<li><a href="https://www.startech.com.bd/motorola-earphone">Motorola</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/remax-earphone">Remax</a></li>
+<li><a href="https://www.startech.com.bd/oneplus-earphone">OnePlus</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/havit-earphone">Havit</a></li>
+<li><a href="https://www.startech.com.bd/fantech-earphone">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/sony-earphone">Sony</a></li>
+<li><a href="https://www.startech.com.bd/anker-earphone">Anker</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/micropack-earphone">Micropack</a></li>
+<li><a href="https://www.startech.com.bd/baseus-earphone">Baseus</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/samsung-earphone">Samsung</a></li>
+<li><a href="https://www.startech.com.bd/blueparrott-earphone">BlueParrott</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/boya-ear-phone">Boya</a></li>
+<li><a href="https://www.startech.com.bd/plextone-earphone">Plextone</a></li>
+<li><a href="https://www.startech.com.bd/lenovo-earphone">Lenovo</a></li>
+<li><a href="https://www.startech.com.bd/asus-earphone">Asus</a></li>
+<li><a href="https://www.startech.com.bd/joyroom-earphone">JOYROOM</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/jbl-earphone">JBL</a></li>
+<li><a href="https://www.startech.com.bd/wavefun-earphone">Wavefun</a></li>
+<li><a href="https://www.startech.com.bd/ugreen-earphone">Ugreen</a></li>
+<li><a href="https://www.startech.com.bd/ipipoo-earphone">Ipipoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/1more-earphone">1MORE</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/jabra-earphone">Jabra</a></li>
+<li><a href="https://www.startech.com.bd/accessories/ear-phone/huawei-earphone">Huawei</a></li>
+<li><a href="https://www.startech.com.bd/yison-earphone">Yison</a></li>
+<li><a href="https://www.startech.com.bd/wiwu-earphone">WiWU</a></li>
+<li><a href="https://www.startech.com.bd/takstar-earphone">Takstar</a></li>
+<li><a href="https://www.startech.com.bd/redragon-earphone">Redragon</a></li>
+<li><a href="https://www.startech.com.bd/qcy-ear-phone">QCY</a></li>
+<li><a href="https://www.startech.com.bd/dareu-earphone">DAREU</a></li>
+<li><a href="https://www.startech.com.bd/energizer-earphone">Energizer</a></li>
+<li><a href="https://www.startech.com.bd/nokia-earphone">Nokia</a></li>
+<li><a href="https://www.startech.com.bd/beats-earphone">Beats</a></li>
+<li><a href="https://www.startech.com.bd/non-brand-earphone">Others</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/webcam">Webcam</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/webcam/a4-tech-webcam">A4Tech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/webcam/logitech-webcam">Logitech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/benq-webcam">BenQ</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/value-top-webcam">Value-Top</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/micropack-webcam">Micropack</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/havit-webcam">Havit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-webcam">Asus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-webcam">Xiaomi</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/viewsonic-webcam">ViewSonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-webcam">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/avermedia-webcam">AVerMedia</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/delux-webcam">Delux</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/avaya-webcam">Avaya</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-webcam">Redragon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/poly-webcam">Poly</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/jabra-webcam">Jabra</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/rapoo-webcam">Rapoo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/anker-webcam">Anker</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hikvision-webcam">Hikvision</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cisco-webcam">Cisco</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/capture-card">Capture Card</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/microphone">Microphone</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/razer-microphone-accessories">RAZER</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-microphone">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/boya-speaker">Boya</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/rode-microphone">RODE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/audio-technica-microphone">Audio Technica</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/panasonic-microphone">Panasonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/sennheiser-microphone">Sennheiser</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/corsair-microphone">Corsair</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/zoom">Zoom</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/avermedia-microphone">AVerMedia</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/havit-microphone">Havit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/microphone/tev-microphone">TEV</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sony-microphone">Sony</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/logitech-microphone">Logitech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/shure-microphone">Shure</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/yanmai-microphone">Yanmai</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/edifier-microphone">Edifier</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/joyroom-microphone">JOYROOM</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/akg-microphone">AKG</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/jbl-microphone">JBL</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/takstar-microphone">Takstar</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/m-audio-microphone">M-Audio</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-microphone">Redragon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/synco-microphone">SYNCO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/saramonic-microphone">Saramonic</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/maono-microphone">Maono</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fifine-microphone">FIFINE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lewitt-microphone">Lewitt</a></li>
+</ul>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/Pen-Drive">Pen Drive</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/team-pendrive">Team</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/Transcend-Pendrive">Transcend</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/teutons-pendrive">Teutons</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/TWINMOS-Pendrive">TWINMOS</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/pny-pendrive">PNY</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/hp-pendrive">HP</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/ADATA-Pen-drive">ADATA</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/ugreen-pendrive">UGREEN</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/sandisk-pendrive">SanDisk</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/kingston-pendrive">Kingston</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/apacer-pendrive">Apacer</a></li>
+<li><a href="https://www.startech.com.bd/lexar-pen-drive">Lexar</a></li>
+<li><a href="https://www.startech.com.bd/accessories/Pen-Drive/card-pendrive">Others</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/micro-sd-card">Memory Card</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/micro-sd-card/sandisk-memory-card">SanDisk</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/micro-sd-card/pny-micro-sd-card">PNY</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/micro-sd-card/transcend-memory-card">Transcend</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/micro-sd-card/apacer-memory">Apacer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sony-memory-card">Sony</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/micro-sd-card/adata-micro-sd">Adata</a></li>
+</ul>
+</li>
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/power-bank">Power Bank</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/rapoo-power-bank">Rapoo</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/tp-link-power-bank">TP-Link</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/xiaomi-power-bank">Xiaomi</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/micropack-power-bank">Micropack</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/huawei-power-bank">Huawei</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/energizer-power-bank">Energizer</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/hp-power-bank">HP</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/adata-power-bank">Adata</a></li>
+<li><a href="https://www.startech.com.bd/basues-power-bank">Baseus</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/dell-power-bank">Dell</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/ugreen-power-adapter">UGREEN</a></li>
+<li><a href="https://www.startech.com.bd/anker-power-bank">Anker</a></li>
+<li><a href="https://www.startech.com.bd/awei-power-bank">Awei</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/remax-power-bank">Remax</a></li>
+<li><a href="https://www.startech.com.bd/orico-power-bank">Orico</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/apacer-power-bank">Apacer</a></li>
+<li><a href="https://www.startech.com.bd/accessories/power-bank/havit-power-bank">Havit</a></li>
+<li><a href="https://www.startech.com.bd/teutons-power-bank">Teutons</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/audio-accessories">Audio Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-audio-accessories">Asus</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/thermal-paste">Thermal Paste</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/presenter">Presenter</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-presenter">Fantech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/presenter/logitech-presenter">Logitech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/presenter/targus-presenter">Targus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/baseus-presenter">Baseus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/rapoo-presenter ">Rapoo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/golden-field-presenter">Golden Field</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/presenter/micropack-presenter">Micropack</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/presenter/non-brand-presenters">Others</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/tv-card">TV Card</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/tv-card/external-tv-card">External TV Card</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/converter-and-cable">Converter &amp; Cable</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cable">Cable</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/converter">Converter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/adapter">Adapter</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hub-and-dock">Hubs &amp; Docks</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/enclosure">HDD-SSD Enclosure</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/orico-enclosure">Orico</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ugreen-enclosure">UGREEN</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wavlink-enclosure">Wavlink</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asus-enclosure">Asus</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/accessories/power-strip">Power Strip</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/power-strip/deli">Deli</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/power-strip/belkin">Belkin</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/orico-power-strip">ORICO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/power-strip/huntkey ">Huntkey</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/power-strip/nano">Nano</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/digital-voice-recorder">Digital Voice Recorder</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/bluetooth-receiver">Bluetooth Receiver</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/baseus-audio-adaptor">Baseus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/others-audio-adaptor">Others</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/accessories/pc-lighting-led-strips">PC Lighting &amp; LED Strips</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/accessories">Show All Accessories</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-2">
+<a class="nav-link" href="https://www.startech.com.bd/software">Software</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/operating-system">Operating System</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/microsoft-windows">Microsoft Windows</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redhat">Red Hat</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/office-application">Office Application</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/microsoft-office">Microsoft Office</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/database-server-solution">Database Server Solution</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mail-server-solution">Mail Server Solution</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cloud-solution">Cloud Solutions</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/software/vmware">VMware</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/software/antivirus">Antivirus</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/software/antivirus/for-home-user">For Home User</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/software/antivirus/for-business-users">For Business Users</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/software/antivirus/data-encryption">Data Encryption</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/software/adobe">Adobe</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/software/autodesk">AutoDesk</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/software">Show All Software</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-2">
+<a class="nav-link" href="https://www.startech.com.bd/server-networking">Server &amp; Storage</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/server-networking/workstation">Workstation</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/workstation/dell-workstation"> Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/workstation/workstation-hp"> HP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lenovo-workstation">Lenovo</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/server-networking/server">Server</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server/dell-server">Dell</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/scalable-server">Scalable</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/qnap-server">QNAP</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/hpe-server">HPE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server/cisco-server">Cisco</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/nas-storage">NAS Storage</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/asustor-nas-storage">Asustor</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/netgear-nas-storage">Netgear</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dell-nas-storage">Dell</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/san-storage">SAN Storage</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dell-san-storage">DELL</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/server-networking/server-accessories">Accessories</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server-accessories/server-power-supply">Power Supply</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server-accessories/server-hdd">HDD</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server-accessories/hdd-bay">HDD Bay</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/network-card">Network Card</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server-accessories/raid-controller">RAID Controller</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/server-networking/server-accessories/server-ram">RAM</a></li>
+</ul>
+</li>
+<li><a class="see-all" href="https://www.startech.com.bd/server-networking">Show All Server &amp; Storage</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-2">
+<a class="nav-link" href="https://www.startech.com.bd/television-shop">TV</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/television-startech">All TV</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/starex-television">Starex</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xiaomi-television">Xiaomi MI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/sony-television">Sony</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/samsung-television">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/LG-TV">LG</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mango-television">MANGO</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/haier-television">Haier</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/led-tv">LED TV</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/smart-tv">Smart TV</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/android-tv">Android TV</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/4k-tv">4K TV</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wall-mount">TV Stand &amp; Wall Mount</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/television-shop">Show All TV</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/air-conditioner">AC</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/air-conditioner/general-air-conditioner">GENERAL</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/air-conditioner/midea-ac">Midea</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gree-ac">Gree</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/elite-air-conditioner ">Elite</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/air-conditioner">Show All AC</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/gadget">Gadget</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/gadget/smart-watch">Smart Watch</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/razer-smart-watch">RAZER</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gadget/smart-watch/apple">Apple</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gadget/smart-watch/xiaomi">XIAOMI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gadget/smart-watch/huawei">HUAWEI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gadget/smart-watch/realme">Realme</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/havit-smart-watch">Havit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/samsung-smart-watch">Samsung</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/walton-smart-watch">Walton</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zeblaze-smart-watch">Zeblaze</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/lenovo-smart-watch">Lenovo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/kieslect-smart-watch">Kieslect</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/microwave-smart-watch">Microwave</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/oneplus-smart-watch">OnePlus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wiwu-smart-watch">WiWU</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/smart-band">Smart Band</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gadget/tv-box">TV Box</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/gimbal">Gimbal</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gudson-gimbal">Gudsen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dji-gimbal">DJI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zhiyun-gimbal">Zhiyun</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/baseus-gimbal">Baseus</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/wiwu-gimbal">WiWU</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/feiyutech-gimbal">FeiyuTech</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/drone">Drones</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/dji-drone">DJI</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/portable-power-station">Portable Power Station</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/studio-equipment">Studio Equipment</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/studio-microphones">Studio Microphones</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/studio-monitors">Studio Monitors</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/studio-headphones">Studio Headphones</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/audio-interfaces">Audio Interfaces</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gadget/daily-lifestyle">Daily Lifestyle</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/sewing-machine">Sewing Machine</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/brother-sewing-machine">Brother</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/jack-sewing-machine">JACK</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/zoje-sewing-machine">ZOJE</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/walton-sewing-machine">Walton</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/calculator">Calculator</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/blower-machine">Blower</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/mobile-phone-accessories">Mobile Phone Accessories</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/stream-deck">Stream Deck</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/gadget">Show All Gadget</a></li>
+</ul>
+</li>
+<li class="nav-item has-child c-1">
+<a class="nav-link" href="https://www.startech.com.bd/gaming">Gaming</a>
+<ul class="drop-down drop-menu-1">
+<li class="nav-item has-child multi-col">
+<a class="nav-link" href="https://www.startech.com.bd/gaming-chair">Gaming Chair</a>
+<div class="drop-down drop-menu-2">
+<ul>
+<li><a href="https://www.startech.com.bd/gamdias-gaming-chair">Gamdias</a></li>
+<li><a href="https://www.startech.com.bd/razer-gaming-chair">Razer</a></li>
+<li><a href="https://www.startech.com.bd/antec-gaming-chair">Antec</a></li>
+<li><a href="https://www.startech.com.bd/dxracer-gaming-chair">DXRacer</a></li>
+<li><a href="https://www.startech.com.bd/corsair-gaming-chair">Corsair</a></li>
+<li><a href="https://www.startech.com.bd/msi-gaming-chair">MSI</a></li>
+<li><a href="https://www.startech.com.bd/havit-gaming-chair">Havit</a></li>
+<li><a href="https://www.startech.com.bd/fantech-gaming-chair">Fantech</a></li>
+<li><a href="https://www.startech.com.bd/gigabyte-gaming-chair">Gigabyte</a></li>
+<li><a href="https://www.startech.com.bd/cooler-master-gaming-chair">Cooler Master</a></li>
+<li><a href="https://www.startech.com.bd/marvo-gaming-chair">Marvo</a></li>
+<li><a href="https://www.startech.com.bd/thermaltake-gaming-chair">Thermaltake</a></li>
+<li><a href="https://www.startech.com.bd/gamemax-gaming-chair">GameMax</a></li>
+</ul>
+<ul>
+<li><a href="https://www.startech.com.bd/neon-gaming-chair">Neon</a></li>
+<li><a href="https://www.startech.com.bd/a4tech-gaming-chair">A4Tech</a></li>
+<li><a href="https://www.startech.com.bd/delux-gaming-chair">Delux</a></li>
+<li><a href="https://www.startech.com.bd/cougar-gaming-chair">Cougar</a></li>
+<li><a href="https://www.startech.com.bd/xigmatek-gaming-chair">Xigmatek</a></li>
+<li><a href="https://www.startech.com.bd/1stplayer-gaming-chair">1STPLAYER</a></li>
+<li><a href="https://www.startech.com.bd/acer-gaming-chair">Acer</a></li>
+<li><a href="https://www.startech.com.bd/jedel-gaming-chair">Jedel</a></li>
+<li><a href="https://www.startech.com.bd/imperatorworks-gaming-chair">Imperatorworks</a></li>
+<li><a href="https://www.startech.com.bd/evolur-gaming-chair">EVOLUR</a></li>
+<li><a href="https://www.startech.com.bd/redragon-gaming-chair">Redragon</a></li>
+<li><a href="https://www.startech.com.bd/meetion-gaming-chair">MeeTion</a></li>
+</ul>
+</div>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/gaming-sofa">Gaming Sofa</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/cougar-gaming-sofa">Cougar</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-gaming-sofa">Fantech</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming-keyboard">Keyboard</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming-mouse">Mouse</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming-headphone">Headphone</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming-mouse-pad">Mouse Pad</a></li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/game-pad">Gamepad</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/razer-gamepad-controller">Razer</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xbox-gamepad-controller">Xbox</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/playstation-gamepad-controller">PlayStation</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/msi-gamepad">MSI</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming/game-pad/logitech-gamepad">Logitech</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nacon-gamepad">Nacon</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/fantech-gamepad">Fantech </a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/rapoo-gamepad">Rapoo</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/havit-gamepad">Havit</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/steelseries-gamepad">SteelSeries</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/kieslect-gamepad">Kieslect</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/redragon-gamepad">Redragon</a></li>
+</ul>
+</li>
+<li class="nav-item has-child">
+<a class="nav-link" href="https://www.startech.com.bd/gaming-console">Gaming Console</a>
+<ul class="drop-down drop-menu-2">
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/play-station">PlayStation</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/xbox">Xbox</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/nintendo-gaming-console">Nintendo</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/gaming-desk">Gaming Desk</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.startech.com.bd/ps4-n-x-box-one-games">Games</a></li>
+<li><a class="see-all" href="https://www.startech.com.bd/gaming">Show All Gaming</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav></header>
+<div class="f-btn mc-toggler" id="cart">
+<i class="material-icons">shopping_basket</i>
+<div class="label">Cart</div>
+<span class="counter">0</span>
+</div>
+<div class="f-btn cmpr-toggler" id="cmpr-btn">
+<i class="material-icons">library_add</i>
+<div class="label">Compare</div>
+<span class="counter">0</span>
+</div>
+<div class="drawer cmpr-panel" id="cmpr-panel">
+<div class="title">
+<p>Compare Product</p>
+<span class="cmpr-toggler"><i class="material-icons">close</i></span>
+</div>
+<div class="content"><div class="loader"></div></div>
+<div class="footer btn-wrap"></div>
+</div>
+<div class="drawer m-cart" id="m-cart">
+<div class="title">
+<p>YOUR CART</p>
+<span class="mc-toggler"><i class="material-icons">close</i></span>
+</div>
+<div class="content"><div class="loader"></div></div>
+<div class="footer"></div>
+</div>
+<section class="after-header p-tb-10">
+<div class="container">
+<ul class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+<li><a href="https://www.startech.com.bd/"><i class="material-icons" title="Home">home</i></a></li>
+<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="https://www.startech.com.bd/component" itemprop="item" itemtype="http://schema.org/Thing"><span itemprop="name">Component</span></a><meta content="1" itemprop="position"/></li>
+</ul>
+<div class="child-list">
+<a href="https://www.startech.com.bd/component/processor">Processor</a><a href="https://www.startech.com.bd/component/CPU-Cooler">CPU Cooler</a><a href="https://www.startech.com.bd/water-or-liquid-cooling">Water / Liquid Cooling</a><a href="https://www.startech.com.bd/component/motherboard">Motherboard</a><a href="https://www.startech.com.bd/component/graphics-card">Graphics Card</a><a href="https://www.startech.com.bd/component/ram">RAM (Desktop)</a><a href="https://www.startech.com.bd/component/laptop-ram">RAM (Laptop)</a><a href="https://www.startech.com.bd/component/power-supply">Power Supply</a><a href="https://www.startech.com.bd/component/hard-disk-drive">Hard Disk Drive</a><a href="https://www.startech.com.bd/component/SSD-Hard-Disk">SSD</a><a href="https://www.startech.com.bd/component/casing">Casing</a><a href="https://www.startech.com.bd/component/portable-hard-disk-drive">Portable Hard Disk Drive</a><a href="https://www.startech.com.bd/component/portable-ssd-hard-disk">Portable SSD</a><a href="https://www.startech.com.bd/component/casing-cooler">Casing Cooler</a><a href="https://www.startech.com.bd/component/sound-card">Sound Card</a><a href="https://www.startech.com.bd/component/optical-hdd">Optical Disk Drive</a><a href="https://www.startech.com.bd/component/stabilizer">Voltage Stabilizer</a><a href="https://www.startech.com.bd/vertical-graphics-card-holder">Vertical Graphics Card Holder</a> </div>
+</div>
+</section>
+<section class="p-item-page bg-bt-gray p-tb-15">
+<div class="container"><div class="row"><column class="col-sm-3" id="column-left">
+<span class="lc-close"><i aria-hidden="true" class="material-icons">close</i></span>
+<div class="filters">
+<div class="price-filter ws-box">
+<div class="label">
+<span>Price Range</span>
+</div>
+<div class="pf-wrap">
+<div class="noUi-horizontal" data-from="0" data-max="290000" data-min="0" data-to="290000" id="rang-slider"></div>
+</div>
+<label class="range-label from"><input id="range-to" name="from" type="text"/></label>
+<label class="range-label to"><input id="range-from" name="to" type="text"/></label>
+</div>
+<div class="filter-group ws-box show" data-group-type="status">
+<div class="label">
+<span>Availability</span>
+</div>
+<div class="items">
+<label class="filter">
+<input name="status" type="checkbox" value="7">
+<span>In Stock</span>
+</input></label>
+<label class="filter">
+<input name="status" type="checkbox" value="8">
+<span>Pre Order</span>
+</input></label>
+<label class="filter">
+<input name="status" type="checkbox" value="9"/>
+<span>Up Coming</span>
+</label>
+</div>
+</div>
+</div>
+<div class="clear ads ads-pos-2" data-position="2"></div>
+</column>
+<div class="col-xs-12 col-md-9 product-listing" id="content">
+<div class="top-bar ws-box">
+<div class="row">
+<div class="col-sm-4 col-xs-2 actions">
+<button class="tool-btn" id="lc-toggle"><i class="material-icons">filter_list</i> Filter</button>
+<h6 class="page-heading m-hide">Component</h6>
+</div>
+<div class="col-sm-8 col-xs-10 show-sort">
+<div class="form-group rs-none">
+<label>Show:</label>
+<div class="custom-select">
+<select id="input-limit">
+<option selected="selected" value="20">20</option>
+<option value="24">24</option>
+<option value="48">48</option>
+<option value="75">75</option>
+<option value="90">90</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label>Sort By:</label>
+<div class="custom-select">
+<select id="input-sort">
+<option value="">Default</option>
+<option value="p.price-ASC">Price (Low &gt; High)</option>
+<option value="p.price-DESC">Price (High &gt; Low)</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="main-content p-items-wrap">
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/asus-dual-geforce-gtx-1650-oc-4gb-graphics-card"><img alt="Asus Dual GeForce GTX 1650 OC Edition 4GB DDR5 Graphics Card" height="228" src="https://www.startech.com.bd/image/cache/catalog/graphics-card/asus/asus-geforce-gtx-1650-oc-4gb/asus-geforce-gtx-1650-oc-4gb-graphics-card-01-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/asus-dual-geforce-gtx-1650-oc-4gb-graphics-card">Asus Dual GeForce GTX 1650 OC Edition 4GB DDR5 Graphics Card</a></h4>
+<div class="short-description">
+<ul><li>NVIDIA Turing architecture</li><li>70% faster than the GTX 1050</li><li>IP5X dust resistance</li><li>GPU Tweak II for intuitive performance</li></ul>
+</div>
+<div class="p-item-price">
+<span>37,000৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('20629', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('20629');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/g-skill-ripjaws-4gb-so-dimm-laptop-ram"><img alt="G.Skill Ripjaws 4GB DDR4-L 2400MHz SO-DIMM Laptop RAM" height="228" src="https://www.startech.com.bd/image/cache/catalog/ram/gskill/ripjaws/ripjaws-001-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/g-skill-ripjaws-4gb-so-dimm-laptop-ram">G.Skill Ripjaws 4GB DDR4-L 2400MHz SO-DIMM Laptop RAM</a></h4>
+<div class="short-description">
+<ul><li>4GB 2400MHz DDR4-L Capacity</li><li>CAS Latency: 16-16-16-39</li><li>Form Factor: SO-DIMM</li><li>DRAM Voltage: 1.20V</li></ul>
+</div>
+<div class="p-item-price">
+<span>2,000৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('16362', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('16362');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/deepcool-xfan-120-case-cooling-fan"><img alt="Deepcool XFAN 120 Case Cooling Fan" height="228" src="https://www.startech.com.bd/image/cache/catalog/casing-cooler/deepcool/xfan-80/xfan-80-01-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/deepcool-xfan-120-case-cooling-fan">Deepcool XFAN 120 Case Cooling Fan</a></h4>
+<div class="short-description">
+<ul><li>High-quality 120mm black material fan structure</li><li>Low-speed RPM to ensure quiet operation</li><li>Fan Speed: 1300±10%RPM</li><li>Max. Air Flow: 43.56CFM</li></ul>
+</div>
+<div class="p-item-price">
+<span>350৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('20464', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('20464');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/intel-pentium-gold-g5420-processor"><img alt="Intel Pentium Gold G5420 8th gen Coffee Lake Processor" height="228" src="https://www.startech.com.bd/image/cache/catalog/processor/Intel/pentium-gold-g5420/pentium-gold-g5420-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/intel-pentium-gold-g5420-processor">Intel Pentium Gold G5420 8th gen Coffee Lake Processor</a></h4>
+<div class="short-description">
+<ul><li>Clock Speed: 3.80 GHz</li><li>Cache: 4 MB</li><li>2 Cores and Thread 4</li><li>Intel UHD Graphics 610</li></ul>
+</div>
+<div class="p-item-price">
+<span>6,300৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('12541', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('12541');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/toshiba-dt01aba100v-1tb-surveillance-hdd"><img alt="Toshiba DT01ABA100V 1TB Surveillance Hard Drive" height="228" src="https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/dt01aba100v/dt01aba100v-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/toshiba-dt01aba100v-1tb-surveillance-hdd">Toshiba DT01ABA100V 1TB Surveillance Hard Drive</a></h4>
+<div class="short-description">
+<ul><li>3.5-inch, Low Profile Form Factor</li><li>SATA up to 6.0 Gbit/s</li><li>Applicable for STB, DVR, NVR</li><li>Speed: 5,700 rpm</li></ul>
+</div>
+<div class="p-item-price">
+<span>3,500৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('17378', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('17378');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/transcend-ts120gesd240c-120gb-ssd"><img alt="Transcend ESD240C 120GB USB 3.1 Gen 2 Type-C Portable SSD" height="228" src="https://www.startech.com.bd/image/cache/catalog/ssd/transcend/ts120gesd240c/ts120gesd240c-1-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/transcend-ts120gesd240c-120gb-ssd">Transcend ESD240C 120GB USB 3.1 Gen 2 Type-C Portable SSD</a></h4>
+<div class="short-description">
+<ul><li>Interface: USB Type C, USB3.1 Gen 2</li><li>3D NAND flash</li><li>Weight: 33 g (1.16 oz)</li><li>Capacity: 120GB</li></ul>
+</div>
+<div class="p-item-price">
+<span>3,900৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('11818', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('11818');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/ekwb-pvc-tube-clamp"><img alt="EKWB PVC 10-12mm Tube Clamp" height="228" src="https://www.startech.com.bd/image/cache/catalog/water-liquid-cooling/ekwb/pvc-tube/pvc-tube-01-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/ekwb-pvc-tube-clamp">EKWB PVC 10-12mm Tube Clamp</a></h4>
+<div class="short-description">
+<ul><li>Fast and Easy Clamping to Ensure</li><li>Very Strong Plastic Materials</li><li>Highly Durable</li><li>High Degree of Adjustability</li></ul>
+</div>
+<div class="p-item-price">
+<span>180৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('15579', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('15579');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/twinmos-4gb-ddr3-1600mhz"><img alt="TwinMOS 4GB DDR3 1600MHz" height="228" src="https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS 4GB DDR3 1600MHz-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/twinmos-4gb-ddr3-1600mhz">TwinMOS 4GB DDR3 1600MHz</a></h4>
+<div class="short-description">
+<ul><li>Frequency: 1600 MHz</li><li>Operating voltage: 1.5V</li><li>Type: Pin	240</li><li>Product life time Warranty</li></ul>
+</div>
+<div class="p-item-price">
+<span>1,700৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('417', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('417');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/gigabyte-ga-f2a68hm-ds2-motherboard"><img alt="GIGABYTE GA-F2A68HM-DS2 Ultra Durable 4 Plus AMD FM2 Socket Motherboard" height="228" src="https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-f2a68hm-ds2/ga-f2a68hm-ds2-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/gigabyte-ga-f2a68hm-ds2-motherboard">GIGABYTE GA-F2A68HM-DS2 Ultra Durable 4 Plus AMD FM2 Socket Motherboard</a></h4>
+<div class="short-description">
+<ul><li>Socket FM2+ supports AMD FM2+/FM2 A-series APU</li><li>GIGABYTE UEFI DualBIOS</li><li>All solid capacitors design</li><li>Native USB 3.0 and SATA3 ports</li></ul>
+</div>
+<div class="p-item-price">
+<span>4,500৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('14690', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('14690');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/patriot-4gb-ddr4-laptop-ram"><img alt="Patriot 4GB DDR4 2400 Mhz Laptop Ram" height="228" src="https://www.startech.com.bd/image/cache/catalog/ram/patriot/4gb-laptop-ram/4gb-ddr4-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/patriot-4gb-ddr4-laptop-ram">Patriot 4GB DDR4 2400 Mhz Laptop Ram</a></h4>
+<div class="short-description">
+<ul><li>Capacity 4GB </li><li>Type DDR4</li><li>Speed 2400 Mhz</li></ul>
+</div>
+<div class="p-item-price">
+<span>2,000৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('9752', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('9752');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/1stplayer-fk-300w-power-supply"><img alt="1stPlayer FK 300W Power Supply" height="228" src="https://www.startech.com.bd/image/cache/catalog/power-supply/1stplayer/fk-300w/fk-300w-01-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/1stplayer-fk-300w-power-supply">1stPlayer FK 300W Power Supply</a></h4>
+<div class="short-description">
+<ul><li>Modular: Non-Modular, Input Frequency: 50-60Hz</li><li>Input Current: Current 8/10A MAX</li><li>Fan Size120MM Hydraulic Bearing</li><li>Certifications: None 80+</li></ul>
+</div>
+<div class="p-item-price">
+<span>2,200৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('20533', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('20533');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/corsair-vertical-mount-cable"><img alt="CORSAIR PREMIUM PCIE 3.0 X16 EXTENSION 300MM CABLE" height="228" src="https://www.startech.com.bd/image/cache/catalog/vertical-gpu-mount/corsair/vertical-mount-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/corsair-vertical-mount-cable">CORSAIR PREMIUM PCIE 3.0 X16 EXTENSION 300MM CABLE</a></h4>
+<div class="short-description">
+<ul><li>FULL-SPEED PCIE 3.0 X16 BANDWIDTH</li><li>EXTENDED &amp; ANGLED</li><li>EMI SHIELDED &amp; FULLY FLEXIBLE</li></ul>
+</div>
+<div class="p-item-price">
+<span>3,200৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('12808', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('12808');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/amd-athlon-3000g-processor"><img alt="AMD Athlon 3000G Processor with Radeon Graphics" height="228" src="https://www.startech.com.bd/image/cache/catalog/processor/AMD/athlon-3000g/athlon-3000g-1-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/amd-athlon-3000g-processor">AMD Athlon 3000G Processor with Radeon Graphics</a></h4>
+<div class="short-description">
+<ul><li>Speed: 3.5GHz</li><li>Cache: L2: 1MB, L3: 4MB</li><li>Cores-2 &amp; Threads-4</li><li>Memory Speed: 2667MHz</li></ul>
+</div>
+<div class="p-item-price">
+<span>7,500৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('13593', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('13593');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/deepcool-gh-01-a-rgb-graphics-card-holder"><img alt="Deepcool GH-01 A-RGB Graphics Card Holder" height="228" src="https://www.startech.com.bd/image/cache/catalog/Accessories/vga holder/deepcool-gh-01-a-rgb-graphics-card-holder-02-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/deepcool-gh-01-a-rgb-graphics-card-holder">Deepcool GH-01 A-RGB Graphics Card Holder</a></h4>
+<div class="short-description">
+<ul><li>9 Pieces A-RGB LED</li><li>Saw-tooth Adjustment </li><li>Unique Metal Frame </li><li>Modular Design</li></ul>
+</div>
+<div class="p-item-price">
+<span>1,100৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('19393', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('19393');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="marks">
+<span class="mark">Save: 125৳</span>
+</div>
+<div class="p-item-img"><a href="https://www.startech.com.bd/xtreme-v9-atx-case"><img alt="Xtreme V9 Full Window ATX Case" height="228" src="https://www.startech.com.bd/image/cache/catalog/casing/xtreme/v9-atx/v9-001-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/xtreme-v9-atx-case">Xtreme V9 Full Window ATX Case</a></h4>
+<div class="short-description">
+<ul><li>Front Panel Black Metal; 0.55MM Spcc black body</li><li>Motherboard Support: ATX, Micro-ATX</li><li>Left Side Panel Full Acrylic</li><li>2 x 12cm 15 LED Red Cooling Fans</li></ul>
+</div>
+<div class="p-item-price">
+<span class="price-new">1,875৳</span> <span class="price-old">2,000৳</span>
+</div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('18848', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('18848');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="marks">
+<span class="mark">Save: 250৳</span>
+</div>
+<div class="p-item-img"><a href="https://www.startech.com.bd/my-passport-1tb"><img alt="Western Digital 1TB My Passport Portable HDD" height="228" src="https://www.startech.com.bd/image/cache/catalog/hdd/western/my-passport/my-passport-hdd-228x228.JPG" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/my-passport-1tb">Western Digital 1TB My Passport Portable HDD</a></h4>
+<div class="short-description">
+<ul><li>USB 3.0 port; USB 2.0 compatible</li><li>Weight : 170g</li><li>Enclosure: Small</li><li>Dimension: 4.33 x 3.21 x 0.64 in</li></ul>
+</div>
+<div class="p-item-price">
+<span class="price-new">4,200৳</span> <span class="price-old">4,450৳</span>
+</div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('5402', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('5402');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/cryorig-socket-str4-kit"><img alt="CRYORIG Socket sTR4 (AMD Threadripper) Upgrade Kit" height="228" src="https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cryorig/str4/cryorig-socket-str4-kit-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/cryorig-socket-str4-kit">CRYORIG Socket sTR4 (AMD Threadripper) Upgrade Kit</a></h4>
+<div class="short-description">
+<ul><li>Compatible R1, C1,H5 series, H7 Quad Lumi</li><li>sTR4 Upgrade Clip Kit</li><li>Support AMDRyzen and Threadripper</li></ul>
+</div>
+<div class="p-item-price">
+<span>600৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('9058', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('9058');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/pny-xlr8-gaming-8gb-ddr4-3200mhz-laptop-ram"><img alt="PNY XLR8 Gaming 8GB DDR4 3200MHz SODIMM Laptop RAM" height="228" src="https://www.startech.com.bd/image/cache/catalog/ram/pny/xlr8-gaming/xlr8-gaming-01-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/pny-xlr8-gaming-8gb-ddr4-3200mhz-laptop-ram">PNY XLR8 Gaming 8GB DDR4 3200MHz SODIMM Laptop RAM</a></h4>
+<div class="short-description">
+<ul><li>Capacity: 8GB</li><li>Frequency Speed: 3200MHz</li><li>CAS Latency of 20, 1.2 Volts</li><li>XMP 2.0 Support</li></ul>
+</div>
+<div class="p-item-price">
+<span>3,200৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('20887', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('20887');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/orico-skt2-usb-external-sound-card"><img alt="Orico SKT2 USB 2.0 External Sound Card" height="228" src="https://www.startech.com.bd/image/cache/catalog/sound-card/orico/skt2/skt2-01-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/orico-skt2-usb-external-sound-card">Orico SKT2 USB 2.0 External Sound Card</a></h4>
+<div class="short-description">
+<ul><li>Output: 3.5mm microphone x1, 3.5mm earphone</li><li>Input interface: USB2.0</li><li>10cm Integrated Cable</li><li>Driver-free, Plug and Play</li></ul>
+</div>
+<div class="p-item-price">
+<span>1,050৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('18521', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('18521');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-item">
+<div class="p-item-inner">
+<div class="p-item-img"><a href="https://www.startech.com.bd/intel-pentium-gold-g6400-processor"><img alt="Intel Pentium Gold G6400 10th gen Coffee Lake Processor" height="228" src="https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-228x228.jpg" width="228"/></a></div>
+<div class="p-item-details">
+<h4 class="p-item-name"> <a href="https://www.startech.com.bd/intel-pentium-gold-g6400-processor">Intel Pentium Gold G6400 10th gen Coffee Lake Processor</a></h4>
+<div class="short-description">
+<ul><li>Socket  Supported FCLGA1200</li><li>Speed 4.00 GHz</li><li>Cores- 2 &amp; Threads- 4</li><li>4M Intel Smart  Cache</li></ul>
+</div>
+<div class="p-item-price">
+<span>7,400৳</span> </div>
+<div class="actions">
+<span class="st-btn btn-add-cart" onclick="cart.add('15250', '1');" type="button"><i class="material-icons">shopping_cart</i> Buy Now</span>
+<span class="st-btn btn-compare" onclick="compare.add('15250');"><i class="material-icons">library_add</i>Add to Compare</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom-bar">
+<div class="row">
+<div class="col-md-6 col-sm-12">
+<ul class="pagination"><li><span class="disabled">PREV</span></li><li class="active"><span>1</span></li><li><a href="https://www.startech.com.bd/component?page=2">2</a></li><li><a href="https://www.startech.com.bd/component?page=3">3</a></li><li><a href="https://www.startech.com.bd/component?page=4">4</a></li><li><a href="https://www.startech.com.bd/component?page=5">5</a></li><li><a href="https://www.startech.com.bd/component?page=6">6</a></li><li><a href="https://www.startech.com.bd/component?page=7">7</a></li><li><a href="https://www.startech.com.bd/component?page=8">8</a></li><li><a href="https://www.startech.com.bd/component?page=9">9</a></li><li><a href="https://www.startech.com.bd/component?page=2">NEXT</a></li></ul> </div>
+<div class="col-md-6 rs-none text-right">
+<p>Showing 1 to 20 of 2430 (122 Pages)</p>
+</div>
+</div>
+</div>
+<div class="category-description p-15 ws-box">
+<p><br/></p><h1>Obtain the Latest PC Building Components at the best Price in Bangladesh<br/></h1><p><span style="font-size: 12px;">Building a PC on your own is tough. It requires lots of research and matching the correct components with their proper counterparts. Matching each component together is a hectic and time-consuming task to perform alone as there are various and multiple PC component sections for building a complete PC. After that, you will have to get the right component from the right Brand that is providing the best configuration for that particular component. While doing all this, the parts that you want may not be available when you go out for purchase. That is where we come in and help you out so that you do not have to worry about anything as we will do everything for you. We, at Star Tech, are here to help you out in all aspects of PC building, starting from suggesting the proper build for you to literally building the PC for you.</span><br/></p><h2>Upgrade Your Desktop PC or Laptop with the Latest RAM, SSD, Graphics Card, Motherboard, Processor and More<br/></h2><p>We have top-of-the-line PC Building Components available in our shops and each of these products is durable and original. You will be able to find the latest Casings, Power Supplies, Processors, Graphics Cards, Motherboards, RAMs, Hard Disks, and more to make your desired Desktop PC. You can choose your desired Brand’s product from our huge range of Brands. You can find top tier brands like, ASRock, Antec, Lian Li, Team, Gigabyte, MSI, Asus to name a few. We have dedicated PC Building Experts waiting to help you out in making the perfect build that is capable to complete all your desired tasks properly with the best performance. If you desire to tweak your PC Build even more, then you can install SSD, CPU Cooler, more Casing Coolers and also try out our new Custom Water-Cooling Loop to keep your PC cool and achieve an even higher performance number. <br/></p><h3>Best Build for Your Buck<br/></h3><p>Star Tech is providing you with the best pricing for all the PC components compared to anywhere else. We are also providing you with top-ranking PC Building Experts to help you through the process. You will be able to find all the PC components on our website and you can order from there. You will also be able to enjoy our Courier Service facility, as we deliver your product anywhere in Bangladesh. You can also enjoy our Home delivery service if you are located inside the Dhaka City area. If you desire to visit us at our authorized Shops then you will be able to find them in Dhaka, Chattagram, Khulna, Rangpur, and Gazipur to have an up-close experience.  <br/></p> </div>
+</div>
+</div></div>
+</section>
+<section class="content-bottom"><div class="container"></div></section>
+<footer>
+<div class="container">
+<div class="main-footer">
+<div class="footer-block contact-us">
+<h4>Support</h4>
+<a class="helpline-btn footer-big-btn" href="tel:09678002003">
+<div class="ic"><i class="material-icons">phone</i></div>
+<p>9AM - 8PM</p>
+<h5>09678002003</h5>
+</a>
+<a class="store-locator-btn footer-big-btn" href="https://www.startech.com.bd/information/contact">
+<div class="ic"><i class="material-icons">place</i></div>
+<p>Store Locator</p>
+<h5>Find Our Stores</h5>
+</a>
+</div>
+<div class="footer-block about-us">
+<h4>About Us</h4>
+<ul>
+<li><a href="https://www.startech.com.bd/emi-terms">EMI Terms</a></li>
+<li><a href="https://www.startech.com.bd/about_us">About Us</a></li>
+<li><a href="https://www.startech.com.bd/online-delivery">Online Delivery</a></li>
+<li><a href="https://www.startech.com.bd/privacy">Privacy Policy</a></li>
+<li><a href="https://www.startech.com.bd/warranty-policy">Terms and Conditions</a></li>
+<li><a href="https://www.startech.com.bd/refund-policy">Refund and Return Policy</a></li>
+<li><a href="https://www.startech.com.bd/star-point-policy">Star Point Policy</a></li>
+<li><a href="https://www.startech.com.bd/corsair-icue-pc">Corsair iCUE PC</a></li>
+<li><a href="https://www.startech.com.bd/blog">Blog</a></li>
+<li><a href="https://www.startech.com.bd/information/contact">Contact Us</a></li>
+<li><a href="https://www.startech.com.bd/product/manufacturer">Brands</a></li>
+</ul>
+</div>
+<div class="footer-block org-info">
+<h4>Stay Connected</h4>
+<p><b class="store-name">Star Tech &amp; Engineering Ltd</b><br>6th floor, 28 Kazi Nazrul Islam Ave,Navana Zohura Square, Dhaka 1000</br></p>
+<p><b>Email:</b><br><a href="mailto:info.webteam@startechbd.com">info.webteam@startechbd.com</a> </br></p>
+<p class="social-links">
+<a href="https://www.facebook.com/star.tech.ltd/" rel="noopener" target="_blank" title="Facebook">
+<span class="icon-sprite fb"></span>
+</a>
+<a href="https://www.youtube.com/channel/UC-SDF_4DM3unoP7JeAodz2g" rel="noopener" target="_blank" title="Youtube">
+<span class="icon-sprite youtube"></span>
+</a>
+<a href="https://www.instagram.com/startech.com.bd/" rel="noopener" target="_blank" title="Instagram">
+<span class="icon-sprite insta"></span>
+</a>
+</p>
+</div>
+</div>
+<div class="row sub-footer">
+<div class="col-md-6 copyright-info">
+<p>© 2020 Star Tech &amp; Engineering Ltd | All rights reserved</p>
+</div>
+<div class="col-md-6 powered-by">
+<p>Powered By: <a href="https://soft.startech.com.bd/" rel="noopener" target="_blank">Star Soft</a> </p>
+</div>
+</div>
+</div>
+</footer>
+<div class="overlay"></div>
+</body></html>

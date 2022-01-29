@@ -1,7 +1,6 @@
 import sys
 
 from bs4 import BeautifulSoup
-from numpy import unicode
 from requests import session
 
 baseurl = "https://www.startech.com.bd/"
@@ -14,12 +13,17 @@ class Product:
         self.image_url = image_url
         self.price = price
         self.specs = specs
+        self.brand = ""
+
+    def setBrand(self,brand):
+        self.brand = brand
         
     def __str__(self):
         text = "Title : "+self.title+"\n"
         text += "URL : "+self.url+"\n"
         text += "Image URL : "+self.image_url+"\n"
         text += "Price : "+self.price+"\n"
+        text += "Brand : "+self.brand+"\n"
         text += "Specs : \n"
         for spec in self.specs:
             text += spec+"\n"
@@ -41,10 +45,8 @@ def getSession():
         r = ses.post(baseurl)
         return ses
 
+def getSubCategories(ses,category):
 
-def getProducts(ses,category):
-
-    products = []
     sub_categories = []
 
     r = ses.get(baseurl + category)
@@ -56,7 +58,28 @@ def getProducts(ses,category):
             title = sub_c.contents[0]
             link = sub_c.get('href')
             sub_categories.append(SubCategory(title,link))
-    
+
+    return sub_categories
+
+def getBrandInfo(products):
+
+    for p in products:
+
+        r = ses.get(p.url)
+
+        if(r.status_code == 200):
+            soup = BeautifulSoup(r.text, 'html.parser')
+            all_ = soup.find('tr',attrs={"class" : "product-info-group","itemprop":"brand"})
+            brand = all_.find('td',attrs={"class" : "product-info-data product-brand"}).contents[0]
+            p.setBrand(brand)
+
+
+def getAllProducts(ses,category):
+
+    products = []
+
+    r = ses.get(baseurl + category)
+
     for page in range(1,2):
         r = ses.get(baseurl + category + "?page="+str(page))
 
@@ -78,19 +101,28 @@ def getProducts(ses,category):
                     specs.append(spec.text)
 
                 products.append(Product(title,url,image_url,price,specs))
-            
-    return products, sub_categories
+
+    getBrandInfo(products)
+
+    return products
 
 ses = getSession()
 
 categories = ['laptop-notebook','desktops', 'component', 'monitor', 'ups-ips', 'tablet-pc', 'office-equipment', 'camera', 'Security-Camera', 'networking', 'accessories', 'software', 'server-networking', 'television-shop', 'gadget', 'gaming']
 
-products, sub_categories  = getProducts(ses,categories[2])
-print(len(products))
-print(len(sub_categories))
-print("----------------------")
-print("Sub Categories :")
-for s_c in sub_categories:
-    print(s_c)
-print("Demo Product :")
-print(products[1])
+# sub_categories = getSubCategories(ses,categories[2])
+
+products  = getAllProducts(ses,categories[2])
+
+# print(len(products))
+# print(len(sub_categories))
+# print("----------------------")
+# print("Sub Categories :")
+# for s_c in sub_categories:
+#     print(s_c)
+# print("Demo Product :")
+# print(products[1])
+# print("---")
+# print(products[2])
+# print("---")
+print(products[10])
