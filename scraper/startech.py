@@ -26,6 +26,15 @@ class Product:
         text += "\n"
         return text
 
+class SubCategory:
+    def __init__(self,title,url):
+        self.title = title
+        self.url = url
+
+    def __str__(self):
+        text = "Title : "+self.title+"\n"
+        text += "URL : "+self.url+"\n"
+        return text
 
 def getSession():
     with session() as ses:
@@ -36,7 +45,18 @@ def getSession():
 def getProducts(ses,category):
 
     products = []
+    sub_categories = []
 
+    r = ses.get(baseurl + category)
+
+    if(r.status_code == 200):
+        soup = BeautifulSoup(r.text, 'html.parser')
+        all_ = soup.find('div',class_ ='child-list').find_all('a')
+        for sub_c in all_:
+            title = sub_c.contents[0]
+            link = sub_c.get('href')
+            sub_categories.append(SubCategory(title,link))
+    
     for page in range(1,2):
         r = ses.get(baseurl + category + "?page="+str(page))
 
@@ -59,13 +79,18 @@ def getProducts(ses,category):
 
                 products.append(Product(title,url,image_url,price,specs))
             
-    return products
+    return products, sub_categories
 
 ses = getSession()
 
 categories = ['laptop-notebook','desktops', 'component', 'monitor', 'ups-ips', 'tablet-pc', 'office-equipment', 'camera', 'Security-Camera', 'networking', 'accessories', 'software', 'server-networking', 'television-shop', 'gadget', 'gaming']
 
-products = getProducts(ses,categories[1])
+products, sub_categories  = getProducts(ses,categories[2])
 print(len(products))
+print(len(sub_categories))
 print("----------------------")
+print("Sub Categories :")
+for s_c in sub_categories:
+    print(s_c)
+print("Demo Product :")
 print(products[1])
