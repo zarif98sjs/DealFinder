@@ -1,6 +1,3 @@
-import profile
-from sre_parse import SPECIAL_CHARS
-from tkinter import PAGES
 from django.shortcuts import render
 
 # Create your views here.

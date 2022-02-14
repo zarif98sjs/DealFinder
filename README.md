@@ -7,3 +7,6 @@
   - **Linux** : `source dealfinder/bin/activate`
 - install requirements : `pip install -r requirements.txt`
 - run demo scrapper : `python scraper/startech.py`
+- run django project : 
+        - `cd df_site`
+        - `python3 manage.py runserver` [python3 or python - whichever version is installed]
