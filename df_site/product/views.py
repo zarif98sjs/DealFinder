@@ -6,7 +6,12 @@ def home(request):
     # homepage load
     #---------------load category names in categories as list--------------------
     categories = ['category1', 'category2', 'category3', 'category4', 'category5']
-    return render(request, 'product/index.html', {'categories' : categories} )
+    #also need to send the top products, trending deals etc 
+    trending_deals=['product1','product2','product3','product4','product5','product6']
+    editors_pick=['product1','product2','product3','product4','product5','product6']
+    featured_products=['product1','product2','product3','product4','product5','product6']
+    top_offers=['product1','product2','product3','product4','product5','product6']
+    return render(request, 'product/index.html', {'categories' : categories,'trending_deals':trending_deals,'editors_pick':editors_pick,'featured_products':featured_products,'top_offers':top_offers} )
 
 def select_category(request, category_name):
     print(category_name)
