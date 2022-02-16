@@ -8,8 +8,10 @@ from django.shortcuts import render
 def home(request):
     # homepage load
     #---------------load category names in categories as list--------------------
-    categories = ['category1', 'category2', 'category3', 'category4', 'category5']
+    categories = ['category1', 'category2', 'category3', 'category4', 'category5','category6','category7']
     #also need to send the top products, trending deals etc 
+
+    #---------------load trending_deals,editors_pick,featured_products names,top_offers in corresponding  lists to show at homepage--------------------
     trending_deals=['product1','product2','product3','product4','product5','product6']
     editors_pick=['product1','product2','product3','product4','product5','product6']
     featured_products=['product1','product2','product3','product4','product5','product6']
@@ -19,7 +21,24 @@ def home(request):
 def select_category(request, category_name):
     print(category_name)
     # get product_list according to category
-    product_list = []
+    title = "1stPlayer FK 300W Power Supply"
+    url = "https://www.startech.com.bd/toshiba-dt01aba100v-1tb-surveillance-hdd"
+    image_url = "https://www.startech.com.bd/image/cache/catalog/power-supply/1stplayer/fk-300w/fk-300w-01-228x228.jpg"
+    price = 2200
+    # specs = [Modular: Non-Modular, Input Frequency: 50-60Hz
+    #                 Input Current: Current 8/10A MAX
+    #                 Fan Size120MM Hydraulic Bearing
+    #                 Certifications: None 80+]
+    # The plan is to show the specs details when clicked in view details
+    specs = ""
+    brand = "Thermaltake"
+    product_list = [    
+                    [title, url, image_url, price, specs, brand],
+                    [title, url, image_url, price, specs, brand],
+                    [title, url, image_url, price, specs, brand],
+                    [title, url, image_url, price, specs, brand],
+                    [title, url, image_url, price, specs, brand],
+                ]
     return render(request, 'product/shop.html', { 'search_key' : category_name, 'product_list' : product_list  } )
 
 
