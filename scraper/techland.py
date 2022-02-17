@@ -110,8 +110,12 @@ categories = ['brand-laptops', 'desktop-computer', 'pc-components', 'computer-mo
 with open(website_name + ".json", "w", encoding="utf-8") as file:
 	data = {"products" : []}
 	for category in categories:
-		for category in categories:
-		products = [p.get_json() for p in getAllProducts(ses, category)]
-		data["products"].append(products)
+		try:
+			products = [p.get_json() for p in getAllProducts(ses, category)]
+			data["products"] += products
+			print(category, "scraped")
+			
+		except:
+			print("Connection problem during", category)
 	json.dump(data, file)
 	

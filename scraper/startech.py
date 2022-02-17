@@ -114,6 +114,7 @@ def getInfoFromInside(products):
 					pass
 
 				## get specs
+				'''
 				all_ = soup.find('section', attrs={"id": "specification"})
 				if all_ is not None:
 					all_key = all_.find_all('td', attrs={"class": "name"})
@@ -129,6 +130,7 @@ def getInfoFromInside(products):
 				for i in range(len(keys)):
 					specs[keys[i]] = values[i]
 				p.specs = specs
+				'''
 
 def getAllProducts(ses, category):
 	products = []
@@ -173,6 +175,7 @@ with open(website_name + ".json", "w", encoding="utf-8") as file:
 			products = [p.get_json() for p in getAllProducts(ses, category)]
 			data["products"] += products
 			print(category, "scraped")
+			
 		except:
 			print("Connection problem during", category)
 	json.dump(data, file)

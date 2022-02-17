@@ -3,11 +3,25 @@ import json
 import re
 from decimal import Decimal
 from product.models import Website, Product, ProductWebsite, Offer, Specification, ProductSpecification
+import uuid
+from django.utils.dateparse import parse_datetime
 
 # Create your views here.
-loaded = True
+loaded = False
 
 
+# get queryset from product_website ids
+def get_query_set(prod_web_ids):
+	return ProductWebsite.objects.filter(product_website_id__in=[uuid.UUID(id) for id in prod_web_ids])
+
+
+# save product_website ids to session
+def save_ids_to_session(request, product_list):
+	request.session["product_website_ids"] = [str(p.product_website_id) for p in product_list]
+	print("Saved to session ")
+	print(request.session["product_website_ids"])
+
+# insert to database from json files
 def load_database():
 	global loaded
 	if loaded:
@@ -37,7 +51,7 @@ def load_database():
 
 					product = Product(
 						product_name=p['Title'], product_category=p['Category'],
-						product_subcategory=p['Sub Category'], product_brand=p['Brand']
+						product_brand=p['Brand']
 					)
 					product.save()
 
@@ -47,9 +61,15 @@ def load_database():
 					)
 					product_website.save()
 
+					if p['Offer Deadline'] is None:
+						end_date = None
+					else:
+						end_date = parse_datetime(p['Offer Deadline'])
+
 					offer = Offer(
 						product_website=product_website, discount_amount=discount_amount,
-						discount_percentage=(discount_amount / regular_price) * 100
+						discount_percentage=(discount_amount / regular_price) * 100,
+						end_date=end_date
 					)
 					offer.save()
 
@@ -99,6 +119,7 @@ def select_category(request, category_name):
 	print("selected category", category_name)
 	# get product_list according to category
 	product_list = list(ProductWebsite.objects.filter(product__product_category__contains=category_name))
+	save_ids_to_session(request, product_list)
 	print(product_list)
 	return render(request, 'product/shop.html', {'search_key': category_name, 'product_list': product_list})
 
@@ -131,14 +152,13 @@ def search(request):
 		search_key = request.POST['search_key']
 		print(search_key)
 		brand_matches = ProductWebsite.objects.filter(product__product_brand__contains=search_key)
-		category_matches = Product.objects.filter(product__product_category__contains=search_key)
-		subcategory_matches = Product.objects.filter(product__product_subcategory__contains=search_key)
-		name_matches = Product.objects.filter(product__product_name__contains=search_key)
+		category_matches = ProductWebsite.objects.filter(product__product_category__contains=search_key)
+		subcategory_matches = ProductWebsite.objects.filter(product__product_subcategory__contains=search_key)
+		name_matches = ProductWebsite.objects.filter(product__product_name__contains=search_key)
 		product_query_set = brand_matches | category_matches | subcategory_matches | name_matches
 
-		request.session['product_query_set'] = product_query_set
-
 		product_list = list(product_query_set)
+		save_ids_to_session(request, product_list)
 
 	# check if search_key is a brand name or product name
 	# if brand : make product list accordingly
@@ -161,7 +181,8 @@ def search_name(request, search_key):
 
 
 		try:
-			product_query_set = request.session['product_query_set']
+			prod_web_ids = request.session["product_website_ids"]
+			product_query_set = get_query_set(prod_web_ids)
 
 			name_matches = product_query_set.filter(product__product_name__contains=search_name)
 			brand_matches = product_query_set.filter(product__product_brand__contains=search_name)
@@ -170,7 +191,7 @@ def search_name(request, search_key):
 			new_product_queryset = name_matches | brand_matches | category_matches
 			new_product_list = list(new_product_queryset)
 
-			request.session['product_query_set'] = new_product_queryset
+			save_ids_to_session(request, new_product_list)
 
 		except:
 			print("No initial search list found for search name")
@@ -185,14 +206,26 @@ def search_name(request, search_key):
 
 def sort(request, search_key, sort_type):
 	print(sort_type)
+	if request.session.has_key("product_website_ids"):
+		print("Has saved\n")
+
 	# sort types:
 	# 1. price
 	new_product_list = []
 	try:
-		product_query_set = request.session['product_query_set']
-		new_product_queryset = product_query_set.order_by("price")
-		request["product_query_set"] = new_product_queryset
+		prod_web_ids = request.session["product_website_ids"]
+		print(prod_web_ids)
+		product_query_set = get_query_set(prod_web_ids)
+
+		if sort_type == "Unit Price":
+			new_product_queryset = product_query_set.order_by("price")
+		# elif sort_type == "Latest":
+		# 	offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
+		# 	offer = offers.order_by("end")
+
 		new_product_list = list(new_product_queryset)
+		save_ids_to_session(request, new_product_list)
+
 	except:
 		print("No search list found for sorting")
 
@@ -209,16 +242,15 @@ def filter(request, search_key, filter_type):
 	# 1. price
 	new_product_list = []
 	try:
-		product_query_set = request.session['product_query_set']
+		prod_web_ids = request.session["product_website_ids"]
+		product_query_set = get_query_set(prod_web_ids)
 		new_product_queryset = product_query_set.order_by("price")
-		request["product_query_set"] = new_product_queryset
-		new_product_list = list(new_product_queryset)
-	except:
-		print("No search list found for sorting")
 
-	# sort accordingly
-	# access the product list from session ??
-	# Reference : https://stackoverflow.com/questions/9024160/django-pass-object-from-view-to-next-for-processing
+		new_product_list = list(new_product_queryset)
+		save_ids_to_session(request, new_product_list)
+
+	except:
+		print("No search list found for filtering")
 
 	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
 

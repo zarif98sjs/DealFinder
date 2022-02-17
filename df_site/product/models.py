@@ -53,8 +53,8 @@ class ProductWebsite(models.Model):
 	available_count = models.IntegerField(default=0)
 	image_path = models.CharField(null=True, max_length=200)
 
-	class Meta:
-		ordering = ['price']
+	# class Meta:
+	# 	ordering = ['price']
 
 	def __str__(self):
 		return self.product.product_name + ", " + self.website.website_name
