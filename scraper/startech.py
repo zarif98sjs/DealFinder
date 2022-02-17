@@ -7,22 +7,27 @@ baseurl = "https://www.startech.com.bd/"
 
 ## Product
 class Product:
-    def __init__(self,title,url,image_url,price,specs):
+    def __init__(self,title,url,image_url,offer_price,specs):
         self.title = title
         self.url = url
         self.image_url = image_url
-        self.price = price
+        self.regular_price = 0
         self.specs = specs
         self.brand = ""
+        self.offer_price = offer_price
 
     def setBrand(self,brand):
         self.brand = brand
+    
+    def setRegularPrice(self,regular_price):
+        self.regular_price = regular_price
         
     def __str__(self):
         text = "Title : "+self.title+"\n"
         text += "URL : "+self.url+"\n"
         text += "Image URL : "+self.image_url+"\n"
-        text += "Price : "+self.price+"\n"
+        text += "Regular Price : "+self.regular_price+"\n"
+        text += "Offer Price : "+self.offer_price+"\n"
         text += "Brand : "+self.brand+"\n"
         text += "Specs : \n"
         for spec in self.specs:
@@ -62,16 +67,21 @@ def getSubCategories(ses,category):
     return sub_categories
 
 def getBrandInfo(products):
-
     for p in products:
-
         r = ses.get(p.url)
-
         if(r.status_code == 200):
             soup = BeautifulSoup(r.text, 'html.parser')
             all_ = soup.find('tr',attrs={"class" : "product-info-group","itemprop":"brand"})
             brand = all_.find('td',attrs={"class" : "product-info-data product-brand"}).contents[0]
             p.setBrand(brand)
+
+def getRegularPriceInfo(products):
+    for p in products:
+        r = ses.get(p.url)
+        if(r.status_code == 200):
+            soup = BeautifulSoup(r.text, 'html.parser')
+            regularPrice = soup.find('td',attrs={"class" : "product-info-data product-regular-price"}).contents[0]
+            p.setRegularPrice(regularPrice)
 
 
 def getAllProducts(ses,category):
@@ -103,7 +113,7 @@ def getAllProducts(ses,category):
                 products.append(Product(title,url,image_url,price,specs))
 
     getBrandInfo(products)
-
+    getRegularPriceInfo(products)
     return products
 
 ses = getSession()
@@ -112,7 +122,7 @@ categories = ['laptop-notebook','desktops', 'component', 'monitor', 'ups-ips', '
 
 # sub_categories = getSubCategories(ses,categories[2])
 
-products  = getAllProducts(ses,categories[2])
+products  = getAllProducts(ses,categories[0])
 
 # print(len(products))
 # print(len(sub_categories))
