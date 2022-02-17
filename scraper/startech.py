@@ -13,7 +13,7 @@ class Product:
 		self.title = title
 		self.url = url
 		self.image_url = image_url
-		self.regular_price = 0
+		self.regular_price = offer_price
 		self.offer_price = offer_price
 		self.specs = specs
 		self.brand = ""
@@ -110,8 +110,11 @@ def getRegularPriceInfo(products):
 		r = ses.get(p.url)
 		if (r.status_code == 200):
 			soup = BeautifulSoup(r.text, 'html.parser')
-			regularPrice = soup.find('td', attrs={"class": "product-info-data product-regular-price"}).contents[0]
-			p.setRegularPrice(regularPrice)
+			try:
+				regularPrice = soup.find('td', attrs={"class": "product-info-data product-regular-price"}).contents[0]
+				p.setRegularPrice(regularPrice)
+			except:
+				pass
 
 
 def getAllProducts(ses, category):
@@ -153,15 +156,20 @@ categories = ['laptop-notebook', 'desktops', 'component', 'monitor',
               'networking', 'accessories', 'software', 'server-networking', 'television-shop',
               'gadget', 'gaming']
 
+
 # sub_categories = getSubCategories(ses, categories[2])
 
 with open(website_name + ".json", "w", encoding="utf-8") as file:
+	data = {"products" : []}
 	for category in categories:
-		products = [p.get_json() for p in getAllProducts(ses, category)]
-		data = {"products": products}
-		json.dump(data, file)
-		break
-
+		try:
+			products = [p.get_json() for p in getAllProducts(ses, category)]
+			data["products"] += products
+			print(category, "scraped")
+		except:
+			print("Connection problem during", category)
+	json.dump(data, file)
+	
 # print(len(products))
 # print(len(sub_categories))
 # print("----------------------")

@@ -5,7 +5,7 @@ from decimal import Decimal
 from product.models import Website, Product, ProductWebsite, Offer, Specification, ProductSpecification
 
 # Create your views here.
-loaded = False
+loaded = True
 
 
 def load_database():
@@ -23,11 +23,17 @@ def load_database():
 
 	for website in websites:
 		try:
-			with open("../scraper/" + website.website_name + ".json") as file:
+			with open("../" + website.website_name + ".json") as file:
 				products = json.load(file)['products']
 				for p in products:
-					regular_price = Decimal(re.sub("[^0-9.]", "", p['Regular Price']))
-					discount_amount = regular_price - Decimal(re.sub("[^0-9.]", "", p['Offer Price']))
+					try:
+						regular_price = Decimal(re.sub("[^0-9.]", "", p['Regular Price']))
+					except:
+						continue
+					try:
+						discount_amount = regular_price - Decimal(re.sub("[^0-9.]", "", p['Offer Price']))
+					except:
+						discount_amount = 0.0
 
 					product = Product(
 						product_name=p['Title'], product_category=p['Category'],
@@ -65,15 +71,24 @@ def load_database():
 
 
 def home(request):
+
 	load_database()
+
 	# homepage load
 	# ---------------load category names in categories as list--------------------
-	categories = ['category1', 'category2', 'category3', 'category4', 'category5']
+	qset = Product.objects.all().order_by('product_category').values('product_category').distinct()
+	categories = [d['product_category'] for d in qset]
+	print(categories)
+
 	# also need to send the top products,  trending deals etc
 	trending_deals = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
 	editors_pick = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
 	featured_products = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
-	top_offers = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
+
+
+	# top offers by discount amounts
+	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))
+
 	return render(request, 'product/index.html', {
 		'categories': categories, 'trending_deals': trending_deals, 'editors_pick': editors_pick,
 		'featured_products': featured_products, 'top_offers': top_offers
@@ -81,9 +96,10 @@ def home(request):
 
 
 def select_category(request, category_name):
-	print(category_name)
+	print("selected category", category_name)
 	# get product_list according to category
-	product_list = []
+	product_list = list(ProductWebsite.objects.filter(product__product_category__contains=category_name))
+	print(product_list)
 	return render(request, 'product/shop.html', {'search_key': category_name, 'product_list': product_list})
 
 
@@ -112,12 +128,23 @@ def search(request):
 	]
 	# -------------------------------------Dummy Product List-----------------------------------------------
 	if request.method == 'POST':
-		print(request.POST['search_key'])
+		search_key = request.POST['search_key']
+		print(search_key)
+		brand_matches = ProductWebsite.objects.filter(product__product_brand__contains=search_key)
+		category_matches = Product.objects.filter(product__product_category__contains=search_key)
+		subcategory_matches = Product.objects.filter(product__product_subcategory__contains=search_key)
+		name_matches = Product.objects.filter(product__product_name__contains=search_key)
+		product_query_set = brand_matches | category_matches | subcategory_matches | name_matches
+
+		request.session['product_query_set'] = product_query_set
+
+		product_list = list(product_query_set)
+
 	# check if search_key is a brand name or product name
 	# if brand : make product list accordingly
 	# if product : make product list accordingly
 
-	return render(request, 'product/shop.html',{
+	return render(request, 'product/shop.html', {
 		'search_key': request.POST['search_key'], 'product_list': product_list
 	})
 
@@ -125,23 +152,75 @@ def search(request):
 def search_name(request, search_key):
 	# search inside a product / brand page
 	# print(product_list)
+
+	new_product_list = []
+
 	if request.method == 'POST':
-		print(request.POST['search_name'])
+		search_name = request.POST['search_name']
+		print(search_name)
+
+
+		try:
+			product_query_set = request.session['product_query_set']
+
+			name_matches = product_query_set.filter(product__product_name__contains=search_name)
+			brand_matches = product_query_set.filter(product__product_brand__contains=search_name)
+			category_matches = product_query_set.filter(product__product_category__contains=search_name)
+
+			new_product_queryset = name_matches | brand_matches | category_matches
+			new_product_list = list(new_product_queryset)
+
+			request.session['product_query_set'] = new_product_queryset
+
+		except:
+			print("No initial search list found for search name")
+
+
 	# check if search_name is a brand name or product name
 	# if brand : make product list accordingly
 	# if product : make product list accordingly
 
-	product_list = []
-	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': product_list})
+	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
 
 
 def sort(request, search_key, sort_type):
 	print(sort_type)
+	# sort types:
+	# 1. price
+	new_product_list = []
+	try:
+		product_query_set = request.session['product_query_set']
+		new_product_queryset = product_query_set.order_by("price")
+		request["product_query_set"] = new_product_queryset
+		new_product_list = list(new_product_queryset)
+	except:
+		print("No search list found for sorting")
+
 	# sort accordingly
 	# access the product list from session ??
 	# Reference : https://stackoverflow.com/questions/9024160/django-pass-object-from-view-to-next-for-processing
-	product_list = []
-	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': product_list})
+
+	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
+
+
+def filter(request, search_key, filter_type):
+	print(filter_type)
+	# sort types:
+	# 1. price
+	new_product_list = []
+	try:
+		product_query_set = request.session['product_query_set']
+		new_product_queryset = product_query_set.order_by("price")
+		request["product_query_set"] = new_product_queryset
+		new_product_list = list(new_product_queryset)
+	except:
+		print("No search list found for sorting")
+
+	# sort accordingly
+	# access the product list from session ??
+	# Reference : https://stackoverflow.com/questions/9024160/django-pass-object-from-view-to-next-for-processing
+
+	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
 
 ###################################################################################################################
 # Naeem - To do list

@@ -21,7 +21,7 @@ class Product(models.Model):
 	# primary key
 	product_id = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique ID for product')
 
-	product_name = models.CharField(max_length=200)
+	product_name = models.CharField(max_length=1000)
 	product_category = models.CharField(max_length=200)
 	product_subcategory = models.CharField(max_length=200)
 	product_brand = models.CharField(max_length=200)
@@ -76,7 +76,7 @@ class Offer(models.Model):
 	buy_one_get_one_free = models.BooleanField(default=False)
 
 	class Meta:
-		ordering = ['discount_percentage']
+		ordering = ['-discount_percentage']
 
 	def __str__(self):
 		return self.offer_id
