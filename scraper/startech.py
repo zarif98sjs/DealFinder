@@ -9,16 +9,16 @@ baseurl = "https://www.startech.com.bd/"
 ## Product
 
 class Product:
-	def __init__(self, title, url, image_url, offer_price, specs, category):
+	def __init__(self, title, url, image_url, offer_price, category):
 		self.title = title
 		self.url = url
 		self.image_url = image_url
 		self.regular_price = offer_price
 		self.offer_price = offer_price
-		self.specs = specs
+		self.specs = {}
 		self.brand = ""
 		self.category = category
-		self.subcategory = ""
+		self.offer_deadline = ""
 
 	def setBrand(self, brand):
 		self.brand = brand
@@ -34,10 +34,8 @@ class Product:
 		text += "Offer Price :" + self.offer_price + "\n"
 		text += "Brand : " + self.brand + "\n"
 		text += "Category: " + self.category + "\n"
-		text += "Sub Category: " + self.subcategory + "\n"
-		text += "Specs : \n"
-		for spec in self.specs:
-			text += spec + "\n"
+		text += "Specs : \n" + str(self.specs) + "\n"
+		text += "Offer Deadline : \n" + self.offer_deadline + "\n"
 		text += "\n"
 		return text
 
@@ -50,9 +48,8 @@ class Product:
 			"Offer Price": self.offer_price,
 			"Brand": self.brand,
 			"Category": self.category,
-			"Sub Category": self.subcategory,
-			"Specs": self.specs
-
+			"Specs": self.specs,
+			"Offer Deadline": self.offer_deadline
 		}
 		return obj
 
@@ -90,32 +87,48 @@ def getSubCategories(ses, category):
 	return sub_categories
 
 
-def getBrandInfo(products):
-	for p in products:
+def getInfoFromInside(products):
+		for p in products:
+			r = ses.get(p.url)
+			if (r.status_code == 200):
+				soup = BeautifulSoup(r.text, 'html.parser')
 
-		r = ses.get(p.url)
-		if r.status_code == 200:
-			soup = BeautifulSoup(r.text, 'html.parser')
-			all_ = soup.find('tr', attrs={"class": "product-info-group", "itemprop": "brand"})
-			try:
-				brand = all_.find('td', attrs={"class": "product-info-data product-brand"}).contents[0]
-				p.setBrand(brand)
-			except:
+				## get offer deadline
+				deadline = soup.find('div', class_='countdown')
+				if deadline is not None:
+					p.offer_deadline = deadline['data-date']
 
-				pass
+				## get regular price
+				try:
+					regularPrice = soup.find('td', attrs={"class": "product-info-data product-regular-price"}).contents[0]
+					p.setRegularPrice(regularPrice)
+				except:
+					pass
+				
+				## get brand info
+				all_ = soup.find('tr', attrs={"class": "product-info-group", "itemprop": "brand"})
+				try:
+					brand = all_.find('td', attrs={"class": "product-info-data product-brand"}).contents[0]
+					p.setBrand(brand)
+				except:
+					pass
 
+				## get specs
+				all_ = soup.find('section', attrs={"id": "specification"})
+				if all_ is not None:
+					all_key = all_.find_all('td', attrs={"class": "name"})
+					keys = []
+					for k in all_key:
+						keys.append(k.contents[0])
+					all_val = all_.find_all('td', attrs={"class": "value"})
+					values = []
+					for v in all_val:
+						values.append(v.contents[0])
 
-def getRegularPriceInfo(products):
-	for p in products:
-		r = ses.get(p.url)
-		if (r.status_code == 200):
-			soup = BeautifulSoup(r.text, 'html.parser')
-			try:
-				regularPrice = soup.find('td', attrs={"class": "product-info-data product-regular-price"}).contents[0]
-				p.setRegularPrice(regularPrice)
-			except:
-				pass
-
+				specs = {}
+				for i in range(len(keys)):
+					specs[keys[i]] = values[i]
+				p.specs = specs
 
 def getAllProducts(ses, category):
 	products = []
@@ -136,16 +149,10 @@ def getAllProducts(ses, category):
 				url = temp.get('href')
 				image_url = item.find('div', class_='p-item-img').find('a').find('img')['src']
 				price = item.find('div', class_='p-item-price').find('span').contents[0]
-				temp_list = item.find('div', class_='short-description').find('ul').find_all('li')
 
-				specs = []
-				for spec in temp_list:
-					specs.append(spec.text)
+				products.append(Product(title, url, image_url, price, category))
 
-				products.append(Product(title, url, image_url, price, specs, category))
-
-	getBrandInfo(products)
-	getRegularPriceInfo(products)
+	getInfoFromInside(products)
 	return products
 
 
