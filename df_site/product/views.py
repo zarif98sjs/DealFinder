@@ -123,16 +123,16 @@ def home(request):
 
 	#-------------------------demo list of all---------------------------------------------------
 	product_list = list(ProductWebsite.objects.filter(product__product_category__contains="laptop"))
-	trending_deals = product_list[0:6]
-	editors_pick = product_list[0:6]
-	featured_products = product_list[0:6]
+	trending_deals = product_list[0:8]
+	editors_pick = product_list[0:8]
+	featured_products = product_list[0:8]
 	print(featured_products)
 	#---------------------------remove after updating trending_deals and others------------------
 
 	
 
 	# top offers by discount amounts
-	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))
+	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))[0:8]
 
 	return render(request, 'product/index.html', {
 		'categories': categories, 'trending_deals': trending_deals, 'editors_pick': editors_pick,
