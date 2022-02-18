@@ -62,12 +62,22 @@
         <div class="row align-items-center py-3 px-xl-5">
            
             {% for category in categories %}
-            {% if forloop.counter <= 6 %}
+                {% if forloop.counter <= 5 %}
             <div class="col-lg-2 col-4 text-left">
                             <a href="{% url 'product:select' category %}" class="nav-item nav-link">{{category}}</a>
              </div>
-             {%endif%}
+                {% endif %}
             {% endfor %}
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                    {% for category in categories %}
+                        {% if forloop.counter > 5 %}
+                        <a href="{% url 'product:select' category %}" class="dropdown-item">{{category}}</a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
   <!-- need to show a more button for the other entries and that will reveal a list to scroll -->
             

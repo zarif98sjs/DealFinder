@@ -129,11 +129,6 @@ def home(request):
 	print(featured_products)
 	#---------------------------remove after updating trending_deals and others------------------
 
-	# # also need to send the top products,  trending deals etc
-	# trending_deals = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
-	# editors_pick = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
-	# featured_products = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
-
 	
 
 	# top offers by discount amounts
