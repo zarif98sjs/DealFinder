@@ -24,35 +24,39 @@
                 <!-- Price Start -->
                 <div class="border-bottom mb-4 pb-4">
                     <h5 class="font-weight-semi-bold mb-4">Filter by price</h5>
-                    <form>
+                    <form action="{% url 'product:filter' search_key 'by_price' %}" method = "POST">
+                      
+                        {% csrf_token %}
+                        <!-- <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="price_all">
+                            <label class="custom-control-label" for="price_all">All Price</label>
+                        </div> -->
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="price-all">
-                            <label class="custom-control-label" for="price-all">All Price</label>
+                            <input type="checkbox" class="custom-control-input" id="price_1">
+                            <label class="custom-control-label" for="price_1">0৳ - 1000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1">
-                            <label class="custom-control-label" for="price-1">0৳ - 1000৳</label>
+                            <input type="checkbox" class="custom-control-input" id="price_2">
+                            <label class="custom-control-label" for="price_2">1000৳ - 5000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1">
-                            <label class="custom-control-label" for="price-1">1000৳ - 5000৳</label>
+                            <input type="checkbox" class="custom-control-input" id="price_3">
+                            <label class="custom-control-label" for="price_3">5000৳ - 25000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-2">
-                            <label class="custom-control-label" for="price-2">5000৳ - 25000৳</label>
+                            <input type="checkbox" class="custom-control-input" id="price_4">
+                            <label class="custom-control-label" for="price_4">25000৳ - 50000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-3">
-                            <label class="custom-control-label" for="price-3">25000৳ - 50000৳</label>
+                            <input type="checkbox" class="custom-control-input" id="price_5">
+                            <label class="custom-control-label" for="price_5">50000৳ - 100000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-4">
-                            <label class="custom-control-label" for="price-4">50000৳ - 100000৳</label>
+                            <input type="checkbox" class="custom-control-input" id="price_6">
+                            <label class="custom-control-label" for="price_6">Above 100000৳</label>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-5">
-                            <label class="custom-control-label" for="price-5">Above 100000৳</label>
-                        </div>
+
+                        <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
                         
                     </form>
                 </div>
@@ -61,7 +65,7 @@
                 <!-- Other filters -->
                 <div class="border-bottom mb-4 pb-4">
                     <h5 class="font-weight-semi-bold mb-4">Other filters</h5>
-                    <form>
+                    <form >
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" checked id="color-all">
                             <label class="custom-control-label" for="price-all">Latest Offer</label>
@@ -116,20 +120,74 @@
                         <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}">{{product_website.product.product_name}}</h5>
+                              
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                               </button>
                             </div>
                             <div class="modal-body">
-                                <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class=" w-300" src={{product_website.image_path}} alt="">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                    <div class="col">
+                                        <img style="width:350px;" src={{product_website.image_path}} alt="">
+                                    </div>
+                                    <div class="col">
+                                        <div class="container">
+                                            <div class="row">
+                                                <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{product_website.product.product_name}}</b></h5>
+                                                <br><br>
+                                            </div>
+                                            <div class="row">
+                                               <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                               <div class="col"><h5>{{product_website.product.product_brand}} </h5></div> 
+                                            </div>
+
+                    
+                                             <div class="row">
+                                                <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h5>{{product_website.website.website_name}} </h5></div> 
+                                             </div>
+
+                                             
+                                             
+                                             <div class="row">
+                                                <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h5>{{product_website.shipping_time}}  </h5></div> 
+                                             </div>
+
+                                             <div class="row">
+                                                <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                             </div>
+
+                        
+
+                                             <div class="row">
+                                                <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
+                                                <div class="col"><h5>{{product_website.price}}৳  </h5></div> 
+                                             </div>
+
+                                             <div class="row">
+                                                <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                             </div>
+                                             
+                                          
+                                            
+
+                                        </div>
+                                    
+                                            
+                                            
+                                            
+                                            
+                                      
+                                    </div>
                                 </div>
-                                <h6 class="text-truncate mb-3">Brand :{{product_website.product.product_brand}} </h6>
-                                <div class="d-flex justify-content-center">
-                                    <h6>{{product_website.price}}৳</h6>
+                        
                                 </div>
-                            </div>
+                              </div>
+                            
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                               <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
@@ -164,25 +222,7 @@
                     </div>
                     {% endfor %}
 
-                    
-                    
-                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
-                        <div class="card product-item border-0 mb-4">
-                            <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
-                            </div>
-                            <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                                <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                                <div class="d-flex justify-content-center">
-                                    <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                                </div>
-                            </div>
-                            <div class="card-footer d-flex justify-content-between bg-light border">
-                                <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                                <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                            </div>
-                        </div>
-                    </div> -->
+                
                     <div class="col-12 pb-1">
                         <nav aria-label="Page navigation">
                           <ul class="pagination justify-content-center mb-3">

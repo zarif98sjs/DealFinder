@@ -258,34 +258,43 @@ def sort(request, search_key, sort_type):
 		})
 
 
-def filter(request, search_key, filter_type):
+# def filter(request, search_key, filter_type):
+#yet to be done
+def filter(request,search_key, filter_type):
 	# ---------------------------load category names in categories as list-------------------------
 	categories = get_categories(request)
+	if request.method == 'POST' and filter_type=='by_price':
+		print(filter_type)
+		# price_1=request.POST.get('price_1',False)
+		# price_2=request.POST['price_2']
+		# price_3=request.POST['price_3']
+		# price_4=request.POST['price_4']
+		# price_5=request.POST['price_5']
+		# price_6=request.POST['price_6']
+		# print(price_1)
 	#-----------------------------------------------------------------------------------------------
-	print(filter_type)
+	
+	
 	# sort types:
 	# 1. price
-	new_product_list = []
-	try:
-		prod_web_ids = request.session["product_website_ids"]
-		product_query_set = get_query_set(prod_web_ids)
-		new_product_queryset = product_query_set.order_by("price")
+		new_product_list = []
+	# try:
+	# 	prod_web_ids = request.session["product_website_ids"]
+	# 	product_query_set = get_query_set(prod_web_ids)
+	# 	new_product_queryset = product_query_set.order_by("price")
 
-		new_product_list = list(new_product_queryset)
-		save_ids_to_session(request, new_product_list)
+	# 	new_product_list = list(new_product_queryset)
+	# 	save_ids_to_session(request, new_product_list)
 
-	except:
-		print("No search list found for filtering")
+	# except:
+	# 	print("No search list found for filtering")
 
-	return render(request, 'product/shop.html', {
-		'search_key': search_key, 'product_list': new_product_list, 'categories' : categories
+	return render(request, 'product/shop.html', {'search_key':search_key, 'product_list': new_product_list, 'categories' : categories
 		})
 
 ###################################################################################################################
 # Naeem - To do list
-# Product details pop up - with specs
+
 # Product details show from model object - Stack overflow reference in search function
 # Filter implementation - same as sort
-# Remove Unnecessary things from homepage and other pages
-# Follow Mock UI design
 ###################################################################################################################
