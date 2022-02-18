@@ -2,12 +2,15 @@ from django.shortcuts import render
 import json
 import re
 from decimal import Decimal
+
+from numpy import save
 from product.models import Website, Product, ProductWebsite, Offer, Specification, ProductSpecification
 import uuid
 from django.utils.dateparse import parse_datetime
 
 # Create your views here.
 loaded = False
+category_saved = False
 
 
 # get queryset from product_website ids
@@ -21,6 +24,23 @@ def save_ids_to_session(request, product_list):
 	print("Saved to session ")
 	print(request.session["product_website_ids"])
 
+# save categories to session 
+def save_categories_to_session(request, category_list):
+	request.session["categories"] = category_list
+	print("Saved to session")
+	print(request.session["categories"])
+	global category_saved
+	category_saved = True
+
+# get category list
+def get_categories(request):
+	if category_saved == False:
+		qset = Product.objects.all().order_by('product_category').values('product_category').distinct()
+		categories = [d['product_category'] for d in qset]
+		save_categories_to_session(request, categories)
+		return categories
+	else:
+		return request.session["categories"]
 
 # insert to database from json files
 def load_database():
@@ -101,11 +121,20 @@ def home(request):
 	categories = [d['product_category'] for d in qset]
 	print(categories)
 
-	# also need to send the top products,  trending deals etc
-	trending_deals = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
-	editors_pick = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
-	featured_products = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
+	#-------------------------demo list of all---------------------------------------------------
+	product_list = list(ProductWebsite.objects.filter(product__product_category__contains="laptop"))
+	trending_deals = product_list[0:6]
+	editors_pick = product_list[0:6]
+	featured_products = product_list[0:6]
+	print(featured_products)
+	#---------------------------remove after updating trending_deals and others------------------
 
+	# # also need to send the top products,  trending deals etc
+	# trending_deals = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
+	# editors_pick = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
+	# featured_products = ['product1', 'product2', 'product3', 'product4', 'product5', 'product6']
+
+	
 
 	# top offers by discount amounts
 	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))
@@ -117,38 +146,26 @@ def home(request):
 
 
 def select_category(request, category_name):
+	# ---------------------------load category names in categories as list-------------------------
+	categories = get_categories(request)
+	#-----------------------------------------------------------------------------------------------
 	print("selected category", category_name)
 	# get product_list according to category
 	product_list = list(ProductWebsite.objects.filter(product__product_category__contains=category_name))
 	save_ids_to_session(request, product_list)
 	print(product_list)
-	return render(request, 'product/shop.html', {'search_key': category_name, 'product_list': product_list})
+	return render(request, 'product/shop.html', {
+		'search_key': category_name, 'product_list': product_list, 'categories' : categories, 
+		})
 
 
 def search(request):
 	# after entering something in the search bar of home page
 	# pass Model product object list
 	# Reference : https://stackoverflow.com/questions/16829764/how-to-pass-an-object-to-html-in-django-view-py
-	# -------------------------------------Dummy Product List-----------------------------------------------
-	title = "1stPlayer FK 300W Power Supply"
-	url = "https://www.startech.com.bd/toshiba-dt01aba100v-1tb-surveillance-hdd"
-	image_url = "https://www.startech.com.bd/image/cache/catalog/power-supply/1stplayer/fk-300w/fk-300w-01-228x228.jpg"
-	price = 2200
-	# specs = [Modular: Non-Modular,  Input Frequency: 50-60Hz
-	#                 Input Current: Current 8/10A MAX
-	#                 Fan Size120MM Hydraulic Bearing
-	#                 Certifications: None 80+]
-	# The plan is to show the specs details when clicked in view details
-	specs = ""
-	brand = "Thermaltake"
-	product_list = [
-		[title, url, image_url, price, specs, brand],
-		[title, url, image_url, price, specs, brand],
-		[title, url, image_url, price, specs, brand],
-		[title, url, image_url, price, specs, brand],
-		[title, url, image_url, price, specs, brand],
-	]
-	# -------------------------------------Dummy Product List-----------------------------------------------
+	# ---------------------------load category names in categories as list-------------------------
+	categories = get_categories(request)
+	#-----------------------------------------------------------------------------------------------
 	if request.method == 'POST':
 		search_key = request.POST['search_key']
 		print(search_key)
@@ -161,18 +178,19 @@ def search(request):
 		product_list = list(product_query_set)
 		save_ids_to_session(request, product_list)
 
-	# check if search_key is a brand name or product name
-	# if brand : make product list accordingly
-	# if product : make product list accordingly
+
 
 	return render(request, 'product/shop.html', {
-		'search_key': request.POST['search_key'], 'product_list': product_list
+		'search_key': request.POST['search_key'], 'product_list': product_list, 'categories' : categories
 	})
 
 
 def search_name(request, search_key):
 	# search inside a product / brand page
 	# print(product_list)
+	# ---------------------------load category names in categories as list-------------------------
+	categories = get_categories(request)
+	#-----------------------------------------------------------------------------------------------
 
 	new_product_list = []
 
@@ -202,16 +220,22 @@ def search_name(request, search_key):
 	# if brand : make product list accordingly
 	# if product : make product list accordingly
 
-	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
+	return render(request, 'product/shop.html', {
+		'search_key': search_key, 'product_list': new_product_list, 'categories' : categories
+		})
 
 
 def sort(request, search_key, sort_type):
+	# ---------------------------load category names in categories as list-------------------------
+	categories = get_categories(request)
+	#-----------------------------------------------------------------------------------------------
 	print(sort_type)
 	if request.session.has_key("product_website_ids"):
 		print("Has saved\n")
 
 	# sort types:
-	# 1. price
+	# 1. Unit Price
+	# 2. Latest
 	new_product_list = []
 	try:
 		prod_web_ids = request.session["product_website_ids"]
@@ -234,10 +258,15 @@ def sort(request, search_key, sort_type):
 	# access the product list from session ??
 	# Reference : https://stackoverflow.com/questions/9024160/django-pass-object-from-view-to-next-for-processing
 
-	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
+	return render(request, 'product/shop.html', {
+		'search_key': search_key, 'product_list': new_product_list, 'categories' : categories
+		})
 
 
 def filter(request, search_key, filter_type):
+	# ---------------------------load category names in categories as list-------------------------
+	categories = get_categories(request)
+	#-----------------------------------------------------------------------------------------------
 	print(filter_type)
 	# sort types:
 	# 1. price
@@ -253,7 +282,9 @@ def filter(request, search_key, filter_type):
 	except:
 		print("No search list found for filtering")
 
-	return render(request, 'product/shop.html', {'search_key': search_key, 'product_list': new_product_list})
+	return render(request, 'product/shop.html', {
+		'search_key': search_key, 'product_list': new_product_list, 'categories' : categories
+		})
 
 ###################################################################################################################
 # Naeem - To do list
