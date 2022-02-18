@@ -21,6 +21,7 @@ def save_ids_to_session(request, product_list):
 	print("Saved to session ")
 	print(request.session["product_website_ids"])
 
+
 # insert to database from json files
 def load_database():
 	global loaded
@@ -57,7 +58,7 @@ def load_database():
 
 					product_website = ProductWebsite(
 						product=product, website=website, image_path=p['Image URL'],
-						price=regular_price
+						price=regular_price, url=p['URL']
 					)
 					product_website.save()
 

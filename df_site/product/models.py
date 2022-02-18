@@ -8,7 +8,6 @@ class Website(models.Model):
 	"""Model representing a website"""
 	# primary key
 	website_id = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique ID for website')
-
 	website_name = models.CharField(max_length=200)
 	website_url = models.URLField(max_length=200)
 
@@ -35,6 +34,7 @@ class Product(models.Model):
 		return self.product_name
 
 
+
 class ProductWebsite(models.Model):
 	"""Model representing product-website relation"""
 
@@ -52,6 +52,7 @@ class ProductWebsite(models.Model):
 	price = models.DecimalField(max_digits=10, decimal_places=2)
 	available_count = models.IntegerField(default=0)
 	image_path = models.CharField(null=True, max_length=200)
+	url = models.CharField(null=True, max_length=200)
 
 	# class Meta:
 	# 	ordering = ['price']
