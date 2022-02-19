@@ -61,6 +61,164 @@
     </div> 
     <!-- Navbar End -->
 
+
+    <!-- Top Offers Start -->
+    <div class="container-fluid pt-5">
+      <div class="text-center mb-4">
+          <h2 class="section-title px-5"><span class="px-2">Top Offers</span></h2>
+          
+         
+      </div>
+      
+
+      <div class="row px-xl-5 pb-3">
+          {% for offer in top_offers %}
+
+          
+            <!-- Modal start-->
+            <div class="modal fade " id="exampleModal2{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="container-fluid">
+                          <div class="row">
+                          <div class="col">
+                              <img style="width:350px;" src="{{offer.product_website.image_path}}"alt="">
+                          </div>
+                          <div class="col">
+                              <div class="container">
+                                  <div class="row">
+                                      <h5 class="modal-title" id="exampleModalLabel2{{forloop.counter}}"><b>{{offer.product_website.product.product_name}}</b></h5>
+                                      <br><br>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.product.product_brand}} </h5></div> 
+                                  </div>
+
+          
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.website.website_name}} </h5></div> 
+                                    </div>
+
+                                    
+                                    
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.shipping_time}}  </h5></div> 
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.delivery_charge}}৳ </h5></div> 
+                                    </div>
+
+              
+
+                                    <div class="row">
+                                      <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
+                                      <div class="col"><h5>{{offer.product_website.price}}৳  </h5></div> 
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.available_count}} </h5></div> 
+                                    </div>
+
+                                    <div class="row ">
+                                    &nbsp;
+                                   </div>
+                                    <div class="row justify-content-center">
+     
+                                      <h4><b>Offer Details</b></h4>
+                                      
+                                   </div>
+
+                                   <div class="row ">
+                                    <h5>{{offer.discount_percentage}}%&nbsp;Off</h5>
+                                 </div>
+
+                                 <div class="row">
+                
+                                  <h5>{{offer.discount_amount}}৳ &nbsp;Off</h5>
+                               </div>
+
+                               {% if offer.is_free_shipping %}
+                               <div class="row">
+                            <h5>Free Shipping Available</h5>
+      
+                             </div>
+                             {% endif %}
+
+                             {% if offer.buy_one_get_one_free %}
+                             <div class="row"><h5>Buy 1 Get 1 Free</h5></div>
+                                  
+                              {% endif %}
+
+                              
+
+
+                              </div>
+                          </div>
+                          </div>
+              
+                      </div>
+                    </div>
+                  
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="{{offer.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal end -->
+
+          <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+              <div class="card product-item border-0 mb-4">
+                
+                  <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                      <img class="img-fluid w-100" src="{{offer.product_website.image_path}}" alt="">
+                  </div>
+                  <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">{{offer.product_website.product.product_name}}</h6>
+                      <div class="d-flex justify-content-center">
+                        {% if offer.is_free_shipping %}
+                          <h6>Free Shipping</h6>
+                        {% endif %}
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        {% if offer.buy_one_get_one_free %}
+                          <h6>Buy 1 Get 1</h6>
+                        {% endif %}
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h6>{{offer.discount_percentage}}% off</h6>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h6>{{offer.saved_amount}}৳ </h6><h6 class="text-muted ml-2"><del>{{offer.product_website.price}}৳</del></h6>
+                      </div>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-light border">
+                    <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal2{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                    <a href="{{offer.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+      <!-- Top Offers ends here -->
+      </div>
+  </div>
+   <!-- Top Offers ends here -->
+
     <!-- trand Deals Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
@@ -297,162 +455,7 @@
     </div>
     <!--Editors Pick ends here -->
 
-    <!-- Top Offers Start -->
-    <div class="container-fluid pt-5">
-      <div class="text-center mb-4">
-          <h2 class="section-title px-5"><span class="px-2">Top Offers</span></h2>
-          
-         
-      </div>
-      
-
-      <div class="row px-xl-5 pb-3">
-          {% for offer in top_offers %}
-
-          
-            <!-- Modal start-->
-            <div class="modal fade " id="exampleModal2{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                      <div class="container-fluid">
-                          <div class="row">
-                          <div class="col">
-                              <img style="width:350px;" src="{{offer.product_website.image_path}}"alt="">
-                          </div>
-                          <div class="col">
-                              <div class="container">
-                                  <div class="row">
-                                      <h5 class="modal-title" id="exampleModalLabel2{{forloop.counter}}"><b>{{offer.product_website.product.product_name}}</b></h5>
-                                      <br><br>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{offer.product_website.product.product_brand}} </h5></div> 
-                                  </div>
-
-          
-                                    <div class="row">
-                                      <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{offer.product_website.website.website_name}} </h5></div> 
-                                    </div>
-
-                                    
-                                    
-                                    <div class="row">
-                                      <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{offer.product_website.shipping_time}}  </h5></div> 
-                                    </div>
-
-                                    <div class="row">
-                                      <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{offer.product_website.delivery_charge}}৳ </h5></div> 
-                                    </div>
-
-              
-
-                                    <div class="row">
-                                      <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                      <div class="col"><h5>{{offer.product_website.price}}৳  </h5></div> 
-                                    </div>
-
-                                    <div class="row">
-                                      <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{offer.product_website.available_count}} </h5></div> 
-                                    </div>
-
-                                    <div class="row ">
-                                    &nbsp;
-                                   </div>
-                                    <div class="row justify-content-center">
-     
-                                      <h4><b>Offer Details</b></h4>
-                                      
-                                   </div>
-
-                                   <div class="row ">
-                                    <h5>{{offer.discount_percentage}}%&nbsp;Off</h5>
-                                 </div>
-
-                                 <div class="row">
-                
-                                  <h5>{{offer.discount_amount}}৳ &nbsp;Off</h5>
-                               </div>
-
-                               {% if offer.is_free_shipping %}
-                               <div class="row">
-                            <h5>Free Shipping Available</h5>
-      
-                             </div>
-                             {% endif %}
-
-                             {% if offer.buy_one_get_one_free %}
-                             <div class="row"><h5>Buy 1 Get 1 Free</h5></div>
-                                  
-                              {% endif %}
-
-                              
-
-
-                              </div>
-                          </div>
-                          </div>
-              
-                      </div>
-                    </div>
-                  
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <a href="{{offer.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Modal end -->
-
-          <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-              <div class="card product-item border-0 mb-4">
-                
-                  <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                      <img class="img-fluid w-100" src="{{offer.product_website.image_path}}" alt="">
-                  </div>
-                  <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                      <h6 class="text-truncate mb-3">{{offer.product_website.product.product_name}}</h6>
-                      <div class="d-flex justify-content-center">
-                        {% if offer.is_free_shipping %}
-                          <h6>Free Shipping</h6>
-                        {% endif %}
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        {% if offer.buy_one_get_one_free %}
-                          <h6>Buy 1 Get 1</h6>
-                        {% endif %}
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        <h6>{{offer.discount_percentage}}% off</h6>
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        <h6>{{offer.product_website.price}} - {{offer.discount_amount}} </h6><h6 class="text-muted ml-2"><del>{{offer.product_website.price}}৳</del></h6>
-                      </div>
-                  </div>
-                  <div class="card-footer d-flex justify-content-between bg-light border">
-                    <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal2{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                    <a href="{{offer.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
-                  </div>
-              </div>
-          </div>
-          {% endfor %}
-      <!-- Top Offers ends here -->
-      </div>
-  </div>
-   <!-- Top Offers ends here -->
+    
 
 
 
