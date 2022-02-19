@@ -49,17 +49,43 @@ def get_categories(request):
 		return request.session["categories"]
 
 
+# get specification list from product list
+def get_specifications(product_list):
+	specification_list = []
+
+	for p in product_list:
+		specs = ProductSpecification.objects.filter(product_website=p)
+		specification_list.append(list(specs))
+
+	return specification_list
+
+
+# get offer list from product list
+def get_offers(product_list):
+	offers = []
+	for p in product_list:
+		offer = Offer.objects.filter(product_website=p)
+		print(len(offer))
+		if len(offer) == 0:
+			offers.append(None)
+		else:
+			print("aage", offer[0].product_website)
+			offers.append(offer[0])
+			print("pore", offer[0].product_website)
+	return offers
+
+
 # insert to database from json files
 def load_database():
 	global loaded
 	if loaded:
 		return
 
-	Product.objects.all().delete()
-	ProductWebsite.objects.all().delete()
-	Specification.objects.all().delete()
-	ProductSpecification.objects.all().delete()
-	Offer.objects.all().delete()
+	# Product.objects.all().delete()
+	# ProductWebsite.objects.all().delete()
+	# Specification.objects.all().delete()
+	# ProductSpecification.objects.all().delete()
+	# Offer.objects.all().delete()
 
 	websites = Website.objects.all()
 	spec_count = 0
@@ -71,6 +97,9 @@ def load_database():
 
 				for p in products:
 					print(i)
+					if i < 355:
+						i += 1
+						continue
 					try:
 						regular_price = Decimal(re.sub("[^0-9.]", "", p['Regular Price']))
 					except:
@@ -121,6 +150,9 @@ def load_database():
 							product_spec = ProductSpecification(product_website=product_website, spec=spec_entry, spec_val=specs[spec_name])
 							product_spec.save()
 					i += 1
+
+					if i == 500:
+						break
 				# for s in p['Specs']:
 				#     specification = Specification(spec_name=s)
 				#     specification.save()
@@ -139,6 +171,7 @@ def load_database():
 	loaded = True
 	print("spec added to ", spec_count, "items")
 
+
 def home(request):
 
 	load_database()
@@ -150,19 +183,13 @@ def home(request):
 	print(categories)
 
 	#-------------------------demo list of all---------------------------------------------------
-	# product_list = list(ProductWebsite.objects.filter(product__product_category__contains="laptop"))
-	# trending_deals = product_list[0:8]
-	# editors_pick = product_list[0:8]
-	# featured_products = product_list[0:8]
+
 	product_list = list(ProductWebsite.objects.all()[0:100])
 	random.shuffle(product_list)
 	trending_deals = product_list[0:8]
 	editors_pick = product_list[8: 16]
 	featured_products = product_list[16:24]
 	print(featured_products)
-
-
-
 	#---------------------------remove after updating trending_deals and others------------------
 
 
@@ -184,9 +211,22 @@ def select_category(request, category_name):
 	product_list = list(ProductWebsite.objects.filter(product__product_category__contains=category_name))
 	save_ids_to_session(request, product_list)
 	print(product_list)
-	return render(request, 'product/shop.html', {
-		'search_key': category_name, 'product_list': product_list, 'categories' : categories, 
+
+	offer_list = get_offers(product_list)
+	specification_list = get_specifications(product_list)
+
+	print(len(product_list), len(offer_list), len(specification_list))
+	data_list = []
+	for i in range(len(product_list)):
+		data_list.append({
+			"product_website": product_list[i],
+		    "offer": offer_list[i],
+		    "specifications": specification_list[i]
 		})
+
+	return render(request, 'product/shop.html', {
+		'search_key': category_name, 'data_list': data_list, 'categories' : categories,
+	})
 
 
 def search(request):
@@ -208,8 +248,19 @@ def search(request):
 		product_list = list(product_query_set)
 		save_ids_to_session(request, product_list)
 
+
+	offer_list = get_offers(product_list)
+	specification_list = get_specifications(product_list)
+
+	data_list = []
+	for i in range(len(product_list)):
+		data_list.append({
+			"product_website": product_list[i],
+			"offer": offer_list[i],
+			"specifications": specification_list[i]
+		})
 	return render(request, 'product/shop.html', {
-		'search_key': request.POST['search_key'], 'product_list': product_list, 'categories': categories
+		'search_key': request.POST['search_key'], 'data_list': data_list, 'categories': categories
 	})
 
 
@@ -242,13 +293,19 @@ def search_name(request, search_key):
 		except:
 			print("No initial search list found for search name")
 
+	offer_list = get_offers(new_product_list)
+	specification_list = get_specifications(new_product_list)
 
-	# check if search_name is a brand name or product name
-	# if brand : make product list accordingly
-	# if product : make product list accordingly
+	data_list = []
+	for i in range(len(new_product_list)):
+		data_list.append({
+			"product_website": new_product_list[i],
+			"offer": offer_list[i],
+			"specifications": specification_list[i]
+		})
 
 	return render(request, 'product/shop.html', {
-		'search_key': search_key, 'product_list': new_product_list, 'categories' : categories
+		'search_key': search_key, 'data_list': data_list, 'categories': categories
 		})
 
 
@@ -284,17 +341,22 @@ def sort(request, search_key, sort_type):
 	except:
 		print("No search list found for sorting")
 
-	# sort accordingly
-	# access the product list from session ??
-	# Reference : https://stackoverflow.com/questions/9024160/django-pass-object-from-view-to-next-for-processing
+	offer_list = get_offers(new_product_list)
+	specification_list = get_specifications(new_product_list)
 
+	data_list = []
+	for i in range(len(new_product_list)):
+		data_list.append({
+			"product_website": new_product_list[i],
+			"offer": offer_list[i],
+			"specifications": specification_list[i]
+		})
 	return render(request, 'product/shop.html', {
-		'search_key': search_key, 'product_list': new_product_list, 'categories' : categories
+		'search_key': search_key, 'data_list': data_list, 'categories' : categories
+
 		})
 
 
-# def filter(request, search_key, filter_type):
-#yet to be done
 def filter(request, search_key, filter_type):
 	# ---------------------------load category names in categories as list-------------------------
 	categories = get_categories(request)
@@ -308,7 +370,7 @@ def filter(request, search_key, filter_type):
 
 		if request.method == 'POST':
 			# ----------------------------------Filter by Price----------------------------------------
-			if filter_type =='by_price':
+			if filter_type == 'by_price':
 				print(filter_type)
 				price_range_selected = request.POST.getlist('price')
 				print(price_range_selected)
@@ -316,8 +378,42 @@ def filter(request, search_key, filter_type):
 				for i in range(len(price_range_selected)):
 					lower_limit, upper_limit = price_range_selected[i].split("-")
 					print(lower_limit, upper_limit)
-					new_product_queryset |= product_query_set.filter(price__gte=lower_limit).filter(price__lte=upper_limit).order_by('price')
+					new_product_queryset |= product_query_set.filter(price__gte=lower_limit).filter(price__lte=upper_limit)
+
+				new_product_queryset = new_product_queryset.order_by('price')
 				new_product_list = list(new_product_queryset)
+			elif filter_type == "by_discount_perc":
+				print(filter_type)
+				disc_range_selected = request.POST.getlist('disc_perc')
+				print(disc_range_selected)
+				offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
+				new_offer_set = Offer.objects.none()
+				for i in range(len(disc_range_selected)):
+					lower_limit, upper_limit = disc_range_selected[i].split("-")
+					print(lower_limit, upper_limit)
+					new_offer_set |= offers.filter(discount_percentage__gt=lower_limit).\
+						filter(discount_percentage__lte=upper_limit)
+
+				new_offer_set = new_offer_set.order_by('-discount_percentage')
+				new_product_list = [o.product_website for o in new_offer_set]
+				print([o.discount_percentage for o in new_offer_set])
+
+			elif filter_type == "by_discount_amt":
+				print(filter_type)
+				disc_range_selected = request.POST.getlist('disc_amt')
+				print(disc_range_selected)
+				offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
+				new_offer_set = Offer.objects.none()
+				for i in range(len(disc_range_selected)):
+					lower_limit, upper_limit = disc_range_selected[i].split("-")
+					print(lower_limit, upper_limit)
+					new_offer_set |= offers.filter(discount_amount__gt=lower_limit). \
+						filter(discount_amount__lte=upper_limit)
+
+				new_offer_set = new_offer_set.order_by('-discount_amount')
+				new_product_list = [o.product_website for o in new_offer_set]
+				print([o.discount_amount for o in new_offer_set])
+
 			# ----------------------------------Other Filters------------------------------------------
 			elif filter_type == 'other filters':
 				print(filter_type)
@@ -325,27 +421,31 @@ def filter(request, search_key, filter_type):
 				print(other_filters_selected)
 				offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
 				if "ending soon" in other_filters_selected:
-					offers = offers.order_by("end_date")[:20]
+					offers = offers.order_by("end_date")[:10]
 					print("offers extracted")
-				if "off$" in other_filters_selected:
-					offers = offers.order_by("-discount_amount")
-				if "off%" in other_filters_selected:
-					offers = offers.order_by("-discount_percentage")
-
-				# new_pids = [str(o.product_website.product_website_id) for o in offers]
-				# print(new_pids)
-				# new_product_queryset = get_query_set(new_pids)
-				# print(new_product_queryset)
 				new_product_list = [o.product_website for o in offers]
 
 			print(new_product_list)
 
 			save_ids_to_session(request, new_product_list)
 			print('saved ids after', other_filters_selected)
+
 	except:
 		print("no list to filter")
-	
 
-	return render(request, 'product/shop.html', {'search_key':search_key, 'product_list': new_product_list, 'categories' : categories
+
+	offer_list = get_offers(new_product_list)
+	specification_list = get_specifications(new_product_list)
+
+	data_list = []
+	for i in range(len(new_product_list)):
+		data_list.append({
+			"product_website": new_product_list[i],
+			"offer": offer_list[i],
+			"specifications": specification_list[i]
 		})
+	return render(request, 'product/shop.html', {
+		'search_key': search_key, 'data_list': data_list, 'categories': categories
+
+	})
 
