@@ -2,11 +2,13 @@ from django.shortcuts import render
 import json
 import re
 from decimal import Decimal
+import random
 
-from numpy import save
 from product.models import Website, Product, ProductWebsite, Offer, Specification, ProductSpecification
 import uuid
 from django.utils.dateparse import parse_datetime
+from datetime import datetime, timedelta
+
 
 # Create your views here.
 loaded = False
@@ -20,9 +22,11 @@ def get_query_set(prod_web_ids):
 
 # save product_website ids to session
 def save_ids_to_session(request, product_list):
+	print("saving ", type(product_list), type(product_list[0]))
 	request.session["product_website_ids"] = [str(p.product_website_id) for p in product_list]
 	print("Saved to session ")
 	print(request.session["product_website_ids"])
+
 
 # save categories to session 
 def save_categories_to_session(request, category_list):
@@ -31,6 +35,7 @@ def save_categories_to_session(request, category_list):
 	print(request.session["categories"])
 	global category_saved
 	category_saved = True
+
 
 # get category list
 def get_categories(request):
@@ -41,6 +46,7 @@ def get_categories(request):
 		return categories
 	else:
 		return request.session["categories"]
+
 
 # insert to database from json files
 def load_database():
@@ -82,17 +88,19 @@ def load_database():
 					)
 					product_website.save()
 
-					if p['Offer Deadline'] is None:
-						end_date = None
-					else:
-						end_date = parse_datetime(p['Offer Deadline'])
+					if discount_amount > 0.0:
+						if p['Offer Deadline'] == "":
+							end_date = datetime.now() + timedelta(days=30)
+						else:
+							end_date = datetime.strptime(p['Offer Deadline'], "%B %d, %Y %H:%M:%S")
+							print(end_date)
 
-					offer = Offer(
-						product_website=product_website, discount_amount=discount_amount,
-						discount_percentage=(discount_amount / regular_price) * 100,
-						end_date=end_date
-					)
-					offer.save()
+						offer = Offer(
+							product_website=product_website, discount_amount=discount_amount,
+							discount_percentage=(discount_amount / regular_price) * 100,
+							end_date=end_date
+						)
+						offer.save()
 
 				# for s in p['Specs']:
 				#     specification = Specification(spec_name=s)
@@ -122,14 +130,19 @@ def home(request):
 	print(categories)
 
 	#-------------------------demo list of all---------------------------------------------------
-	product_list = list(ProductWebsite.objects.filter(product__product_category__contains="laptop"))
+	# product_list = list(ProductWebsite.objects.filter(product__product_category__contains="laptop"))
+	# trending_deals = product_list[0:8]
+	# editors_pick = product_list[0:8]
+	# featured_products = product_list[0:8]
+	product_list = list(ProductWebsite.objects.all()[0:100])
+	random.shuffle(product_list)
 	trending_deals = product_list[0:8]
-	editors_pick = product_list[0:8]
-	featured_products = product_list[0:8]
+	editors_pick = product_list[8: 16]
+	featured_products = product_list[16:24]
 	print(featured_products)
+
 	#---------------------------remove after updating trending_deals and others------------------
 
-	
 
 	# top offers by discount amounts
 	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))[0:8]
@@ -173,10 +186,8 @@ def search(request):
 		product_list = list(product_query_set)
 		save_ids_to_session(request, product_list)
 
-
-
 	return render(request, 'product/shop.html', {
-		'search_key': request.POST['search_key'], 'product_list': product_list, 'categories' : categories
+		'search_key': request.POST['search_key'], 'product_list': product_list, 'categories': categories
 	})
 
 
@@ -192,7 +203,6 @@ def search_name(request, search_key):
 	if request.method == 'POST':
 		search_name = request.POST['search_name']
 		print(search_name)
-
 
 		try:
 			prod_web_ids = request.session["product_website_ids"]
@@ -237,11 +247,16 @@ def sort(request, search_key, sort_type):
 		print(prod_web_ids)
 		product_query_set = get_query_set(prod_web_ids)
 
-		if sort_type == "Unit Price":
+		if sort_type == "Unit Price Low To High":
 			new_product_queryset = product_query_set.order_by("price")
-		# elif sort_type == "Latest":
-		# 	offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
-		# 	offer = offers.order_by("end")
+		elif sort_type == "Unit Price High To Low":
+			new_product_queryset = product_query_set.order_by("-price")
+		elif sort_type == "Latest":
+			offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids).order_by("end_date")
+			new_pids = [str(o.product_website.product_website_id) for o in offers]
+			print(new_pids)
+			new_product_queryset = get_query_set(new_pids)
+			print(new_product_queryset)
 
 		new_product_list = list(new_product_queryset)
 		save_ids_to_session(request, new_product_list)
@@ -260,41 +275,57 @@ def sort(request, search_key, sort_type):
 
 # def filter(request, search_key, filter_type):
 #yet to be done
-def filter(request,search_key, filter_type):
+def filter(request, search_key, filter_type):
 	# ---------------------------load category names in categories as list-------------------------
 	categories = get_categories(request)
-	if request.method == 'POST' and filter_type=='by_price':
-		print(filter_type)
-		# price_1=request.POST.get('price_1',False)
-		# price_2=request.POST['price_2']
-		# price_3=request.POST['price_3']
-		# price_4=request.POST['price_4']
-		# price_5=request.POST['price_5']
-		# price_6=request.POST['price_6']
-		# print(price_1)
 	#-----------------------------------------------------------------------------------------------
-	
-	
-	# sort types:
-	# 1. price
-		new_product_list = []
-	# try:
-	# 	prod_web_ids = request.session["product_website_ids"]
-	# 	product_query_set = get_query_set(prod_web_ids)
-	# 	new_product_queryset = product_query_set.order_by("price")
+	new_product_list = []
+	try:
+		prod_web_ids = request.session["product_website_ids"]
+		print(prod_web_ids)
+		product_query_set = get_query_set(prod_web_ids)
+		new_product_list = list(product_query_set)
 
-	# 	new_product_list = list(new_product_queryset)
-	# 	save_ids_to_session(request, new_product_list)
+		if request.method == 'POST':
+			# ----------------------------------Filter by Price----------------------------------------
+			if filter_type =='by_price':
+				print(filter_type)
+				price_range_selected = request.POST.getlist('price')
+				print(price_range_selected)
+				new_product_queryset = ProductWebsite.objects.none()
+				for i in range(len(price_range_selected)):
+					lower_limit, upper_limit = price_range_selected[i].split("-")
+					print(lower_limit, upper_limit)
+					new_product_queryset |= product_query_set.filter(price__gte=lower_limit).filter(price__lte=upper_limit).order_by('price')
 
-	# except:
-	# 	print("No search list found for filtering")
+			# ----------------------------------Other Filters------------------------------------------
+			elif filter_type == 'other filters':
+				print(filter_type)
+				other_filters_selected = request.POST.getlist('others')
+				print(other_filters_selected)
+				offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
+				if "ending soon" in other_filters_selected:
+					offers = offers.order_by("end_date")[:5]
+					print("offers extracted")
+				if "off$" in other_filters_selected:
+					offers = offers.order_by("-discount_amount")
+				if "off%" in other_filters_selected:
+					offers = offers.order_by("-discount_percentage")
+
+				new_pids = [str(o.product_website.product_website_id) for o in offers]
+				print(new_pids)
+				new_product_queryset = get_query_set(new_pids)
+				print(new_product_queryset)
+
+			new_product_list = list(new_product_queryset)
+			print(new_product_list)
+
+			save_ids_to_session(request, new_product_list)
+			print('saved ids after', other_filters_selected)
+	except:
+		print("no list to filter")
+	
 
 	return render(request, 'product/shop.html', {'search_key':search_key, 'product_list': new_product_list, 'categories' : categories
 		})
 
-###################################################################################################################
-# Naeem - To do list
-
-# Product details show from model object - Stack overflow reference in search function
-# Filter implementation - same as sort
-###################################################################################################################

@@ -54,8 +54,8 @@ class ProductWebsite(models.Model):
 	image_path = models.CharField(null=True, max_length=200)
 	url = models.CharField(null=True, max_length=200)
 
-	# class Meta:
-	# 	ordering = ['price']
+	class Meta:
+		ordering = ['product_website_id']
 
 	def __str__(self):
 		return self.product.product_name + ", " + self.website.website_name
@@ -76,11 +76,14 @@ class Offer(models.Model):
 	is_free_shipping = models.BooleanField(default=False)
 	buy_one_get_one_free = models.BooleanField(default=False)
 
-	class Meta:
-		ordering = ['-discount_percentage']
+	# class Meta:
+	# 	ordering = ['-discount_percentage']
 
 	def __str__(self):
 		return self.offer_id
+
+	def saved_amount(self):
+		return self.product_website.price - self.discount_amount
 
 
 class Specification(models.Model):
