@@ -236,6 +236,13 @@
                                                 <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
                                              </div>
 
+                                            {% for spec_instance in data.specifications %}
+                                                <div class="row">
+                                                <div class="col"><h4 ><b>{{spec_instance.spec.spec_name}}&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
+                                                <div class="col"><h5>{{spec_instance.spec_val}}৳  </h5></div>
+                                             </div>
+                                             {% endfor %}
+
 
 
 
