@@ -207,11 +207,12 @@ def home(request):
 
 	# top offers by discount amounts
 	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))[0:8]
+	offer_product_list = [o.product_website for o in top_offers]
 
 	return render(request, 'product/index.html', {
 		'categories': categories, 'trending_deals': get_datalist(trending_deals),
 		'editors_pick': get_datalist(editors_pick),
-		'featured_products': get_datalist(featured_products), 'top_offers': top_offers
+		'featured_products': get_datalist(featured_products), 'top_offers': get_datalist(offer_product_list)
 	})
 
 
