@@ -52,7 +52,7 @@
                             <label class="custom-control-label" for="price_5">50000৳ - 100000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_6" name = "price" value = "100000">
+                            <input type="checkbox" class="custom-control-input" id="price_6" name = "price" value = "100000-100000000000">
                             <label class="custom-control-label" for="price_6">Above 100000৳</label>
                         </div>
 
@@ -64,13 +64,13 @@
 
                 <!-- Color Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
+                    <h5 class="font-weight-semi-bold mb-4">Filter by offer</h5>
                     <form action="{% url 'product:filter' search_key 'other filters' %}" method = "POST">
                         {% csrf_token %}
                         
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-1" name="others" value = "latest">
-                            <label class="custom-control-label" for="color-1">Latest Offer</label>
+                            <input type="checkbox" class="custom-control-input" id="color-1" name="others" value = "ending soon">
+                            <label class="custom-control-label" for="color-1">Offer Ending Soon</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-2" name="others" value = "off%">
@@ -113,8 +113,10 @@
                                             Sort by
                                         </button>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+                                    <a class="dropdown-item" href="{% url 'product:sort' search_key 'Unit Price Low To High' %}">Unit Price Low To High</a>
+                                    <a class="dropdown-item" href="{% url 'product:sort' search_key 'Unit Price High To Low' %}">Unit Price High To Low</a>
                                     <a class="dropdown-item" href="{% url 'product:sort' search_key 'Latest' %}">Latest</a>
-                                    <a class="dropdown-item" href="{% url 'product:sort' search_key 'Unit Price' %}">Unit Price</a>
+
                                 </div>
                             </div>
                         </div>
