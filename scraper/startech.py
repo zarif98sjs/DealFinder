@@ -140,7 +140,7 @@ def getAllProducts(ses, category):
 
 	r = ses.get(baseurl + category)
 
-	for page in range(1, 2):
+	for page in range(1, 6):
 		r = ses.get(baseurl + category + "?page=" + str(page))
 
 		if r.status_code == 200:
