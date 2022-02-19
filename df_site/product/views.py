@@ -12,7 +12,7 @@ from django.utils import timezone
 
 
 # Create your views here.
-loaded = False
+loaded = True
 category_saved = False
 
 
@@ -75,6 +75,18 @@ def get_offers(product_list):
 	return offers
 
 
+def get_datalist(product_list):
+	offer_list = get_offers(product_list)
+	specifications_list = get_specifications(product_list)
+	data_list = []
+	for i in range(len(product_list)):
+		data_list.append({
+			"product_website": product_list[i],
+			"offer": offer_list[i],
+			"specifications": specifications_list[i]
+		})
+	return data_list
+
 # insert to database from json files
 def load_database():
 	global loaded
@@ -97,7 +109,7 @@ def load_database():
 
 				for p in products:
 					print(i)
-					if i < 355:
+					if i < 500:
 						i += 1
 						continue
 					try:
@@ -151,7 +163,7 @@ def load_database():
 							product_spec.save()
 					i += 1
 
-					if i == 500:
+					if i == 800:
 						break
 				# for s in p['Specs']:
 				#     specification = Specification(spec_name=s)
@@ -195,10 +207,12 @@ def home(request):
 
 	# top offers by discount amounts
 	top_offers = list(Offer.objects.all().order_by("-discount_percentage"))[0:8]
+	offer_product_list = [o.product_website for o in top_offers]
 
 	return render(request, 'product/index.html', {
-		'categories': categories, 'trending_deals': trending_deals, 'editors_pick': editors_pick,
-		'featured_products': featured_products, 'top_offers': top_offers
+		'categories': categories, 'trending_deals': get_datalist(trending_deals),
+		'editors_pick': get_datalist(editors_pick),
+		'featured_products': get_datalist(featured_products), 'top_offers': get_datalist(offer_product_list)
 	})
 
 
@@ -217,13 +231,7 @@ def select_category(request, category_name):
 	specification_list = get_specifications(product_list)
 
 	print(len(product_list), len(offer_list), len(specification_list))
-	data_list = []
-	for i in range(len(product_list)):
-		data_list.append({
-			"product_website": product_list[i],
-		    "offer": offer_list[i],
-		    "specifications": specification_list[i]
-		})
+	data_list = get_datalist(product_list)
 
 	return render(request, 'product/shop.html', {
 		'search_key': category_name, 'data_list': data_list, 'categories' : categories,
@@ -253,13 +261,8 @@ def search(request):
 	offer_list = get_offers(product_list)
 	specification_list = get_specifications(product_list)
 
-	data_list = []
-	for i in range(len(product_list)):
-		data_list.append({
-			"product_website": product_list[i],
-			"offer": offer_list[i],
-			"specifications": specification_list[i]
-		})
+	data_list = get_datalist(product_list)
+
 	return render(request, 'product/shop.html', {
 		'search_key': request.POST['search_key'], 'data_list': data_list, 'categories': categories
 	})
@@ -298,13 +301,7 @@ def search_name(request, search_key):
 	offer_list = get_offers(new_product_list)
 	specification_list = get_specifications(new_product_list)
 
-	data_list = []
-	for i in range(len(new_product_list)):
-		data_list.append({
-			"product_website": new_product_list[i],
-			"offer": offer_list[i],
-			"specifications": specification_list[i]
-		})
+	data_list = get_datalist(new_product_list)
 
 	return render(request, 'product/shop.html', {
 		'search_key': search_key, 'data_list': data_list, 'categories': categories
@@ -346,13 +343,8 @@ def sort(request, search_key, sort_type):
 	offer_list = get_offers(new_product_list)
 	specification_list = get_specifications(new_product_list)
 
-	data_list = []
-	for i in range(len(new_product_list)):
-		data_list.append({
-			"product_website": new_product_list[i],
-			"offer": offer_list[i],
-			"specifications": specification_list[i]
-		})
+	data_list = get_datalist(new_product_list)
+
 	return render(request, 'product/shop.html', {
 		'search_key': search_key, 'data_list': data_list, 'categories' : categories
 
@@ -439,13 +431,8 @@ def filter(request, search_key, filter_type):
 	offer_list = get_offers(new_product_list)
 	specification_list = get_specifications(new_product_list)
 
-	data_list = []
-	for i in range(len(new_product_list)):
-		data_list.append({
-			"product_website": new_product_list[i],
-			"offer": offer_list[i],
-			"specifications": specification_list[i]
-		})
+	data_list = get_datalist(new_product_list)
+
 	return render(request, 'product/shop.html', {
 		'search_key': search_key, 'data_list': data_list, 'categories': categories
 
