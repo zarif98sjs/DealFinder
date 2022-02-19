@@ -23,7 +23,7 @@
             <div class="col-lg-3 col-md-12">
                 <!-- Price Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by price</h5>
+                    <h6 class="font-weight-semi-bold mb-4">Filter by price</h6>
                     <form action="{% url 'product:filter' search_key 'by_price' %}" method = "POST">
                       
                         {% csrf_token %}
@@ -64,7 +64,7 @@
 
                 <!-- Percentage Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by % Discount</h5>
+                    <h6 class="font-weight-semi-bold mb-4">Filter by % Discount</h6>
                     <form action="{% url 'product:filter' search_key 'by_discount_perc' %}" method = "POST">
 
                         {% csrf_token %}
@@ -93,7 +93,7 @@
 
                 <!-- discount amount Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by Discount Amount</h5>
+                    <h6 class="font-weight-semi-bold mb-4">Filter by Discount Amount</h6>
                     <form action="{% url 'product:filter' search_key 'by_discount_amt' %}" method = "POST">
 
                         {% csrf_token %}
@@ -121,7 +121,7 @@
 
                   <!-- other filters Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by offer</h5>
+                    <h6 class="font-weight-semi-bold mb-4">Filter by offer</h6>
                     <form action="{% url 'product:filter' search_key 'other filters' %}" method = "POST">
                         {% csrf_token %}
 
@@ -192,26 +192,26 @@
                                     <div class="col">
                                         <div class="container">
                                             <div class="row">
-                                                <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h5>
+                                                <h6 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h6>
                                                 <br><br>
                                             </div>
                                             <div class="row">
-                                               <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                               <div class="col"><h5>{{data.product_website.product.product_brand}} </h5></div>
+                                               <div class="col"><h6 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                               <div class="col"><h6>{{data.product_website.product.product_brand}} </h6></div>
                                             </div>
 
 
                                              <div class="row">
-                                                <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{data.product_website.website.website_name}} </h5></div>
+                                                <div class="col"><h6 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                                <div class="col"><h6>{{data.product_website.website.website_name}} </h6></div>
                                              </div>
 
 
 
 
                                              <div class="row">
-                                                <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                                <div class="col"><h5>{{data.product_website.price}}৳  </h5></div>
+                                                <div class="col"><h5 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h6>{{data.product_website.price}}৳  </h6></div>
                                              </div>
 
                                              <div class="row">
@@ -219,14 +219,14 @@
                                              </div>
 
                                              <div class="row">
-                                                <h4>Specifications</h4>
+                                                <h5>Specifications</h5>
                                              </div>
                                              <hr>
 
                                             {% for spec_item in data.specifications %}
                                              <div class="row">
-                                                <div class="col"><h5 ><b>{{spec_item.spec.spec_name}}</b></h5></div>
-                                                <div class="col"><h5>{{spec_item.spec_val}} </h5></div>
+                                                <div class="col"><h6 ><b>{{spec_item.spec.spec_name}}</b></h6></div>
+                                                <div class="col"><h6>{{spec_item.spec_val}} </h6></div>
                                              </div>
                                              {% endfor %}
 
@@ -235,17 +235,17 @@
                                               </div>
  
                                               <div class="row">
-                                                 <h4>Discount</h4>
+                                                 <h5>Discount</h5>
                                               </div>
                                               <hr>
 
                                               <div class="row">
-                                                <h5>{{data.offer.discount_percentage}}% Discount</h5>
+                                                <h6>{{data.offer.discount_percentage}}% Discount</h6>
                                                
                                                 </div>
                                                 <div class="row">
                                                     
-                                                    <div class="col"><h5>Your save {{data.offer.discount_amount}}৳ </h5></div>
+                                                    <div class="col"><h6>Your save {{data.offer.discount_amount}}৳ </h6></div>
                                                 </div>
 
 

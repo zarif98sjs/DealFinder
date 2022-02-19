@@ -33,7 +33,7 @@
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h3 class="display-4 text-white font-weight-semi-bold mb-4">{{data.product_website.product.product_name}}</h3>
-                                    <h4 class="text-light text-uppercase font-weight-medium mb-3">{{data.product_website.price}}৳</h4>
+                                    <h5 class="text-light text-uppercase font-weight-medium mb-3">{{data.product_website.price}}৳</h5>
                                     <a href="{{data.product_website.url}}" class="btn btn-light py-2 px-3">Shop Now</a>
                                 </div>
                             </div>
@@ -94,73 +94,91 @@
                           <div class="col">
                               <div class="container">
                                   <div class="row">
-                                      <h5 class="modal-title" id="exampleModalLabel2{{forloop.counter}}"><b>{{offer.product_website.product.product_name}}</b></h5>
+                                      <h6 class="modal-title" id="exampleModalLabel2{{forloop.counter}}"><b>{{offer.product_website.product.product_name}}</b></h6>
                                       <br><br>
                                   </div>
                                   <div class="row">
-                                      <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{data.product_website.product.product_brand}} </h5></div>
+                                      <div class="col"><h6 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                      <div class="col"><h6>{{data.product_website.product.product_brand}} </h6></div>
                                   </div>
 
           
                                     <div class="row">
-                                      <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{data.product_website.website.website_name}} </h5></div>
+                                      <div class="col"><h6 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                      <div class="col"><h6>{{data.product_website.website.website_name}} </h6></div>
                                     </div>
 
                                     
                                     
-                                    <div class="row">
-                                      <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
+                                    <!-- <div class="row">
+                                      <div class="col"><h6 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                      <div class="col"><h6>{{data.product_website.shipping_time}}  </h6></div>
                                     </div>
 
                                     <div class="row">
-                                      <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
-                                    </div>
+                                      <div class="col"><h6 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                      <div class="col"><h6>{{data.product_website.delivery_charge}}৳ </h6></div>
+                                    </div> -->
 
               
 
                                     <div class="row">
-                                      <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                      <div class="col"><h5>{{data.product_website.price}}৳  </h5></div>
+                                      <div class="col"><h5 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h6>{{data.product_website.price}}৳  </h6></div>
                                     </div>
 
-                                    <div class="row">
-                                      <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                      <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
-                                    </div>
+                                    <!-- <div class="row">
+                                      <div class="col"><h6 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                      <div class="col"><h6>{{data.product_website.available_count}} </h6></div>
+                                    </div> -->
 
                                     <div class="row ">
                                     &nbsp;
                                    </div>
                                     <div class="row justify-content-center">
      
-                                      <h4><b>Offer Details</b></h4>
+                                      <h5><b>Offer Details</b></h5>
                                       
                                    </div>
 
                                    <div class="row ">
-                                    <h5>{{data.offer.discount_percentage}}%&nbsp;Off</h5>
+                                    <h6>{{data.offer.discount_percentage}}%&nbsp;Off</h6>
                                  </div>
 
                                  <div class="row">
                 
-                                  <h5>{{data.offer.discount_amount}}৳ &nbsp;Off</h5>
+                                  <h6>{{data.offer.discount_amount}}৳ &nbsp;Off</h6>
                                </div>
 
                                {% if data.offer.is_free_shipping %}
                                <div class="row">
-                            <h5>Free Shipping Available</h5>
+                            <h6>Free Shipping Available</h6>
       
                              </div>
                              {% endif %}
 
                              {% if data.offer.buy_one_get_one_free %}
-                             <div class="row"><h5>Buy 1 Get 1 Free</h5></div>
+                             <div class="row"><h6>Buy 1 Get 1 Free</h6></div>
                                   
                               {% endif %}
+
+                              <div class="row">
+                                &nbsp;
+                              </div>
+
+                              <div class="row">
+                                 <h5>Specifications</h5>
+                              </div>
+                              <hr>
+
+                             {% for spec_item in data.specifications %}
+                              <div class="row">
+                                 <div class="col"><h6 ><b>{{spec_item.spec.spec_name}}</b></h6></div>
+                                 <div class="col"><h6>{{spec_item.spec_val}} </h6></div>
+                              </div>
+                              {% endfor %}
+
+                            
 
                               
 
@@ -252,53 +270,77 @@
                             <div class="col">
                                 <div class="container">
                                     <div class="row">
-                                        <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h5>
+                                        <h6 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h6>
                                         <br><br>
                                     </div>
                                     <div class="row">
-                                       <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                       <div class="col"><h5>{{data.product_website.product.product_brand}} </h5></div>
+                                       <div class="col"><h6 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                       <div class="col"><h6>{{data.product_website.product.product_brand}} </h6></div>
                                     </div>
 
             
                                      <div class="row">
-                                        <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{data.product_website.website.website_name}} </h5></div>
+                                        <div class="col"><h6 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.website.website_name}} </h6></div>
                                      </div>
 
                                      
-                                     
-                                     <!-- <div class="row">
-                                        <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
+<!--                                      
+                                    <div class="row">
+                                        <div class="col"><h6 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.shipping_time}}  </h6></div>
                                      </div>
 
                                      <div class="row">
-                                        <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-<<<<<<< HEAD
-                                        <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                        <div class="col"><h6 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.delivery_charge}}৳ </h6></div>
                                      </div> -->
-=======
-                                        <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
-                                     </div>
->>>>>>> e00d84eb1b51d9e34ae70723b98631bcc40898f9
 
                 
 
                                      <div class="row">
-                                        <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                        <div class="col"><h5>{{data.product_website.price}}৳  </h5></div>
+                                        <div class="col"><h5 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h6>{{data.product_website.price}}৳  </h6></div>
                                      </div>
 
                                      <!-- <div class="row">
-                                        <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-<<<<<<< HEAD
-                                        <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                        <div class="col"><h6 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.available_count}} </h6></div>
                                      </div> -->
-=======
-                                        <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
+
+                                     <div class="row">
+                                      &nbsp;
+                                    </div>
+
+                                    <div class="row">
+                                       <h5>Specifications</h5>
+                                    </div>
+                                    <hr>
+
+                                   {% for spec_item in data.specifications %}
+                                    <div class="row">
+                                       <div class="col"><h6 ><b>{{spec_item.spec.spec_name}}</b></h6></div>
+                                       <div class="col"><h6>{{spec_item.spec_val}} </h6></div>
+                                    </div>
+                                    {% endfor %}
+
+                                    <div class="row">
+                                       &nbsp;
                                      </div>
->>>>>>> e00d84eb1b51d9e34ae70723b98631bcc40898f9
+
+                                     <div class="row">
+                                        <h5>Discount</h5>
+                                     </div>
+                                     <hr>
+
+                                     <div class="row">
+                                       <h6>{{data.offer.discount_percentage}}% Discount</h6>
+                                      
+                                       </div>
+                                       <div class="row">
+                                           
+                                           <div class="col"><h6>Your save {{data.offer.discount_amount}}৳ </h6></div>
+                                       </div>
                                      
                                   
                                     
@@ -387,53 +429,77 @@
                             <div class="col">
                                 <div class="container">
                                     <div class="row">
-                                        <h5 class="modal-title" id="exampleModalLabel1{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h5>
+                                        <h6 class="modal-title" id="exampleModalLabel1{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h6>
                                         <br><br>
                                     </div>
                                     <div class="row">
-                                       <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                       <div class="col"><h5>{{data.product_website.product.product_brand}} </h5></div>
+                                       <div class="col"><h6 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                       <div class="col"><h6>{{data.product_website.product.product_brand}} </h6></div>
                                     </div>
 
             
                                      <div class="row">
-                                        <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{data.product_website.website.website_name}} </h5></div>
+                                        <div class="col"><h6 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.website.website_name}} </h6></div>
                                      </div>
 
                                      
                                      
                                      <!-- <div class="row">
-                                        <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
+                                        <div class="col"><h6 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.shipping_time}}  </h6></div>
                                      </div>
 
                                      <div class="row">
-                                        <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-<<<<<<< HEAD
-                                        <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
-                                     </div> -->
-=======
-                                        <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
-                                     </div>
->>>>>>> e00d84eb1b51d9e34ae70723b98631bcc40898f9
+                                        <div class="col"><h6 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.delivery_charge}}৳ </h6></div>
+                                     </div>-->
 
                 
 
                                      <div class="row">
-                                        <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                        <div class="col"><h5>{{data.product_website.price}}৳  </h5></div>
+                                        <div class="col"><h5 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h6>{{data.product_website.price}}৳  </h6></div>
                                      </div>
 
                                      <!-- <div class="row">
-                                        <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-<<<<<<< HEAD
-                                        <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                        <div class="col"><h6 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h6></div>
+                                        <div class="col"><h6>{{data.product_website.available_count}} </h6></div> 
                                      </div> -->
-=======
-                                        <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
+
+                                     <div class="row">
+                                      &nbsp;
+                                    </div>
+
+                                    <div class="row">
+                                       <h5>Specifications</h5>
+                                    </div>
+                                    <hr>
+
+                                   {% for spec_item in data.specifications %}
+                                    <div class="row">
+                                       <div class="col"><h6 ><b>{{spec_item.spec.spec_name}}</b></h6></div>
+                                       <div class="col"><h6>{{spec_item.spec_val}} </h6></div>
+                                    </div>
+                                    {% endfor %}
+
+                                    <div class="row">
+                                       &nbsp;
                                      </div>
->>>>>>> e00d84eb1b51d9e34ae70723b98631bcc40898f9
+
+                                     <div class="row">
+                                        <h5>Discount</h5>
+                                     </div>
+                                     <hr>
+
+                                     <div class="row">
+                                       <h6>{{data.offer.discount_percentage}}% Discount</h6>
+                                      
+                                       </div>
+                                       <div class="row">
+                                           
+                                           <div class="col"><h6>Your save {{data.offer.discount_amount}}৳ </h6></div>
+                                       </div>
                                 </div>
                               
                             </div>
