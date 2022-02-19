@@ -208,17 +208,6 @@
 
 
 
-                                             <!-- <div class="row">
-                                                <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
-                                             </div> -->
-
-                                             <!-- <div class="row">
-                                                <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
-                                             </div> -->
-
-
 
                                              <div class="row">
                                                 <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
@@ -236,7 +225,7 @@
 
                                             {% for spec_item in data.specifications %}
                                              <div class="row">
-                                                <div class="col"><h5 ><b>{{spec_item.spec.spec_name}}&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h5 ><b>{{spec_item.spec.spec_name}}</b></h5></div>
                                                 <div class="col"><h5>{{spec_item.spec_val}} </h5></div>
                                              </div>
                                              {% endfor %}
