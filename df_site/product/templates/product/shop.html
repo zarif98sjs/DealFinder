@@ -32,27 +32,27 @@
                             <label class="custom-control-label" for="price_all">All Price</label>
                         </div> -->
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_1">
+                            <input type="checkbox" class="custom-control-input" id="price_1" name = "price" value = "0-1000">
                             <label class="custom-control-label" for="price_1">0৳ - 1000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_2">
+                            <input type="checkbox" class="custom-control-input" id="price_2" name = "price" value = "1000-5000">
                             <label class="custom-control-label" for="price_2">1000৳ - 5000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_3">
+                            <input type="checkbox" class="custom-control-input" id="price_3" name = "price" value = "5000-25000">
                             <label class="custom-control-label" for="price_3">5000৳ - 25000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_4">
+                            <input type="checkbox" class="custom-control-input" id="price_4" name = "price" value = "25000-50000">
                             <label class="custom-control-label" for="price_4">25000৳ - 50000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_5">
+                            <input type="checkbox" class="custom-control-input" id="price_5" name = "price" value = "50000-100000">
                             <label class="custom-control-label" for="price_5">50000৳ - 100000৳</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price_6">
+                            <input type="checkbox" class="custom-control-input" id="price_6" name = "price" value = "100000">
                             <label class="custom-control-label" for="price_6">Above 100000৳</label>
                         </div>
 
@@ -61,26 +61,31 @@
                     </form>
                 </div>
                 <!-- Price End -->
-                
-                <!-- Other filters -->
+
+                <!-- Color Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Other filters</h5>
-                    <form >
+                    <h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
+                    <form action="{% url 'product:filter' search_key 'other filters' %}" method = "POST">
+                        {% csrf_token %}
+                        
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="color-all">
-                            <label class="custom-control-label" for="price-all">Latest Offer</label>
+                            <input type="checkbox" class="custom-control-input" id="color-1" name="others" value = "latest">
+                            <label class="custom-control-label" for="color-1">Latest Offer</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-1">
-                            <label class="custom-control-label" for="color-1">% off</label>
+                            <input type="checkbox" class="custom-control-input" id="color-2" name="others" value = "off%">
+                            <label class="custom-control-label" for="color-2">% off</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-2">
-                            <label class="custom-control-label" for="color-2">$ off</label>
+                            <input type="checkbox" class="custom-control-input" id="color-3" name="others" value = "off$">
+                            <label class="custom-control-label" for="color-3">$ off</label>
                         </div>
+                        <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
                     </form>
                 </div>
                 <!-- Color End -->
+                
+                
 
             </div>
             <!-- Shop Sidebar End -->

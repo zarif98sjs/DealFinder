@@ -263,16 +263,21 @@ def sort(request, search_key, sort_type):
 def filter(request,search_key, filter_type):
 	# ---------------------------load category names in categories as list-------------------------
 	categories = get_categories(request)
-	if request.method == 'POST' and filter_type=='by_price':
-		print(filter_type)
-		# price_1=request.POST.get('price_1',False)
-		# price_2=request.POST['price_2']
-		# price_3=request.POST['price_3']
-		# price_4=request.POST['price_4']
-		# price_5=request.POST['price_5']
-		# price_6=request.POST['price_6']
-		# print(price_1)
 	#-----------------------------------------------------------------------------------------------
+	
+	if request.method == 'POST':
+		# ----------------------------------Filter by Price----------------------------------------
+		if filter_type =='by_price':
+			print(filter_type)
+			price_range_selected = request.POST.getlist('price')
+			print(price_range_selected)
+		# ----------------------------------Other Filters------------------------------------------
+		elif filter_type == 'other filters':
+			print(filter_type)
+			other_filters_selected = request.POST.getlist('others')
+			print(other_filters_selected)
+
+
 	
 	
 	# sort types:
