@@ -8,10 +8,11 @@ from product.models import Website, Product, ProductWebsite, Offer, Specificatio
 import uuid
 from django.utils.dateparse import parse_datetime
 from datetime import datetime, timedelta
+from django.utils import timezone
 
 
 # Create your views here.
-loaded = True
+loaded = False
 category_saved = False
 
 
@@ -61,12 +62,15 @@ def load_database():
 	Offer.objects.all().delete()
 
 	websites = Website.objects.all()
-
+	spec_count = 0
+	i = 0
 	for website in websites:
 		try:
 			with open("../" + website.website_name + ".json") as file:
 				products = json.load(file)['products']
+
 				for p in products:
+					print(i)
 					try:
 						regular_price = Decimal(re.sub("[^0-9.]", "", p['Regular Price']))
 					except:
@@ -102,10 +106,25 @@ def load_database():
 						)
 						offer.save()
 
+					specs = p['Specs']
+
+					if len(specs.keys()) > 0:
+						spec_count += 1
+						for spec_name in specs.keys():
+							existing = Specification.objects.filter(spec_name__contains=spec_name)
+							if len(existing) == 0:
+								spec_entry = Specification(spec_name=spec_name)
+								spec_entry.save()
+							else:
+								spec_entry = existing[0]
+
+							product_spec = ProductSpecification(product_website=product_website, spec=spec_entry, spec_val=specs[spec_name])
+							product_spec.save()
+					i += 1
 				# for s in p['Specs']:
 				#     specification = Specification(spec_name=s)
 				#     specification.save()
-				#     print("spec saved")
+				#     ptrint("spec saved")
 				#     product_specification = ProductSpecification(
 				#         product_website=product_website, specification=specification
 				#     )
@@ -116,12 +135,16 @@ def load_database():
 			print("Problem in ", website)
 			print(e)
 			pass
-	loaded = True
 
+	loaded = True
+	print("spec added to ", spec_count, "items")
 
 def home(request):
 
 	load_database()
+	all_spec = ProductSpecification.objects.all()
+	for spec in all_spec:
+		print(spec.product_website, spec.spec.spec_name, spec.spec_val)
 
 	# homepage load
 	# ---------------load category names in categories as list--------------------
@@ -140,6 +163,8 @@ def home(request):
 	editors_pick = product_list[8: 16]
 	featured_products = product_list[16:24]
 	print(featured_products)
+
+
 
 	#---------------------------remove after updating trending_deals and others------------------
 

@@ -114,23 +114,26 @@ def getInfoFromInside(products):
 					pass
 
 				## get specs
-				'''
-				all_ = soup.find('section', attrs={"id": "specification"})
-				if all_ is not None:
-					all_key = all_.find_all('td', attrs={"class": "name"})
-					keys = []
-					for k in all_key:
-						keys.append(k.contents[0])
-					all_val = all_.find_all('td', attrs={"class": "value"})
-					values = []
-					for v in all_val:
-						values.append(v.contents[0])
-
 				specs = {}
-				for i in range(len(keys)):
-					specs[keys[i]] = values[i]
+				try:
+					all_ = soup.find('section', attrs={"id": "specification"})
+					if all_ is not None:
+						all_key = all_.find_all('td', attrs={"class": "name"})
+						keys = []
+						for k in all_key:
+							keys.append(k.contents[0])
+						all_val = all_.find_all('td', attrs={"class": "value"})
+						values = []
+						for v in all_val:
+							values.append(v.contents[0])
+
+					
+					for i in range(len(keys)):
+						specs[keys[i]] = values[i]
+				except:
+					pass
 				p.specs = specs
-				'''
+				
 
 def getAllProducts(ses, category):
 	products = []
