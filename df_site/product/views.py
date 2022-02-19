@@ -297,9 +297,3 @@ def filter(request,search_key, filter_type):
 	return render(request, 'product/shop.html', {'search_key':search_key, 'product_list': new_product_list, 'categories' : categories
 		})
 
-###################################################################################################################
-# Naeem - To do list
-
-# Product details show from model object - Stack overflow reference in search function
-# Filter implementation - same as sort
-###################################################################################################################
