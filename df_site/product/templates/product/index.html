@@ -22,19 +22,19 @@
                 <div id="header-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
 
-                    {% for product_website in featured_products %}
+                    {% for data in featured_products %}
                     {% if forloop.counter == 1%}
                         <div class="carousel-item active" style="height: 410px;">
                     {% else %}
                     <div class="carousel-item" style="height: 410px;">
                     {% endif %}
                    
-                            <img class="img-fluid" src="{{product_website.image_path}}" alt="Image">
+                            <img class="img-fluid" src="{{data.product_website.image_path}}" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">{{product_website.product.product_name}}</h3>
-                                    <h4 class="text-light text-uppercase font-weight-medium mb-3">{{product_website.price}}৳</h4>
-                                    <a href="{{product_website.url}}" class="btn btn-light py-2 px-3">Shop Now</a>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">{{data.product_website.product.product_name}}</h3>
+                                    <h4 class="text-light text-uppercase font-weight-medium mb-3">{{data.product_website.price}}৳</h4>
+                                    <a href="{{data.product_website.url}}" class="btn btn-light py-2 px-3">Shop Now</a>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
 
 
         <div class="row px-xl-5 pb-3">
-            {% for product_website in trending_deals %}
+            {% for data in trending_deals %}
 
             
               <!-- Modal start-->
@@ -247,47 +247,47 @@
                         <div class="container-fluid">
                             <div class="row">
                             <div class="col">
-                                <img style="width:350px;" src={{product_website.image_path}} alt="">
+                                <img style="width:350px;" src={{data.product_website.image_path}} alt="">
                             </div>
                             <div class="col">
                                 <div class="container">
                                     <div class="row">
-                                        <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{product_website.product.product_name}}</b></h5>
+                                        <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h5>
                                         <br><br>
                                     </div>
                                     <div class="row">
                                        <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                       <div class="col"><h5>{{product_website.product.product_brand}} </h5></div> 
+                                       <div class="col"><h5>{{data.product_website.product.product_brand}} </h5></div>
                                     </div>
 
             
                                      <div class="row">
                                         <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.website.website_name}} </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.website.website_name}} </h5></div>
                                      </div>
 
                                      
                                      
                                      <div class="row">
                                         <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.shipping_time}}  </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
                                      </div>
 
                                      <div class="row">
                                         <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
                                      </div>
 
                 
 
                                      <div class="row">
                                         <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                        <div class="col"><h5>{{product_website.price}}৳  </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.price}}৳  </h5></div>
                                      </div>
 
                                      <div class="row">
                                         <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
                                      </div>
                                      
                                   
@@ -308,7 +308,7 @@
                     
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
+                      <a href="{{data.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                     </div>
                   </div>
                 </div>
@@ -320,17 +320,17 @@
                 <div class="card product-item border-0 mb-4">
                   
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="{{product_website.image_path}}" alt="">
+                        <img class="img-fluid w-100" src="{{data.product_website.image_path}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">{{product_website.product.product_name}}</h6>
+                        <h6 class="text-truncate mb-3">{{data.product_website.product.product_name}}</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>{{product_website.price}}৳</h6>
+                            <h6>{{data.product_website.price}}৳</h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
                         <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Details</a>
-                    `   <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
+                    `   <a href="{{data.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@
 
 
         <div class="row px-xl-5 pb-3">
-            {% for product_website in editors_pick %}
+            {% for data in editors_pick %}
 
               
               <!-- Modal start-->
@@ -372,47 +372,47 @@
                         <div class="container-fluid">
                             <div class="row">
                             <div class="col">
-                                <img style="width:350px;" src={{product_website.image_path}} alt="">
+                                <img style="width:350px;" src={{data.product_website.image_path}} alt="">
                             </div>
                             <div class="col">
                                 <div class="container">
                                     <div class="row">
-                                        <h5 class="modal-title" id="exampleModalLabel1{{forloop.counter}}"><b>{{product_website.product.product_name}}</b></h5>
+                                        <h5 class="modal-title" id="exampleModalLabel1{{forloop.counter}}"><b>{{data.product_website.product.product_name}}</b></h5>
                                         <br><br>
                                     </div>
                                     <div class="row">
                                        <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                       <div class="col"><h5>{{product_website.product.product_brand}} </h5></div> 
+                                       <div class="col"><h5>{{data.product_website.product.product_brand}} </h5></div>
                                     </div>
 
             
                                      <div class="row">
                                         <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.website.website_name}} </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.website.website_name}} </h5></div>
                                      </div>
 
                                      
                                      
                                      <div class="row">
                                         <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.shipping_time}}  </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
                                      </div>
 
                                      <div class="row">
                                         <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
                                      </div>
 
                 
 
                                      <div class="row">
                                         <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                        <div class="col"><h5>{{product_website.price}}৳  </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.price}}৳  </h5></div>
                                      </div>
 
                                      <div class="row">
                                         <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                        <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                        <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
                                      </div>
                                 </div>
                               
@@ -424,7 +424,7 @@
                     
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
+                      <a href="{{data.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                     </div>
                   </div>
                 </div>
@@ -435,17 +435,17 @@
                 <div class="card product-item border-0 mb-4">
                   
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="{{product_website.image_path}}" alt="">
+                        <img class="img-fluid w-100" src="{{data.product_website.image_path}}" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">{{product_website.product.product_name}}</h6>
+                        <h6 class="text-truncate mb-3">{{data.product_website.product.product_name}}</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>{{product_website.price}}৳</h6>
+                            <h6>{{data.product_website.price}}৳</h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
                       <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal1{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                      <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
+                      <a href="{{data.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                     </div>
                 </div>
             </div>
