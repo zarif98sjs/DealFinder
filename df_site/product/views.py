@@ -12,7 +12,7 @@ from django.utils import timezone
 
 
 # Create your views here.
-loaded = True
+loaded = False
 category_saved = False
 
 
@@ -210,6 +210,7 @@ def select_category(request, category_name):
 	# get product_list according to category
 	product_list = list(ProductWebsite.objects.filter(product__product_category__contains=category_name))
 	save_ids_to_session(request, product_list)
+	request.session["main_product_website_ids"] = request.session["product_website_ids"]
 	print(product_list)
 
 	offer_list = get_offers(product_list)
@@ -247,7 +248,7 @@ def search(request):
 
 		product_list = list(product_query_set)
 		save_ids_to_session(request, product_list)
-
+		request.session["main_product_website_ids"] = request.session["product_website_ids"]
 
 	offer_list = get_offers(product_list)
 	specification_list = get_specifications(product_list)
@@ -278,7 +279,8 @@ def search_name(request, search_key):
 		print(search_name)
 
 		try:
-			prod_web_ids = request.session["product_website_ids"]
+			prod_web_ids = request.session["main_product_website_ids"]
+
 			product_query_set = get_query_set(prod_web_ids)
 
 			name_matches = product_query_set.filter(product__product_name__contains=search_name)
@@ -363,7 +365,7 @@ def filter(request, search_key, filter_type):
 	#-----------------------------------------------------------------------------------------------
 	new_product_list = []
 	try:
-		prod_web_ids = request.session["product_website_ids"]
+		prod_web_ids = request.session["main_product_website_ids"]
 		print(prod_web_ids)
 		product_query_set = get_query_set(prod_web_ids)
 		new_product_list = list(product_query_set)
