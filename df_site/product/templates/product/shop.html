@@ -27,10 +27,7 @@
                     <form action="{% url 'product:filter' search_key 'by_price' %}" method = "POST">
                       
                         {% csrf_token %}
-                        <!-- <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="price_all">
-                            <label class="custom-control-label" for="price_all">All Price</label>
-                        </div> -->
+
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price_1" name = "price" value = "0-1000">
                             <label class="custom-control-label" for="price_1">0৳ - 1000৳</label>
@@ -57,35 +54,95 @@
                         </div>
 
                         <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
-                        
+
                     </form>
                 </div>
                 <!-- Price End -->
 
-                <!-- Color Start -->
+
+
+
+                <!-- Percentage Start -->
+                <div class="border-bottom mb-4 pb-4">
+                    <h5 class="font-weight-semi-bold mb-4">Filter by % Discount</h5>
+                    <form action="{% url 'product:filter' search_key 'by_discount_perc' %}" method = "POST">
+
+                        {% csrf_token %}
+
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="disc_perc_1" name = "disc_perc" value = "0-30">
+                            <label class="custom-control-label" for="disc_perc_1">0% - 30%</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="disc_perc_2" name = "disc_perc" value = "30-50">
+                            <label class="custom-control-label" for="disc_perc_2">30% - 50%</label>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="disc_perc_3" name = "disc_perc" value = "50-100">
+                            <label class="custom-control-label" for="disc_perc_3">above 50%</label>
+                        </div>
+
+
+                        <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
+
+                    </form>
+                </div>
+                <!-- Percentage End -->
+
+
+                <!-- discount amount Start -->
+                <div class="border-bottom mb-4 pb-4">
+                    <h5 class="font-weight-semi-bold mb-4">Filter by Discount Amount</h5>
+                    <form action="{% url 'product:filter' search_key 'by_discount_amt' %}" method = "POST">
+
+                        {% csrf_token %}
+
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="disc_amt_1" name = "disc_amt" value = "0-1000">
+                            <label class="custom-control-label" for="disc_amt_1">0৳ - 1000৳</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="disc_amt_2" name = "disc_amt" value = "1000-5000">
+                            <label class="custom-control-label" for="disc_amt_2">1000৳ - 5000৳</label>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="disc_amt_3" name = "disc_amt" value = "5000-100000000000">
+                            <label class="custom-control-label" for="disc_amt_3">Above 5000৳</label>
+                        </div>
+
+
+                        <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
+
+                    </form>
+                </div>
+                <!-- discount amount End -->
+
+                  <!-- other filters Start -->
                 <div class="border-bottom mb-4 pb-4">
                     <h5 class="font-weight-semi-bold mb-4">Filter by offer</h5>
                     <form action="{% url 'product:filter' search_key 'other filters' %}" method = "POST">
                         {% csrf_token %}
-                        
+
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-1" name="others" value = "ending soon">
                             <label class="custom-control-label" for="color-1">Offer Ending Soon</label>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                        <!-- <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-2" name="others" value = "off%">
                             <label class="custom-control-label" for="color-2">% off</label>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-3" name="others" value = "off$">
                             <label class="custom-control-label" for="color-3">$ off</label>
-                        </div>
+                        </div> -->
                         <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
                     </form>
                 </div>
-                <!-- Color End -->
-                
-                
+                <!-- other filters End -->
+
+
 
             </div>
             <!-- Shop Sidebar End -->
@@ -102,7 +159,7 @@
                                     <input type="text" class="form-control" name = "search_name" id = "search_name" placeholder="Search by name">
                                     <div class="input-group-append">
                                         <span class="input-group-text bg-transparent text-primary">
-                                            <button class = "btn btn-sm" type="submit"> <i class="fa fa-search" type = "submit"></i></button> 
+                                            <button class = "btn btn-sm" type="submit"> <i class="fa fa-search" type = "submit"></i></button>
                                         </span>
                                     </div>
                                 </div>
@@ -127,7 +184,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
-                              
+
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                               </button>
@@ -146,55 +203,55 @@
                                             </div>
                                             <div class="row">
                                                <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                               <div class="col"><h5>{{product_website.product.product_brand}} </h5></div> 
+                                               <div class="col"><h5>{{product_website.product.product_brand}} </h5></div>
                                             </div>
 
-                    
+
                                              <div class="row">
                                                 <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{product_website.website.website_name}} </h5></div> 
+                                                <div class="col"><h5>{{product_website.website.website_name}} </h5></div>
                                              </div>
 
-                                             
-                                             
+
+
                                              <div class="row">
                                                 <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{product_website.shipping_time}}  </h5></div> 
+                                                <div class="col"><h5>{{product_website.shipping_time}}  </h5></div>
                                              </div>
 
                                              <div class="row">
                                                 <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                                <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div>
                                              </div>
 
-                        
+
 
                                              <div class="row">
                                                 <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
-                                                <div class="col"><h5>{{product_website.price}}৳  </h5></div> 
+                                                <div class="col"><h5>{{product_website.price}}৳  </h5></div>
                                              </div>
 
                                              <div class="row">
                                                 <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                                <div class="col"><h5>{{product_website.available_count}} </h5></div>
                                              </div>
-                                             
-                                          
-                                            
+
+
+
 
                                         </div>
-                                    
-                                            
-                                            
-                                            
-                                            
-                                      
+
+
+
+
+
+
                                     </div>
                                 </div>
-                        
+
                                 </div>
                               </div>
-                            
+
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                               <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
@@ -210,7 +267,7 @@
                             </div>
                             <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                 <h6 class="text-truncate mb-3">{{product_website.product.product_name}}</h6>
-                                
+
                                 <b>Brand : </b> {{product_website.product.product_brand}}
                                 <!-- {% if product_website.product.product_brand != 'Non-Brand' %}
                                     {{product_website.product.product_brand}}
@@ -229,7 +286,7 @@
                     </div>
                     {% endfor %}
 
-                
+
                     <div class="col-12 pb-1">
                         <nav aria-label="Page navigation">
                           <ul class="pagination justify-content-center mb-3">
@@ -259,4 +316,3 @@
     <!-- Shop End -->
 
 {% endblock %}
-    

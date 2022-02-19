@@ -12,7 +12,7 @@ from django.utils import timezone
 
 
 # Create your views here.
-loaded = False
+loaded = True
 category_saved = False
 
 
@@ -142,9 +142,6 @@ def load_database():
 def home(request):
 
 	load_database()
-	all_spec = ProductSpecification.objects.all()
-	for spec in all_spec:
-		print(spec.product_website, spec.spec.spec_name, spec.spec_val)
 
 	# homepage load
 	# ---------------load category names in categories as list--------------------
