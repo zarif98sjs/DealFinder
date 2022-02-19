@@ -9,24 +9,6 @@
 
 
 
-     <!-- Navbar Start -->
-     <!-- <div class="modal fade" id="MdPinhole" role="dialog">
-        <div class="modal-dialog modal-megamenunew">
-       
-            <div class="modal-content Common_content">
-                <div class="modal-header headerRetiniscopy">
-                    <button type="button" class="close btn_close" data-dismiss="modal">&times;</button>
-
-
-                    <h4>Last 6 visit Log for Pinhole</h4>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-
-    <!-- The Modal -->
-
      <div class="container-fluid mb-5">
         <div class="row border-top px-xl-5">
           
@@ -79,53 +61,103 @@
     </div> 
     <!-- Navbar End -->
 
-    <!-- Products Start -->
+    <!-- trand Deals Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Trending Deals</span></h2>
             
            
         </div>
-        <!-- <div id="myModal" class="modal">
-
     
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>p</p>
-            </div>
-          
-          </div> -->
-
-          <!-- Button trigger modal -->
 
 
         <div class="row px-xl-5 pb-3">
             {% for product_website in trending_deals %}
 
-            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{product}}">
-                Launch demo modal
-              </button> -->
-              
-              <!-- Modal -->
+            
+              <!-- Modal start-->
               <div class="modal fade " id="exampleModal{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}">{{product_website.product.product_name}}</h5>
+                      
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
-                    </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                            <div class="col">
+                                <img style="width:350px;" src={{product_website.image_path}} alt="">
+                            </div>
+                            <div class="col">
+                                <div class="container">
+                                    <div class="row">
+                                        <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}"><b>{{product_website.product.product_name}}</b></h5>
+                                        <br><br>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                       <div class="col"><h5>{{product_website.product.product_brand}} </h5></div> 
+                                    </div>
+
+            
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.website.website_name}} </h5></div> 
+                                     </div>
+
+                                     
+                                     
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.shipping_time}}  </h5></div> 
+                                     </div>
+
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                     </div>
+
+                
+
+                                     <div class="row">
+                                        <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
+                                        <div class="col"><h5>{{product_website.price}}৳  </h5></div> 
+                                     </div>
+
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                     </div>
+                                     
+                                  
+                                    
+
+                                </div>
+                            
+                                    
+                                    
+                                    
+                                    
+                              
+                            </div>
+                            </div>
+                
+                        </div>
+                      </div>
+                    
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- Modal end -->
+
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                   
@@ -145,62 +177,102 @@
                 </div>
             </div>
             {% endfor %}
-        <!-- ends here -->
+       
         </div>
     </div>
-    <!-- Products End -->
+ <!--trend deals ends here -->
 
 
 
     
 
-    <!-- Products Start -->
+    <!-- Editors Pick Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Editors Pick</span></h2>
             
            
         </div>
-        <!-- <div id="myModal" class="modal">
-
-    
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>p</p>
-            </div>
-          
-          </div> -->
-
-          <!-- Button trigger modal -->
+       
 
 
         <div class="row px-xl-5 pb-3">
             {% for product_website in editors_pick %}
 
-            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{product}}">
-                Launch demo modal
-              </button> -->
               
-              <!-- Modal -->
-              <div class="modal fade " id="exampleModal{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
+              <!-- Modal start-->
+              <div class="modal fade " id="exampleModal1{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}">{{product_website.product.product_name}}</h5>
+                      
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
-                    </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                            <div class="col">
+                                <img style="width:350px;" src={{product_website.image_path}} alt="">
+                            </div>
+                            <div class="col">
+                                <div class="container">
+                                    <div class="row">
+                                        <h5 class="modal-title" id="exampleModalLabel1{{forloop.counter}}"><b>{{product_website.product.product_name}}</b></h5>
+                                        <br><br>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                       <div class="col"><h5>{{product_website.product.product_brand}} </h5></div> 
+                                    </div>
+
+            
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.website.website_name}} </h5></div> 
+                                     </div>
+
+                                     
+                                     
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.shipping_time}}  </h5></div> 
+                                     </div>
+
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.delivery_charge}}৳ </h5></div> 
+                                     </div>
+
+                
+
+                                     <div class="row">
+                                        <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
+                                        <div class="col"><h5>{{product_website.price}}৳  </h5></div> 
+                                     </div>
+
+                                     <div class="row">
+                                        <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                        <div class="col"><h5>{{product_website.available_count}} </h5></div> 
+                                     </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                
+                        </div>
+                      </div>
+                    
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- modal end  -->
+
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                   
@@ -214,64 +286,137 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
+                      <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal1{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                       <a href="{{product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
-                        <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                     </div>
                 </div>
             </div>
             {% endfor %}
-        <!-- ends here -->
+       
         </div>
     </div>
-    <!-- Products End -->
+    <!--Editors Pick ends here -->
 
-    <!-- Products Start -->
+    <!-- Top Offers Start -->
     <div class="container-fluid pt-5">
       <div class="text-center mb-4">
           <h2 class="section-title px-5"><span class="px-2">Top Offers</span></h2>
           
          
       </div>
-      <!-- <div id="myModal" class="modal">
-
-  
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>p</p>
-          </div>
-        
-        </div> -->
-
-        <!-- Button trigger modal -->
-
+      
 
       <div class="row px-xl-5 pb-3">
           {% for offer in top_offers %}
 
-          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{product}}">
-              Launch demo modal
-            </button> -->
-            
-            <!-- Modal -->
-            <div class="modal fade " id="exampleModal{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
+          
+            <!-- Modal start-->
+            <div class="modal fade " id="exampleModal2{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel{{forloop.counter}}">{{offer.product_website.product.product_name}}</h5>
+                    
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                    ...
-                  </div>
+                      <div class="container-fluid">
+                          <div class="row">
+                          <div class="col">
+                              <img style="width:350px;" src="{{offer.product_website.image_path}}"alt="">
+                          </div>
+                          <div class="col">
+                              <div class="container">
+                                  <div class="row">
+                                      <h5 class="modal-title" id="exampleModalLabel2{{forloop.counter}}"><b>{{offer.product_website.product.product_name}}</b></h5>
+                                      <br><br>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col"><h5 ><b>Brand&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.product.product_brand}} </h5></div> 
+                                  </div>
+
+          
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Website&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.website.website_name}} </h5></div> 
+                                    </div>
+
+                                    
+                                    
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.shipping_time}}  </h5></div> 
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.delivery_charge}}৳ </h5></div> 
+                                    </div>
+
+              
+
+                                    <div class="row">
+                                      <div class="col"><h4 ><b>Price&nbsp;&nbsp;&nbsp;&nbsp;</b></h4></div>
+                                      <div class="col"><h5>{{offer.product_website.price}}৳  </h5></div> 
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                      <div class="col"><h5>{{offer.product_website.available_count}} </h5></div> 
+                                    </div>
+
+                                    <div class="row ">
+                                    &nbsp;
+                                   </div>
+                                    <div class="row justify-content-center">
+     
+                                      <h4><b>Offer Details</b></h4>
+                                      
+                                   </div>
+
+                                   <div class="row ">
+                                    <h5>{{offer.discount_percentage}}%&nbsp;Off</h5>
+                                 </div>
+
+                                 <div class="row">
+                
+                                  <h5>{{offer.discount_amount}}৳ &nbsp;Off</h5>
+                               </div>
+
+                               {% if offer.is_free_shipping %}
+                               <div class="row">
+                            <h5>Free Shipping Available</h5>
+      
+                             </div>
+                             {% endif %}
+
+                             {% if offer.buy_one_get_one_free %}
+                             <div class="row"><h5>Buy 1 Get 1 Free</h5></div>
+                                  
+                              {% endif %}
+
+                              
+
+
+                              </div>
+                          </div>
+                          </div>
+              
+                      </div>
+                    </div>
+                  
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <a href="{{offer.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Modal end -->
+
           <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
               <div class="card product-item border-0 mb-4">
                 
@@ -298,16 +443,16 @@
                       </div>
                   </div>
                   <div class="card-footer d-flex justify-content-between bg-light border">
+                    <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal2{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                     <a href="{{offer.product_website.url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-link text-primary mr-1"></i>Go to website</a>
-                      <a href="#" class="btn btn-sm text-dark p-0" data-toggle="modal" data-target="#exampleModal{{forloop.counter}}" ><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                   </div>
               </div>
           </div>
           {% endfor %}
-      <!-- ends here -->
+      <!-- Top Offers ends here -->
       </div>
   </div>
-  <!-- Products End -->
+   <!-- Top Offers ends here -->
 
 
 
