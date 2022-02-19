@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 
 
 # Create your views here.
-loaded = True
+loaded = False
 category_saved = False
 
 
