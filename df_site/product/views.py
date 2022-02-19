@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 
 
 # Create your views here.
-loaded = False
+loaded = True
 category_saved = False
 
 
@@ -248,17 +248,15 @@ def sort(request, search_key, sort_type):
 		product_query_set = get_query_set(prod_web_ids)
 
 		if sort_type == "Unit Price Low To High":
-			new_product_queryset = product_query_set.order_by("price")
+
+			new_product_list = list(product_query_set.order_by("price"))
 		elif sort_type == "Unit Price High To Low":
-			new_product_queryset = product_query_set.order_by("-price")
+
+			new_product_list = list(product_query_set.order_by("-price"))
 		elif sort_type == "Latest":
 			offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids).order_by("end_date")
-			new_pids = [str(o.product_website.product_website_id) for o in offers]
-			print(new_pids)
-			new_product_queryset = get_query_set(new_pids)
-			print(new_product_queryset)
+			new_product_list = [o.product_website for o in offers]
 
-		new_product_list = list(new_product_queryset)
 		save_ids_to_session(request, new_product_list)
 
 	except:
@@ -297,7 +295,7 @@ def filter(request, search_key, filter_type):
 					lower_limit, upper_limit = price_range_selected[i].split("-")
 					print(lower_limit, upper_limit)
 					new_product_queryset |= product_query_set.filter(price__gte=lower_limit).filter(price__lte=upper_limit).order_by('price')
-
+				new_product_list = list(new_product_queryset)
 			# ----------------------------------Other Filters------------------------------------------
 			elif filter_type == 'other filters':
 				print(filter_type)
@@ -305,19 +303,19 @@ def filter(request, search_key, filter_type):
 				print(other_filters_selected)
 				offers = Offer.objects.filter(product_website__product_website_id__in=prod_web_ids)
 				if "ending soon" in other_filters_selected:
-					offers = offers.order_by("end_date")[:5]
+					offers = offers.order_by("end_date")[:20]
 					print("offers extracted")
 				if "off$" in other_filters_selected:
 					offers = offers.order_by("-discount_amount")
 				if "off%" in other_filters_selected:
 					offers = offers.order_by("-discount_percentage")
 
-				new_pids = [str(o.product_website.product_website_id) for o in offers]
-				print(new_pids)
-				new_product_queryset = get_query_set(new_pids)
-				print(new_product_queryset)
+				# new_pids = [str(o.product_website.product_website_id) for o in offers]
+				# print(new_pids)
+				# new_product_queryset = get_query_set(new_pids)
+				# print(new_product_queryset)
+				new_product_list = [o.product_website for o in offers]
 
-			new_product_list = list(new_product_queryset)
 			print(new_product_list)
 
 			save_ids_to_session(request, new_product_list)
