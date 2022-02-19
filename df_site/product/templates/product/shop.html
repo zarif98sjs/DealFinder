@@ -129,14 +129,7 @@
                             <input type="checkbox" class="custom-control-input" id="color-1" name="others" value = "ending soon">
                             <label class="custom-control-label" for="color-1">Offer Ending Soon</label>
                         </div>
-                        <!-- <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-2" name="others" value = "off%">
-                            <label class="custom-control-label" for="color-2">% off</label>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-3" name="others" value = "off$">
-                            <label class="custom-control-label" for="color-3">$ off</label>
-                        </div> -->
+                       
                         <button class = "btn btn-primary" type="submit"> Filter&nbsp;Products</button>
                     </form>
                 </div>
@@ -178,6 +171,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     {% for data in data_list %}
                     <!-- Modal for details -->
                     <div class="modal fade " id="exampleModal{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -214,15 +208,15 @@
 
 
 
-                                             <div class="row">
+                                             <!-- <div class="row">
                                                 <div class="col"><h5 ><b>Shipping&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
                                                 <div class="col"><h5>{{data.product_website.shipping_time}}  </h5></div>
-                                             </div>
+                                             </div> -->
 
-                                             <div class="row">
+                                             <!-- <div class="row">
                                                 <div class="col"><h5 ><b>Delivery&nbsp;Charge&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
                                                 <div class="col"><h5>{{data.product_website.delivery_charge}}৳ </h5></div>
-                                             </div>
+                                             </div> -->
 
 
 
@@ -232,9 +226,20 @@
                                              </div>
 
                                              <div class="row">
-                                                <div class="col"><h5 ><b>Available&nbsp;Stocks&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
-                                                <div class="col"><h5>{{data.product_website.available_count}} </h5></div>
+                                               &nbsp;
                                              </div>
+
+                                             <div class="row">
+                                                <h4>Specifications</h4>
+                                             </div>
+                                             <hr>
+
+                                            {% for spec_item in data.specifications %}
+                                             <div class="row">
+                                                <div class="col"><h5 ><b>{{spec_item.spec.spec_name}}&nbsp;&nbsp;&nbsp;&nbsp;</b></h5></div>
+                                                <div class="col"><h5>{{spec_item.spec_val}} </h5></div>
+                                             </div>
+                                             {% endfor %}
 
 
 
@@ -287,7 +292,7 @@
                     {% endfor %}
 
 
-                    <div class="col-12 pb-1">
+                    <!-- <div class="col-12 pb-1">
                         <nav aria-label="Page navigation">
                           <ul class="pagination justify-content-center mb-3">
                             <li class="page-item disabled">
@@ -307,7 +312,7 @@
                             </li>
                           </ul>
                         </nav>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- Shop Product End -->
