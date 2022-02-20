@@ -23,7 +23,7 @@ def get_query_set(prod_web_ids):
 
 # save product_website ids to session
 def save_ids_to_session(request, product_list):
-	print("saving ", type(product_list), type(product_list[0]))
+	# print("saving ", type(product_list), type(product_list[0]))
 	request.session["product_website_ids"] = [str(p.product_website_id) for p in product_list]
 	print("Saved to session ")
 	print(request.session["product_website_ids"])
