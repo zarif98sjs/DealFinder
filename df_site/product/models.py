@@ -34,7 +34,6 @@ class Product(models.Model):
 		return self.product_name
 
 
-
 class ProductWebsite(models.Model):
 	"""Model representing product-website relation"""
 
@@ -76,9 +75,6 @@ class Offer(models.Model):
 	is_free_shipping = models.BooleanField(default=False)
 	buy_one_get_one_free = models.BooleanField(default=False)
 
-	# class Meta:
-	# 	ordering = ['-discount_percentage']
-
 	def __str__(self):
 		return self.offer_id
 
@@ -107,8 +103,6 @@ class ProductSpecification(models.Model):
 	product_website = models.ForeignKey(ProductWebsite, unique=False, on_delete=models.CASCADE)
 	spec = models.ForeignKey(Specification, unique=False, on_delete=models.CASCADE)
 	spec_val = models.CharField(default="", max_length=1000)
-	# class Meta:
-	# 	unique_together = ('product_website', 'spec')
 
 	def __str__(self):
 		return self.product_website.product.product_name + ": " + self.spec.spec_name
