@@ -82,6 +82,29 @@ class Offer(models.Model):
 		return self.product_website.price - self.discount_amount
 
 
+
+
+class Offer2(models.Model):
+	"""Model representing offers"""
+	# primary key
+	offer_id = models.UUIDField(primary_key=True)
+
+	# foreign key
+	product_website = models.ForeignKey(ProductWebsite, on_delete=models.CASCADE, null=True)
+
+	discount_percentage = models.DecimalField(default=0, max_digits=5, decimal_places=2)
+	discount_amount = models.DecimalField(default=0, max_digits=10, decimal_places=2)
+	start_date = models.DateTimeField(null=True, blank=True)
+	end_date = models.DateTimeField(null=True, blank=True)
+	is_free_shipping = models.BooleanField(default=False)
+	buy_one_get_one_free = models.BooleanField(default=False)
+
+	def __str__(self):
+		return self.offer_id
+
+	def saved_amount(self):
+		return self.product_website.price - self.discount_amount
+
 class Specification(models.Model):
 	"""Model representing specifications"""
 	# primary key
@@ -94,6 +117,18 @@ class Specification(models.Model):
 	def __str__(self):
 		return self.spec_name
 
+
+class DiscountSpecification(models.Model):
+
+	# primary key
+	discount_spec_id = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique ID for product specification relation')
+	# foreign keys
+	product_website = models.ForeignKey(ProductWebsite, unique=False, on_delete=models.CASCADE)
+	spec = models.ForeignKey(Specification, unique=False, on_delete=models.CASCADE)
+	spec_val = models.CharField(default="", max_length=1000)
+
+	def __str__(self):
+		return self.product_website.product.product_name + ": " + self.spec.spec_name
 
 class ProductSpecification(models.Model):
 	"""Model representing relation between product and specifications"""

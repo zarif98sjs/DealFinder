@@ -221,6 +221,28 @@ def search(request):
 	})
 
 
+def search_update(request):
+
+	categories = get_categories(request)
+	product_list = []
+	# -----------------------------------------------------------------------------------------------
+	if request.method == 'POST':
+		search_key = request.POST['search_key']
+		brand_matches = ProductWebsite.objects.filter(product__product_brand__contains=search_key)
+		category_matches = ProductWebsite.objects.filter(product__product_category__contains=search_key)
+		subcategory_matches = ProductWebsite.objects.filter(product__product_subcategory__contains=search_key)
+		name_matches = ProductWebsite.objects.filter(product__product_name__contains=search_key)
+		product_query_set = brand_matches | category_matches | subcategory_matches | name_matches
+
+		product_list = list(product_query_set)
+		save_ids_to_session(request, product_list)
+		request.session["main_product_website_ids"] = request.session["product_website_ids"]
+
+	data_list = get_datalist(product_list)
+	return render(request, 'product/shop1.html', {
+		'search_key': request.POST['search_key'], 'data_list': data_list, 'categories': categories
+	})
+
 def search_name(request, search_key):
 	# search inside a product / brand page
 	categories = get_categories(request)
